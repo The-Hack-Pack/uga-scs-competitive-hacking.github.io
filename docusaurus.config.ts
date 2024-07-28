@@ -1,9 +1,10 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import lunrSearch from 'docusaurus-lunr-search';
 
 const config: Config = {
-  title: 'Club Name Here',
+  title: 'CYB3R D4WGS',
   tagline: 'Competitive Hacking',
   favicon: 'img/favicon.ico',
 
@@ -54,17 +55,17 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Club Name',
+      title: 'CYB3R D4WGS',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'SCS Comp Hack Logo',
+        src: 'img/scs-comphack-transparent.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Practice',
         },
         /*
         {
@@ -104,10 +105,7 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-  customFields: {
-    // Put your custom environment here
-    GIT_USER: "legendile7",
-  },
+  plugins: [lunrSearch],
 };
 
 export default config;
