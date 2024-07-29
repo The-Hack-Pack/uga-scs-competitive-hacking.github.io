@@ -1,0 +1,8 @@
+{
+  "label": "Blue Team",
+  "position": 11,
+  "link": {
+    "type": "generated-index",
+    "description": "Securing networks and other systems"
+  }
+}
