@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Intro
 
-Welcome to **CYB3R D4WGS**'s official practice page!
+Welcome to **The Hack Pack**'s official practice page!
 
 ## Getting Started
 
