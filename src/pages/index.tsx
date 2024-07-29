@@ -22,11 +22,6 @@ function HomepageHeader() {
             to="/practice/intro">
             Practice Now
           </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/about">
-            About
-          </Link>
         </div>
       </div>
     </header>
