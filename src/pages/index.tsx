@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="SCS Competitive Hacking Club">
+      description="UGA Competitive Hacking Club">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

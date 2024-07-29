@@ -4,8 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 import lunrSearch from 'docusaurus-lunr-search';
 
 const config: Config = {
-  title: 'CYB3R D4WGS',
-  tagline: 'Competitive Hacking',
+  title: 'The Hack Pack',
+  tagline: 'UGA Competitive Hacking',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -55,7 +55,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/social.png',
     navbar: {
-      title: 'CYB3R D4WGS',
+      title: 'The Hack Pack',
       style: 'dark',
       logo: {
         alt: 'SCS Comp Hack Logo',
