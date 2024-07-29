@@ -35,6 +35,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/practice/',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -69,6 +70,7 @@ const config: Config = {
           position: 'left',
           label: 'Practice',
         },
+        {to: 'about', label: 'About', position: 'left'},
         {
           href: 'https://discordapp.com/invite/n4TbeYyMdT',
           label: 'Discord',
