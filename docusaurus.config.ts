@@ -58,7 +58,7 @@ const config: Config = {
       title: 'CYB3R D4WGS',
       logo: {
         alt: 'SCS Comp Hack Logo',
-        src: 'img/scs-comphack-transparent.png',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -67,14 +67,17 @@ const config: Config = {
           position: 'left',
           label: 'Practice',
         },
-        /*
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://discordapp.com/invite/n4TbeYyMdT',
+          label: 'Discord',
           position: 'right',
         },
-        */
       ],
+    },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
     },
     footer: {
       style: 'dark',
