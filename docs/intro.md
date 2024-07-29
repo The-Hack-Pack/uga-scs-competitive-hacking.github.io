@@ -45,6 +45,7 @@ Note: This list will be updated frequently
 - Cryptography
     - Steganography
         - [Digital Invisible Ink Toolkit](https://diit.sourceforge.net/)
+    - Browser
 - Password Cracking
     - [Hashcat](https://hashcat.net/)
     - [John The Ripper (JTR)](https://www.openwall.com/john/)
@@ -54,6 +55,7 @@ Note: This list will be updated frequently
 - Network Traffic Analysis
     - [Wireshark](https://www.wireshark.org/)
     - [Tshark](https://tshark.dev/)
+    - [Aircrack-ng](https://www.aircrack-ng.org/downloads.html)
 - Forensics
     - [Autopsy](https://www.autopsy.com/)
     - [Volatility 2](https://github.com/volatilityfoundation/volatility)
