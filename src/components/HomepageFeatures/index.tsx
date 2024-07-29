@@ -10,11 +10,11 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Jump Right In',
+    title: 'All Skill Levels Welcome',
     imgSrc: require('@site/static/img/img1.webp').default,
     description: (
       <>
-        New to hacking? No problem! We teach you everything you need to know! This website has many beginner-friendly practice challenges and writeups!
+        New to hacking? No problem! We provide all the guidance you need! Experienced hacker? We’ll help you become even better!
       </>
     ),
   },
