@@ -65,10 +65,11 @@ Note: This list will be updated frequently
     - telnet
     - pwntools
     - Python
+    - [Nmap](https://nmap.org/)
 - Web Application Exploitation
     - Browser
     - [Burp Suite Community Edition](https://portswigger.net/burp/communitydownload)
-- Enumeration & Exploitation
+- Reverse Engineering/Binary Exploitation
     - gdb
     - [Ghidra](https://ghidra-sre.org/)
     - [IDA Pro](https://hex-rays.com/IDA-pro/) (Ghidra alternate, paid)
