@@ -56,9 +56,11 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'CYB3R D4WGS',
+      style: 'dark',
       logo: {
         alt: 'SCS Comp Hack Logo',
         src: 'img/logo.png',
+        height: 400,
       },
       items: [
         {
