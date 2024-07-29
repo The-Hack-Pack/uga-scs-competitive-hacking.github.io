@@ -1,0 +1,8 @@
+{
+  "label": "Reverse Engineering",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "Binary and application reverse engineering."
+  }
+}

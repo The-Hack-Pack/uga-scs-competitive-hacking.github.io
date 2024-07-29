@@ -1,0 +1,8 @@
+{
+  "label": "Password Cracking",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Decrypting and obtaining passwords from hashed data."
+  }
+}

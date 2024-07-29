@@ -1,0 +1,8 @@
+{
+  "label": "Forensics",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Finding and analyzing data from digital devices"
+  }
+}

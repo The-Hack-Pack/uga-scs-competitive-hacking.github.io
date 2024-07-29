@@ -1,0 +1,8 @@
+{
+  "label": "Cryptography",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Encoding and decoding secret messages and data."
+  }
+}

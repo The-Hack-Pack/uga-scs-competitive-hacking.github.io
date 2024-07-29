@@ -1,0 +1,8 @@
+{
+  "label": "Log Analysis",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Analyzing system and network logs for security insights."
+  }
+}

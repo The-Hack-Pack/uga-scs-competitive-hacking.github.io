@@ -1,0 +1,8 @@
+{
+  "label": "Scanning & Reconnaissance",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Hunting for vulnerabilities and data in servers."
+  }
+}
