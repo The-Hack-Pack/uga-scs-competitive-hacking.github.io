@@ -5,7 +5,7 @@ sidebar_position: 0
 ---
 
 # EASY - RockYou
-
+Password Cracking Easy Challenge - RockYou
 ## Challenge
 A password hash was retrieved that needs to be cracked. We have received intel that the password is from the RockYou breach.
 
@@ -35,7 +35,7 @@ Hash: `1a3dff6f600d9fd62f8ead361480cc61`
 
   Our next step is to choose an attack type. Since we already have a password list (`rockyou.txt`), we will use a **Dictionary Attack**. The ID for this is attack type is `0`.
   :::note
-  You can learn more about hashcat's attack modes [**here**](https://hashcat.net/wiki/doku.php?id=hashcat) (scroll to the bottom)
+  You can learn more about hashcat's attack modes [**here**](https://hashcat.net/wiki/doku.php?id=hashcat) (scroll to the bottom).
   :::
 
   Now we can craft our command to crack the password. The format of a hashcat attack is:
