@@ -13,7 +13,7 @@ A password hash was retrieved that needs to be cracked. We have received intel t
 
 Hash: `1a3dff6f600d9fd62f8ead361480cc61`
 
-<PasswordForm hash="661170a5627f56fee07a489f74c2d7f1a54a80fa" algorithm="sha1" />
+<PasswordForm hash="8dd4bff6e1f530bfca70d85f200d29c23f85f29e4df83fffbe734587388bed8266dcda49f7f7c25ab84cb4e204b666c476d09aaee6bfc73552e625a787150701" algorithm="sha512" />
 
 ## Solution
 <details>

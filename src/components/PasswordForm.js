@@ -11,6 +11,8 @@ const PasswordForm = ({ hash, algorithm }) => {
     switch (algorithm) {
       case 'sha1':
         return CryptoJS.SHA1(password).toString();
+      case 'sha512':
+        return CryptoJS.SHA512(password).toString();
       // Add more cases here for other algorithms if needed
       default:
         return password; // Default to plaintext if no valid algorithm is specified
