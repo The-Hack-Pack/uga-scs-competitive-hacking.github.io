@@ -31,7 +31,7 @@ Hash: `1a3dff6f600d9fd62f8ead361480cc61`
   Hashcat supports many hash modes, denoted by a numerical ID. We know our hash is MD5 so we just need to find the hash mode ID for it. We can find that [**here**](https://hashcat.net/wiki/doku.php?id=example_hashes). Upon searching for MD5 here (it's the first one), we can see the hash mode is `0`. 
 
   Our next step is to choose an attack type. Since we already have a password list (`rockyou.txt`), we will use a **Dictionary Attack**. The ID for this is attack type is `0`.
-  :::note
+  :::info
   You can learn more about hashcat's attack modes [**here**](https://hashcat.net/wiki/doku.php?id=hashcat) (scroll to the bottom).
   :::
 

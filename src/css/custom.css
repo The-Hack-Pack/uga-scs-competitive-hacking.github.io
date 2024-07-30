@@ -22,6 +22,10 @@
   color: #FFFFFF !important; /* Ensures the text color is white */
 }
 
+.hero {
+  background-color: #490000 !important;
+}
+
 .navbar {
   background-color: #000000; /* Change this to your desired background color */
 }
