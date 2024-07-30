@@ -22,6 +22,10 @@
   color: #FFFFFF !important; /* Ensures the text color is white */
 }
 
+.navbar {
+  background-color: #000000; /* Change this to your desired background color */
+}
+
 .navbar__logo img {
   height: 180%;
   margin-top: -12px;
