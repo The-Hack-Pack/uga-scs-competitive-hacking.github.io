@@ -4,21 +4,18 @@ tags: [easy]
 sidebar_position: 0
 ---
 
-# EASY - RockYou
-Password Cracking Easy Challenge - RockYou
+import PasswordForm from '@site/src/components/PasswordForm';
+
+# Easy - RockYou
+Password Cracking | Easy - RockYou
 ## Challenge
 A password hash was retrieved that needs to be cracked. We have received intel that the password is from the RockYou breach.
 
 Hash: `1a3dff6f600d9fd62f8ead361480cc61`
 
-## Solutions
-<details>
-  <summary>Reveal Answer</summary>
+<PasswordForm hash="661170a5627f56fee07a489f74c2d7f1a54a80fa" algorithm="sha1" />
 
-  **Password:** bulldogs
-
-</details>
-
+## Solution
 <details>
   <summary>Solution Guide</summary>
   
