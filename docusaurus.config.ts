@@ -75,16 +75,28 @@ const config: Config = {
           label: 'Practice',
         },
         {to: 'about', label: 'About', position: 'left'},
-        {
-          href: 'https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io',
-          position: 'right',
-          className: 'navbar--github-link',
-          'aria-label': 'GitHub repository',       
-        },
       ],
     },
     footer: {
       style: 'dark',
+      links: [
+          {
+            label: 'Discord',
+            href: 'http://discord.thehackpack.org',
+          },
+          {
+            label: 'GitHub',
+            href: 'https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io',
+          },
+          {
+            label: 'LinkedIn',
+            href: 'https://www.linkedin.com',
+          },
+          {
+            label: 'SCS',
+            href: 'https://uga.campuslabs.com/engage/organization/ugascs',
+          },
+      ],
       copyright: `Copyright © ${new Date().getFullYear()} UGA Society for Cybersecurity.`,
     },
     prism: {
