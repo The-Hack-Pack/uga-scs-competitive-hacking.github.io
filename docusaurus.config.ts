@@ -76,9 +76,10 @@ const config: Config = {
         },
         {to: 'about', label: 'About', position: 'left'},
         {
-          href: 'https://discordapp.com/invite/n4TbeYyMdT',
-          label: 'Discord',
+          href: 'https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io',
           position: 'right',
+          className: 'navbar--github-link',
+          'aria-label': 'GitHub repository',       
         },
       ],
     },
