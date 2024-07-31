@@ -6,7 +6,7 @@ sidebar_position: 0
 
 import PasswordForm from '@site/src/components/PasswordForm';
 
-# Easy - Pyc
+# Pyc
 Reverse Engineering | Easy - Pyc
 ## Challenge
 We have created a python script for you to break into as training. See if you can figure out a password that will authenticate with the program.

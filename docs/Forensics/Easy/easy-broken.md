@@ -8,7 +8,7 @@ import PasswordForm from '@site/src/components/PasswordForm';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Easy - Broken
+# Broken
 Forensics | Easy - Broken
 ## Challenge
 We have intercepted a dank meme. Unfortunately, it seems to be corrupted. Can you fix it?

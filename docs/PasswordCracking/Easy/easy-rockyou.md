@@ -6,7 +6,7 @@ sidebar_position: 0
 
 import PasswordForm from '@site/src/components/PasswordForm';
 
-# Easy - RockYou
+# RockYou
 Password Cracking | Easy - RockYou
 ## Challenge
 A password hash was retrieved that needs to be cracked. We have received intel that the password is from the RockYou breach.
