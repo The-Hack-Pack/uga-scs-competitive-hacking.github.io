@@ -108,6 +108,14 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
+    announcementBar: {
+      id: 'underConstruction',
+      content:
+        '<strong>NOTICE:</strong> Website under construction',
+      backgroundColor: '#230000',
+      textColor: '#FFFFFF',
+      isCloseable: false,
+    },
   } satisfies Preset.ThemeConfig,
   plugins: [lunrSearch],
 };
