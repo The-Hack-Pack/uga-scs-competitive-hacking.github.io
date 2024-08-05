@@ -86,7 +86,7 @@ const config: Config = {
           },
           {
             label: 'GitHub',
-            href: 'https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io',
+            href: 'https://github.com/The-Hack-Pack',
           },
           {
             label: 'LinkedIn',
