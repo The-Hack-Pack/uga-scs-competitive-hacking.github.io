@@ -22,7 +22,7 @@ export default function Schedule() {
           ></iframe>
           <h1>Meeting Location</h1>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.92331614354768!2d-83.37469977581145!3d33.9465924479591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f66ce3e5a7d31d%3A0x9042b5285e207cb1!2sParking%20lot%2C%20200%20D.%20W.%20Brooks%20Drive%2C%20Athens%2C%20GA%2030602!5e1!3m2!1sen!2sus!4v1724460394577!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208.47752932355164!2d-83.3745110700088!3d33.9467143083355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f66d6c389c7577%3A0x71e832f7814d669!2sPoultry%20Science%20Building!5e1!3m2!1sen!2sus!4v1724461054314!5m2!1sen!2sus"
             title="Meeting Location"
             style={{
               width: '100%',
