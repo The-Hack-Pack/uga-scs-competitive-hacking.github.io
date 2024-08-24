@@ -52,3 +52,6 @@ Hash: `1a3dff6f600d9fd62f8ead361480cc61`
   After executing this command, hashcat will start cracking the hash by hashing every single password in the dictionary and comparing with our hash. This may take a few minutes but after a while, we should see our hash cracked!
 
 </details>
+
+## Credits
+- Author(s): Divesh Gupta (legendile7)

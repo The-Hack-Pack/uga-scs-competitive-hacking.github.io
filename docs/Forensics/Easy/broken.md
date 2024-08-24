@@ -36,3 +36,6 @@ Download file: <a href={require('@site/static/assets/broken.png').default} downl
 
   The sample image beings with `89 50 4E 47` (utf-8: `ëPNG`) whereas the corrupted image is missing it! This is the PNG file header. It is essential for an image rendering software to identify the image type and render it. Our corrupted image is missing this header, so let's add it. We can do this in Hexedit by **Right Clicking the first hex byte > Insert Bytes Here > 4 Bytes**. Then, we manually type the header stated above. We should be able to **Save as** to a new image and it should now open, giving you the flag!
 </details>
+
+## Credits
+- Author(s): Divesh Gupta (legendile7)

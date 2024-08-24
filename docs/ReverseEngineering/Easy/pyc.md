@@ -62,3 +62,6 @@ Download file: [rev.pyc](./assets/rev.pyc)
 
   Upon inspecting this python code, we can see that the script is using **Caesar Cipher** with a shift of **9** to encrypt the password and compare it against the ciphertext `yfwmjfpb`. We can easily reverse this with a website like https://www.dcode.fr/caesar-cipher and retrieve the password!
 </details>
+
+## Credits
+- Author(s): Divesh Gupta (legendile7)

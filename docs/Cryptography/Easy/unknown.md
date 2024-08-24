@@ -36,3 +36,6 @@ We have intercepted a message written in a strange language, see if you can decr
   Great! Now we just have to go to that cipher, input the symbols, and decrypt!
 
 </details>
+
+## Credits
+- Author(s): Divesh Gupta (legendile7)
