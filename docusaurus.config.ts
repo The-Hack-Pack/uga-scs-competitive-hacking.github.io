@@ -76,6 +76,7 @@ const config: Config = {
           label: 'Practice',
         },
         {to: 'about', label: 'About', position: 'left'},
+        {to: 'schedule', label: 'Schedule', position: 'left'},
       ],
     },
     footer: {

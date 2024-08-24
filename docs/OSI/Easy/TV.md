@@ -2,7 +2,6 @@
 description: Open Source Intelligence | Easy - TV
 tags: [easy]
 sidebar_position: 0
-date: 2021-09-13T10:00
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
