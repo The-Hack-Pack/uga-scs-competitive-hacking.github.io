@@ -1,5 +1,5 @@
 ---
-description: Open Source Intelligence | Easy - TV
+description: Open Source Intelligence | Medium - Skyscraper
 tags: [medium]
 sidebar_position: 0
 ---
@@ -7,7 +7,7 @@ sidebar_position: 0
 import PasswordForm from '@site/src/components/PasswordForm';
 
 # Skyscraper
-Open Source Intelligence | Easy - TV
+Open Source Intelligence | Medium - Skyscraper
 ## Challenge
 We have received a photograph that needs investigation. Can you find the following information?
 
