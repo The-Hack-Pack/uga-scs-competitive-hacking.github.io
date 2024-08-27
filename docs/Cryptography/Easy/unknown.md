@@ -8,6 +8,7 @@ import PasswordForm from '@site/src/components/PasswordForm';
 
 # Unknown
 Cryptography | Easy - Unknown
+
 ## Challenge
 We have intercepted a message written in a strange language, see if you can decrypt it.
 

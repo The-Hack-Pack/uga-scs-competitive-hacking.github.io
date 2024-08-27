@@ -15,12 +15,13 @@ export default function Schedule() {
               width: '100%',
               height: '600px',
               border: 'none',
-              marginTop: '20px',
+              marginTop: '10px',
               marginBottom: '40px',
             }}
             allowFullScreen
           ></iframe>
           <h1>Meeting Location</h1>
+          <p>Poultry Science 0125, 6-7 pm on Tuesdays.</p>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208.47752932355164!2d-83.3745110700088!3d33.9467143083355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f66d6c389c7577%3A0x71e832f7814d669!2sPoultry%20Science%20Building!5e1!3m2!1sen!2sus!4v1724461054314!5m2!1sen!2sus"
             title="Meeting Location"
@@ -28,7 +29,7 @@ export default function Schedule() {
               width: '100%',
               height: '450px',
               border: 'none',
-              marginTop: '20px',
+              marginTop: '10px',
               marginBottom: '40px',
             }}
             allowFullScreen
