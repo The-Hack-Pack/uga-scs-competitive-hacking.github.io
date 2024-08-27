@@ -110,6 +110,7 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
+    /*
     announcementBar: {
       id: 'underConstruction',
       content:
@@ -118,6 +119,7 @@ const config: Config = {
       textColor: '#FFFFFF',
       isCloseable: false,
     },
+    */
   } satisfies Preset.ThemeConfig,
   plugins: [lunrSearch],
 };
