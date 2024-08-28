@@ -96,7 +96,7 @@ const config: Config = {
           },
           {
             label: 'SCS',
-            href: 'https://uga.campuslabs.com/engage/organization/ugascs',
+            href: 'https://ugascs.org',
           },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} UGA Society for Cybersecurity.`,
