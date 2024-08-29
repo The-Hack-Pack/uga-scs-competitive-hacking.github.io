@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -16,6 +17,7 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-navbar-height: 80px;
+  --ifm-font-family-base: 'Tomorrow';
 }
 
 .hero__title, .hero__subtitle {

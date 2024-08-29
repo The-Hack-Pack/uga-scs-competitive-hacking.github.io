@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 import lunrSearch from 'docusaurus-lunr-search';
 
 const config: Config = {
-  title: 'The Hack Pack',
+  title: 'THE HACK PACK',
   tagline: 'UGA Competitive Hacking',
   favicon: 'img/favicon.ico',
 
