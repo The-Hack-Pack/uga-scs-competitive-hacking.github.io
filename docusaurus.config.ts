@@ -61,7 +61,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/social.png',
     navbar: {
-      title: 'The Hack Pack',
+      title: 'THE HACK PACK',
       style: 'dark',
       logo: {
         alt: 'SCS Comp Hack Logo',
@@ -87,12 +87,8 @@ const config: Config = {
             href: 'http://discord.thehackpack.org',
           },
           {
-            label: 'GitHub',
-            href: 'https://github.com/The-Hack-Pack',
-          },
-          {
-            label: 'LinkedIn',
-            href: 'https://www.linkedin.com',
+            label: 'Linktree',
+            href: 'https://linktr.ee/thehackpackuga',
           },
           {
             label: 'SCS',
