@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmain_website=self.webpackChunkmain_website||[]).push([[6753],{6825:e=>{e.exports=JSON.parse('{"tags":[{"label":"Easy","permalink":"/practice/tags/easy","description":"Easy level challenges.","count":5},{"label":"Medium","permalink":"/practice/tags/medium","description":"Medium level challenges.","count":1}]}')}}]);
