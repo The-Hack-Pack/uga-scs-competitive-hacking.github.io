@@ -11,14 +11,34 @@ Password Cracking | Easy - RockYou
 ## Challenge
 A password hash was retrieved that needs to be cracked. We have received intel that the password is from the RockYou breach.
 
-Hash: `1a3dff6f600d9fd62f8ead361480cc61`
+Target Hash: `1a3dff6f600d9fd62f8ead361480cc61`
 
 <PasswordForm hash="8dd4bff6e1f530bfca70d85f200d29c23f85f29e4df83fffbe734587388bed8266dcda49f7f7c25ab84cb4e204b666c476d09aaee6bfc73552e625a787150701" algorithm="sha512" />
 
 ## Solution
 <details>
   <summary>Solution Guide</summary>
-  
+
+  Before we dive into the solution, let's quickly cover some background on password hashing.
+
+  ## What is Hashing?
+  Hashing is the process of turning data, like a password, into a fixed-length string using a mathematical function. It’s one-way, meaning it can't be reversed to reveal the original password. Each time the same password is hashed, it produces the same output.
+
+  ## Why Do Websites Use Hashing?
+  Websites don’t store your actual password for security reasons. Instead, they store the hashed version. When you log in, the site hashes the password you enter and compares it to the stored hash linked to your username/email. If they match, you're allowed in. This ensures that even if someone steals the database, they can't easily recover your password.
+
+  ## Hash Cracking
+  Even though hashes can't be reversed, attackers can still crack them by generating hashes from potential passwords and comparing them to the given hash. This is done by brute-forcing hashes from a list of potential passwords. The attacker hashes each password and compares it to the target hash. When a match is found, the original password is revealed.
+
+  There are many methods to generate these potential passwords, including:
+  - Brute-force: Trying every possible combination of characters.
+  - Dictionary attacks: Using a predefined list of common passwords (like RockYou).
+  - Rainbow tables: Precomputed tables that speed up the hash comparison process.
+
+  Now, let’s move on to cracking the password in this challenge!
+
+  ---
+
   This challenge involves a popular list of leaked passwords from the RockYou breach. This list is preinstalled in Kali Linux (`/usr/share/wordlists/rockyou.txt.gz`) but can also be downloaded [**here**](https://weakpass.com/wordlist/90).
   :::tip
   You don't need to unzip `rockyou.txt.gz`.

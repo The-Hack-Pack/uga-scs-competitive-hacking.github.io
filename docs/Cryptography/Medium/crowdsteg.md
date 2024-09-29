@@ -1,6 +1,6 @@
 ---
 description: Cryptography | Medium - CrowdSteg
-tags: [easy]
+tags: [medium]
 sidebar_position: 0
 ---
 
