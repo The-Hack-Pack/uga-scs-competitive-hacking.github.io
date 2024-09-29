@@ -16,7 +16,7 @@ We need to find more information about this image, can you answer the following 
 
 [Download Photo](./assets/osint1.jpg)
 
-What's the make of this car? <PasswordForm hash="4fb8b0edef44c0e8e8738efa7431ed965966f942138dd8ef99441e5466f6a5243ff49e3af2c6c85c7b2b5e841aac54634545ec3c24a35f964d9762fe48385aa8" algorithm="sha512" />
+What's the make of this car? (Company & Model) <PasswordForm hash="4fb8b0edef44c0e8e8738efa7431ed965966f942138dd8ef99441e5466f6a5243ff49e3af2c6c85c7b2b5e841aac54634545ec3c24a35f964d9762fe48385aa8" algorithm="sha512" />
 
 What city is this picture taken in? <PasswordForm hash="4f4e0874171d2f99bae14f8f75040c9b7ffcdca7b6ef29505589e88502dca722a73cf710c4b8dc293b86b14846033244b8dabb5a43db01c82d1a479a85527644" algorithm="sha512" />
 
@@ -38,7 +38,32 @@ Flag 2: <PasswordForm hash="8d4275a78fd2b31778b648422dac4c56de08bbe30ded44108d1f
 <details>
   <summary>Solution Guide</summary>
 
-  Will release after CTF ends!
+  ## OSINT
+  1. The model of the car is on the back. A quick Google search will give the company's name
+  2. The car's license plate tells us we are probably in Georgia. There is also a street sign visible. Simply look up the street name along with the state on Google or Google Maps to find the city's name.
+  3. This one is a bit trickier. You will have to use an image metadata analyzer (aka Image Exif Viewer) to find the answer. There are plenty online and almost any will work. Simply upload the picture and scroll through the shown metadata until you find the company's name.
+
+  ## Cryptography
+  1. Use a cipher identifier tool to figure out what method is being used, like [**DCode's Cipher Identifier**](https://www.dcode.fr/cipher-identifier). From there, it's trial and error with the different cipher tools shown. 
+  
+  <details>
+    <summary>Reveal Cipher</summary>
+    
+    It is a simple Caesar Cipher (aka Shift Cipher) with a shift of `6`.
+  </details>
+  2. Again, use a cipher identifier tool like [**DCode's Cipher Identifier**](https://www.dcode.fr/cipher-identifier). It will tell you that the cipher is Morse Code. Simply go to the Morse Code tool and decode.
+
+  ## Web App Exploitation
+  1. Right click the hint image for Flag 1 and click `Inspect Element`. The image's alt text is the flag.
+  2. The hint image shows the Cookie Monster, referencing the website's Cookies. These can be viewed by (assuming MS Edge or Google Chrome): 
+      1. Inspect Element the page anywhere (or enter Developer Tools with `F12`)
+      2. At the top of the Developer Tools window, navigate to the `Application` window. You may have to click the `+` to find it.
+      3. Expand the dropdown for `Cookies` and click the only item underneath.
+  This will show you a cookie called `flag_2` with a value of `VEhQe2Nvb2tpZV9tb25zdGVyfQ==`. This is the flag but it's encoded. You will need to decode this which can be done using a cipher identifier tool like [**DCode's Cipher Identifier**](https://www.dcode.fr/cipher-identifier). It will tell you that it is `Base64`. Click the given tool and decode it to find the flag!
+  :::tip
+  To make decoding `Base64` easier in the future, look out for `=` signs at the end of the cipher. If there is one or two `=` sign present at the end, it is most likely encoded in `Base64`.
+  ::: 
+
 </details>
 
 ## Credits
