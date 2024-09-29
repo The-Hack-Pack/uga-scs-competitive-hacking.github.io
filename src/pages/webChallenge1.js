@@ -1,4 +1,3 @@
-// CombinedChallenge.js
 import React, { useEffect } from 'react';
 
 // Function to set a cookie
