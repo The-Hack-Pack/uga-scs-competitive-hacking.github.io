@@ -96,12 +96,8 @@ const config: Config = {
             label: 'Linktree',
             href: 'https://linktr.ee/thehackpackuga',
           },
-          {
-            label: 'SCS',
-            href: 'https://ugascs.org',
-          },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} UGA Society for Cybersecurity.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The Hack Pack at the University of Georgia.`,
     },
     prism: {
       theme: prismThemes.github,

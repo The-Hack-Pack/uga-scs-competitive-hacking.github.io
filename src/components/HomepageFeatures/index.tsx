@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     imgSrc: require('@site/static/img/thp2.png').default,
     description: (
       <>
-        Compete as teams in CTF (offensive) and Blue Team (defensive) competitions. Our club meetings offer hands-on training to prep you for the real deal.
+        Learn cybersecurity with our website & weekly training sessions. Apply your skills in offensive and defensive competitions.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     imgSrc: require('@site/static/img/thp3.png').default,
     description: (
       <>
-        Open to all UGA students, no matter your major. Compete, learn, and grow with us! Boost your skills and build an impressive portfolio!
+        Open to all UGA students! Learn, compete, and grow your practical cybersecurity skills & knowledge with us!
       </>
     ),
   },

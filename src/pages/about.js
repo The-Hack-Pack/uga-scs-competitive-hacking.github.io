@@ -8,7 +8,10 @@ export default function About() {
         <h1>About</h1>
         <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
           <p>
-            The Hack Pack is the <strong>competitive hacking</strong> subdivision of the University of Georgia's <strong>Society for Cybersecurity</strong>. We participate in Capture The Flag (offensive) and Blue Team (defensive) competitions, providing a platform for our members to sharpen their skills, collaborate on cybersecurity challenges, and build an impressive portfolio. Open to all UGA students, our club offers trainings, practice challenges, and write-ups to help you succeed in the world of competitive hacking.
+            The Hack Pack is the <strong>practical & competitive cybersecurity</strong> club at the University of Georgia. This is the place to learn hands-on cybersecurity and apply your knowledge in competitions!
+          </p>
+          <p>
+            Open to <strong>all UGA students</strong> regardless of any experience! We will teach and prepare you for everything with our weekly training sessions, practice challenges, team-based & solo competitions, and writeups.
           </p>
         </div>
         <h1>Meet The Officers</h1>
