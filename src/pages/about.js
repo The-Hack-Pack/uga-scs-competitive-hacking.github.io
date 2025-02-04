@@ -8,14 +8,14 @@ export default function About() {
         <h1>About</h1>
         <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
           <p>
-            The Hack Pack is the <strong>practical & competitive cybersecurity</strong> club at the University of Georgia. This is the place to learn hands-on cybersecurity and apply your knowledge in competitions!
+            The Hack Pack is the <strong>practical & competitive cybersecurity</strong> club at the University of Georgia. Learn hands-on cybersecurity and then apply your knowledge in competitions!
           </p>
           <p>
             Open to <strong>all UGA students</strong> regardless of any experience! We will teach and prepare you for everything with our weekly training sessions, practice challenges, team-based & solo competitions, and writeups.
           </p>
         </div>
         <h1>Meet The Officers</h1>
-        <div style={{ maxWidth: '1200px', margin: '20px auto', textAlign: 'center' }}>
+        <div style={{ maxWidth: '1000px', margin: '20px auto', textAlign: 'center' }}>
           <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
             {/* First Row */}
             <div style={{ flex: '0 0 30%', margin: '10px' }}>
@@ -28,11 +28,16 @@ export default function About() {
               <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/ethan-mund227/" target="_blank"><strong>Ethan Mund</strong></a></p>
               <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Vice President</p>
             </div>
-            {/* Second Row */}
             <div style={{ flex: '0 0 30%', margin: '10px' }}>
               <img src={require('@site/static/img/cole.webp').default} alt="Cole Nangle" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
               <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/cole-nangle/" target="_blank"><strong>Cole Nangle</strong></a></p>
-              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Training Coordinator</p>
+              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Lead Training Coordinator</p>
+            </div>
+            {/* Second Row */}
+            <div style={{ flex: '0 0 30%', margin: '10px' }}>
+              <img src={require('@site/static/img/swapnil.webp').default} alt="Swapnil Roy" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
+              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/swapnil-roy/" target="_blank"><strong>Swapnil Roy</strong></a></p>
+              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Treasurer</p>
             </div>
             <div style={{ flex: '0 0 30%', margin: '10px' }}>
               <img src={require('@site/static/img/aparna.webp').default} alt="Aparna Sajith" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
