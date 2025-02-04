@@ -1,6 +1,6 @@
 ---
 description: Fall 2024 Intro CTF
-sidebar_position: 0
+sidebar_position: 1
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
