@@ -5,7 +5,7 @@ import lunrSearch from 'docusaurus-lunr-search';
 
 const config: Config = {
   title: 'THE HACK PACK',
-  tagline: 'UGA Competitive Hacking',
+  tagline: 'UGA Practical & Competitive Cybersecurity Club',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -39,10 +39,17 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/tree/development/'
+          editUrl: 'https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/tree/development/',
+          showLastUpdateTime: true
         },
         blog: {
+          blogTitle: 'The Hack Pack Writeups',
+          blogDescription: 'Writeups for real competition challenges!',
           showReadingTime: true,
+          editUrl: 'https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/tree/development/',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
+          showLastUpdateTime: true
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
@@ -82,6 +89,7 @@ const config: Config = {
           label: 'Practice',
         },
         {to: 'about', label: 'About', position: 'left'},
+        {to: 'blog', label: 'Writeups', position: 'left'},
         {to: 'schedule', label: 'Schedule', position: 'left'},
       ],
     },

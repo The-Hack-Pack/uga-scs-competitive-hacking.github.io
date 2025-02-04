@@ -1,1 +1,1 @@
-# UGA SCS Competitive Hacking Club Website
+# The Hack Pack Website
