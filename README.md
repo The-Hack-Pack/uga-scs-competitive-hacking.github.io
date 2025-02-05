@@ -22,9 +22,22 @@
 - **Powerful**: Customize almost everything - add your own chalenges, writeups, solution guides, and more!
 - **Awesome**: The educational resource you didn't know you needed before. Maintained by a group of passionate cyber entusiasts.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+<details>
+<summary>📖 Table of Contents</summary>
+<br />
 
-## Contribution Guide - thehackpack.org
+## Table of Contents
+
+- [➤ Contribution Guide](#contribution-guide)
+- [➤ Have Questions?](#have-questions)
+- [➤ FAQ](#faq)
+- [➤ Contributors](#contributors)
+- [➤ License](#license)
+</details>
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#contribution-guide)
+
+## Contribution Guide
 
 **This is our guide on how you can make your own challenges or edit existing ones for this website!**
 <br>
@@ -103,8 +116,30 @@ Do you want to fix a challenge or update solution guide? To edit an existing cha
 
 ### Editing an Existing Writeup
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#feedback)
 
 ## Have Questions?
 
+That's it for now! Lot's of exiting features a going to be added in the future.
 Reach out to us on our Discord server! If you want to communicate privately, DM one of the officers or email us at [hello@thehackpack.org](mailto:hello@thehackpack.org).
+If you stumble upon an issue or have a feature request you are very welcome to open a Github issue or pull request. Have a great day!
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#faq)
+
+## FAQ
+
+### How can I get involved?
+
+Follow our socials on our [linktree](https://linktr.ee/thehackpackUGA). Create an issue or pull-request. You are also very welcome to throw us a message at [hello@thehackpack.org](mailto:hello@thehackpack.org).
+
+### How can I support your program?
+
+There are lot's of ways to support us! We would be so happy if you gave this repository a star, tweeted about it or told your friends about this little corner of the Internet ❤️
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#contributors)
+
+## Contributors
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#license)
+
+## License
