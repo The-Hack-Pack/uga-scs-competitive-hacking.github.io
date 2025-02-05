@@ -32,7 +32,9 @@
 - [Table of Contents](#table-of-contents)
 - [Contribution Guide](#contribution-guide)
   - [Creating a New Challenge](#creating-a-new-challenge)
+  - [Editing an Existing Challenge](#editing-an-existing-challenge)
   - [Creating a New Writeup](#creating-a-new-writeup)
+  - [Editing an Existing Writeup](#editing-an-existing-writeup)
 - [Have Questions?](#have-questions)
 - [FAQ](#faq)
   - [How can I get involved?](#how-can-i-get-involved)
@@ -48,7 +50,8 @@
 **This is our guide on how you can make your own challenges or edit existing ones for this website!**
 <br>
 
-Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io). We use a static-site generator called [**Docusaurus**](https://docusaurus.io/) version 3.7.0, which you should familiarize yourself with first. After you have a basic understanding of the documentation, you can proceed to either make your own challenge or edit an existing one!
+> [!IMPORTANT]\
+> Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io). We use a static-site generator called [**Docusaurus**](https://docusaurus.io/) version 3.7.0, which you should familiarize yourself with first. After you have a basic understanding of the documentation, you can proceed to either make your own challenge or edit an existing one!
 
 ### Creating a New Challenge
 
@@ -60,10 +63,8 @@ Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/u
 6. Name the text document to your challenge's name
 7. Copy-paste the template below into your doc
 
-<details>
-<summary>💡 <b>Tip</b></summary>
-➤  <b><i>Make sure to replace every field in ALL CAPS with your challenge's information!</i></b>
-</details>
+> [!TIP]\
+> ➤ <b><i>Make sure to replace every field in ALL CAPS with your challenge's information!</i></b>
 
 <details>
 <summary>‼️ <b>Reveal Template</b></summary>
@@ -104,23 +105,23 @@ Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/u
 9. Make sure to convert your answer(s) to SHA-512 (can be done at a site like [**this**](https://sha512.online/)) and put it in the PasswordForm component(s).
 10. Make a pull request to the development branch and an officer will validate and approve you!
 
-> Mabye you'd want to edit a challenge instead. To edit an existing challenge, you can simply click the "Edit This Page" link at the bottom of the challenge page.
-> From there, you can fork the repository, edit the page, and make a pull request to the `development` branch.
-> Our officer team will review the changes and publish them!
+### Editing an Existing Challenge
 
-<details>
-<summary>📝 <b>Note</b></summary>
-➤  <b><i>Make sure to DM one of the officers with the answer(s) to the challenge! This is required for approval!</i></b>
-</details>
+Mabye you'd want to edit a challenge instead. To edit an existing challenge, you can simply click the "Edit This Page" link at the bottom of the challenge page.
+From there, you can fork the repository, edit the page, and make a pull request to the `development` branch.
+Our officer team will review the changes and publish them!
 
-<details>
-<summary>📝 <b>Note</b></summary>
-➤  <b><i>DO NOT TOUCH THE GH-PAGES BRANCH!</i></b>
-</details>
+> [!NOTE]\
+> ➤ <b><i>Make sure to DM one of the officers with the answer(s) to the challenge! This is required for approval!</i></b>
+
+> [!CAUTION]\
+> ➤ <b><i>DO NOT TOUCH THE GH-PAGES BRANCH!</i></b>
 
 ### Creating a New Writeup
 
-[Add Description Divesh]
+> [Add description for adding a writeup here Divesh]
+
+### Editing an Existing Writeup
 
 > [Add description for editing a writeup here Divesh]
 
