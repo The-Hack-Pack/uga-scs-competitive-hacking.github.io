@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/blob/main/static/img/social.png" alt="Logo" width="700" height="350" />
+<img src="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/blob/main/static/img/social.png" alt="Logo" width="500" height="250" />
 <h1 align="center">The Hack Pack Website</h1>
 <p align="center">
 <a href="https://github.com/andreasbm/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Docusaurus-v3.7.0-blue.svg" height="20"/></a>
@@ -11,6 +11,16 @@
   <b>The University of Georgia's and the Hack Pack's premiere platform and resource base to train for CTF (capture the flag) competitions</b></br>
   <sub>Use this platform to strengthen your ethical hacking skills! With topics ranging from Open Source Intelligence to Forensics to Network Traffic Analysis and even Blue Team, the Hack Pack has got you coverted with whatever topic you desire. Contribute to our learning by creating a new challenge OR publishing writeups about challenges you have solved in previous capture the flag competitions.<sub>
 </p>
+
+<br />
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/uga-scs-competitive-hacking.github.io/blob/development/static/img/thehackpackwebsite.gif" alt="Demo" width="800" />
+</p>
+
+- **Simple**: Extremely simple to use - so simple that it almost feels like magic!
+- **Powerful**: Customize almost everything - add your own chalenges, writeups, solution guides, and more!
+- **Awesome**: The educational resource you didn't know you needed before. Maintained by a group of passionate cyber entusiasts.
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
