@@ -57,17 +57,17 @@
 <br>
 
 > [!IMPORTANT]\
-> Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io). We use a static-site generator called [**Docusaurus**](https://docusaurus.io/) version 3.7.0, which you should familiarize yourself with first. After you have a basic understanding of the documentation, you can proceed to either make your own challenge or edit an existing one!
+> ➤ **Our GitHub repository is available [\***here**_](https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io). We use a static-site generator called [_**Docusaurus**\*](https://docusaurus.io/) version 3.7.0, which you should familiarize yourself with first. After you have a basic understanding of the documentation, you can proceed to either make your own challenge or edit an existing one!**
 
 ### Creating a New Challenge
 
-1. Fork the repository and clone it to your device
-2. Head to the `docs` folder from root and you will see folders for all the categories
-3. Head to the folder for your challenge's category
-4. Head to the respective difficulty folder contained inside
-5. Create a text document (.md extension)
-6. Name the text document to your challenge's name
-7. Copy-paste the template below into your doc
+- [ ] Fork the repository and clone it to your device
+- [ ] Head to the `docs` folder from root and you will see folders for all the categories
+- [ ] Head to the folder for your challenge's category
+- [ ] Head to the respective difficulty folder contained inside
+- [ ] Create a text document (.md extension)
+- [ ] Name the text document to your challenge's name
+- [ ] Copy-paste the template below into your doc
 
 > [!TIP]\
 > ➤ <b><i>Make sure to replace every field in ALL CAPS with your challenge's information!</i></b>
@@ -107,9 +107,9 @@
   </pre>
 </details>
 
-8. If you have any downloadble files, place them in the `assets` folder (which should be in the same directory as your challenge)
-9. Make sure to convert your answer(s) to SHA-512 (can be done at a site like [**this**](https://sha512.online/)) and put it in the PasswordForm component(s).
-10. Make a pull request to the development branch and an officer will validate and approve you!
+- [ ] If you have any downloadble files, place them in the `assets` folder (which should be in the same directory as your challenge)
+- [ ] Make sure to convert your answer(s) to SHA-512 (can be done at a site like [**this**](https://sha512.online/)) and put it in the PasswordForm component(s).
+- [ ] Make a pull request to the development branch and an officer will validate and approve you!
 
 ### Editing an Existing Challenge
 
