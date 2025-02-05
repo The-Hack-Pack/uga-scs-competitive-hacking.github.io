@@ -3,8 +3,16 @@
 This document outlines security procedures and general policies for the
 GitHub Readme Stats project.
 
+<details>
+<summary>📖 Table of Contents</summary>
+<br />
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
 - [Reporting a Vulnerability](#reporting-a-vulnerability)
 - [Disclosure Policy](#disclosure-policy)
+</details>
 
 ## Reporting a Vulnerability
 
