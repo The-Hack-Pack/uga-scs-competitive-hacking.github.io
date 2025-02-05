@@ -9,6 +9,7 @@
 <a href="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/graphs/issues"><img alt="Issues" src="https://img.shields.io/github/issues/The-Hack-Pack/uga-scs-competitive-hacking.github.io.svg" height="20"/></a>
 <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="License: CC BY-NC-ND 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg" height="20"/></a>
 
+<p align="center">
 <a href="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/graphs/forks"><img alt="Forks" src="https://img.shields.io/github/forks/The-Hack-Pack/uga-scs-competitive-hacking.github.io.svg" height="20"/></a>
 <a href="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/graphs/stars"><img alt="Stars" src="https://img.shields.io/github/stars/The-Hack-Pack/uga-scs-competitive-hacking.github.io.svg" height="20"/></a>
 
