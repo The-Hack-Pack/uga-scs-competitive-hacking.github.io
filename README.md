@@ -29,10 +29,16 @@
 
 ## Table of Contents
 
-- [➤ Contribution Guide](#contribution-guide)
-- [➤ Have Questions?](#have-questions)
-- [➤ FAQ](#faq)
-- [➤ Contributors](#contributors)
+- [Table of Contents](#table-of-contents)
+- [Contribution Guide](#contribution-guide)
+  - [Creating a New Challenge](#creating-a-new-challenge)
+  - [Creating a New Writeup](#creating-a-new-writeup)
+- [Have Questions?](#have-questions)
+- [FAQ](#faq)
+  - [How can I get involved?](#how-can-i-get-involved)
+  - [How can I support your program?](#how-can-i-support-your-program)
+- [Contributors](#contributors)
+- [Publication History](#publication-history)
 </details>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#contribution-guide)
@@ -98,6 +104,10 @@ Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/u
 9. Make sure to convert your answer(s) to SHA-512 (can be done at a site like [**this**](https://sha512.online/)) and put it in the PasswordForm component(s).
 10. Make a pull request to the development branch and an officer will validate and approve you!
 
+> Mabye you'd want to edit a challenge instead. To edit an existing challenge, you can simply click the "Edit This Page" link at the bottom of the challenge page.
+> From there, you can fork the repository, edit the page, and make a pull request to the `development` branch.
+> Our officer team will review the changes and publish them!
+
 <details>
 <summary>📝 <b>Note</b></summary>
 ➤  <b><i>Make sure to DM one of the officers with the answer(s) to the challenge! This is required for approval!</i></b>
@@ -108,13 +118,11 @@ Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/u
 ➤  <b><i>DO NOT TOUCH THE GH-PAGES BRANCH!</i></b>
 </details>
 
-### Editing an Existing Challenge
-
-Do you want to fix a challenge or update solution guide? To edit an existing challenge, you can simply click the "Edit This Page" link at the bottom of the challenge page. From there, you can fork the repository, edit the page, and make a pull request to the `development` branch. Our officer team will review the changes and publish them!
-
 ### Creating a New Writeup
 
-### Editing an Existing Writeup
+[Add Description Divesh]
+
+> [Add description for editing a writeup here Divesh]
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#feedback)
 
@@ -139,6 +147,14 @@ There are lot's of ways to support us! We would be so happy if you gave this rep
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#contributors)
 
 ## Contributors
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#publication-history)
+
+## Publication History
+
+| Tag                 | Date           | Description                                                          |
+| ------------------- | -------------- | -------------------------------------------------------------------- |
+| `Wave 1 Challenges` | `Sep 29, 2024` | released `CrowdSteg`, `Masked`, `Protected`, and `Top Card Maverick` |
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#license)
 
