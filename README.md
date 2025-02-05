@@ -2,6 +2,7 @@
 <img src="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/blob/main/static/img/social.png" alt="Logo" width="700" height="350" />
 <h1 align="center">The Hack Pack Website</h1>
 <p align="center">
+<a href="https://github.com/andreasbm/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Docusaurus-v3.7.0-blue.svg" height="20"/></a>
 <a href="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/The-Hack-Pack/uga-scs-competitive-hacking.github.io.svg" height="20"/></a>
 <a href="https://github.com/andreasbm/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
 </p>
@@ -18,17 +19,17 @@
 **This is our guide on how you can make your own challenges or edit existing ones for this website!**
 <br>
 
-**Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io). We use a static-site generator called [**Docusaurus**](https://docusaurus.io/) version 3.7.0, which you should familiarize yourself with first. After you have a basic understanding of the documentation, you can proceed to either make your own challenge or edit an existing one!**
+Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io). We use a static-site generator called [**Docusaurus**](https://docusaurus.io/) version 3.7.0, which you should familiarize yourself with first. After you have a basic understanding of the documentation, you can proceed to either make your own challenge or edit an existing one!
 
 ### Creating a New Challenge
 
-1. **Fork the repository and clone it to your device**
-2. **Head to the `docs` folder from root and you will see folders for all the categories**
-3. **Head to the folder for your challenge's category**
-4. **Head to the respective difficulty folder contained inside**
-5. **Create a text document (.md extension)**
-6. **Name the text document to your challenge's name**
-7. **Copy-paste the template below into your docL**
+1. Fork the repository and clone it to your device
+2. Head to the `docs` folder from root and you will see folders for all the categories
+3. Head to the folder for your challenge's category
+4. Head to the respective difficulty folder contained inside
+5. Create a text document (.md extension)
+6. Name the text document to your challenge's name
+7. Copy-paste the template below into your doc
 
 <details>
 <summary>💡 <b>Tip</b></summary>
@@ -70,9 +71,9 @@
   </pre>
 </details>
 
-8. **If you have any downloadble files, place them in the `assets` folder (which should be in the same directory as your challenge)**
-9. **Make sure to convert your answer(s) to SHA-512 (can be done at a site like [**this**](https://sha512.online/)) and put it in the PasswordForm component(s).**
-10. **Make a pull request to the development branch and an officer will validate and approve you!**
+8. If you have any downloadble files, place them in the `assets` folder (which should be in the same directory as your challenge)
+9. Make sure to convert your answer(s) to SHA-512 (can be done at a site like [**this**](https://sha512.online/)) and put it in the PasswordForm component(s).
+10. Make a pull request to the development branch and an officer will validate and approve you!
 
 <details>
 <summary>📝 <b>Note</b></summary>
@@ -86,7 +87,7 @@
 
 ### Editing an Existing Challenge
 
-**Do you want to fix a challenge or update solution guide? To edit an existing challenge, you can simply click the "Edit This Page" link at the bottom of the challenge page. From there, you can fork the repository, edit the page, and make a pull request to the `development` branch. Our officer team will review the changes and publish them!**
+Do you want to fix a challenge or update solution guide? To edit an existing challenge, you can simply click the "Edit This Page" link at the bottom of the challenge page. From there, you can fork the repository, edit the page, and make a pull request to the `development` branch. Our officer team will review the changes and publish them!
 
 ### Creating a New Writeup
 
@@ -96,4 +97,4 @@
 
 ## Have Questions?
 
-**Reach out to us on our Discord server! If you want to communicate privately, DM one of the officers or email us at [hello@thehackpack.org](mailto:hello@thehackpack.org).**
+Reach out to us on our Discord server! If you want to communicate privately, DM one of the officers or email us at [hello@thehackpack.org](mailto:hello@thehackpack.org).
