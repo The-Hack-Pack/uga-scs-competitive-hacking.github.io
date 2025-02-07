@@ -1,10 +1,10 @@
 ---
-description: OSINT & Machine Learning | Easy - Nu Hair
-sidebar_position: 0
+description: OSINT | Easy - Nu Hair
+sidebar_position: 1
 tags: [easy]
 ---
 
-import PasswordForm from '@site/src/components/PasswordForm';
+import PasswordForm from '@site/src/components/PasswordForm2';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -14,13 +14,13 @@ OSINT | Easy - Nu Hair
 
 ## Challenge
 
-Remember when being bald was cool? (Please wrap all solutions within a ‘scs{}’ wrapper)
+Remember when being bald was cool? (Please wrap your answer like such: scs\{answer\})
 
 ![Message](./assets/bald.jpg)
 
 Q1 - 100 Points  
 What band is this vocalist a part of?
-<PasswordForm hash="5ede5c568ddbf0d82ea9cd24f86fc8122ecb0d8bcd66cdb11a3405c79dd6fd392c325e52821c4872d55753f57587dd6ff066128168107f39c35d3d97d0f644b6" algorithm="sha512" />
+<PasswordForm hash="9722f9b078824613c0546b4d45718b145acffd300e59cd774396ee01a7784c1f8524a6f8e4d48c065f25fee0375dbcf365ed5fde3de3d3110d2c073526e61c3b" algorithm="sha512" />
 
 <!--
 ## Solution

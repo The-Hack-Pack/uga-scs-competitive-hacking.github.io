@@ -1,10 +1,10 @@
 ---
 description: Cryptography | Medium - Radio
-sidebar_position: 0
+sidebar_position: 5
 tags: [medium]
 ---
 
-import PasswordForm from '@site/src/components/PasswordForm';
+import PasswordForm from '@site/src/components/PasswordForm2';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -14,10 +14,10 @@ Cryptography | Medium - Radio
 
 ## Challenge
 
-We've intercepted a message between two Radio stations regarding the upcoming album release of a famous band. Can you determine who the band is? (Please wrap all solutions within a ‘scs{}’ wrapper)
+We've intercepted a message between two Radio stations regarding the upcoming album release of a famous band. Can you determine who the band is? (Please wrap your answer like such: scs\{answer\})
 
 <audio controls>
-  <source src="./assets/radio.wav" type="audio/wav"></source>
+  <source src="/assets/ugahacks10/radio.wav" type="audio/wav"></source>
 </audio>
 If the browser-based audio doesn't play: [Download Audio](./assets/radio.wav)
 
@@ -31,7 +31,7 @@ What is the number that was recorded?
 
 Q2 - 60 points
 What is the plaintext English message in the recording? (ALL CAPS)
-<PasswordForm hash="287347b120054521efcebb3e950021589403788ca98f94e1b3d9d0250fbf35ffae265f7a50250987148c566acd7061cceb2bfbb330e4e49dc8f17a51ceafdca9" algorithm="sha512" />
+<PasswordForm hash="97003d49b60504aa593f6c6c4d843dc6a9ff47344a7ad5b2b9b729d43f72c08c07c34fa251ef9db1784e9e5032c4afa2b9ef4c8b54625a28c399f44390ca7e1d" algorithm="sha512" />
 
 <!--
 ## Solution

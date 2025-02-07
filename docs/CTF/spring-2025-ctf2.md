@@ -1,6 +1,6 @@
 ---
 description: Spring 2025 Kickoff CTF
-sidebar_position: 0
+sidebar_position: 1
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm2';

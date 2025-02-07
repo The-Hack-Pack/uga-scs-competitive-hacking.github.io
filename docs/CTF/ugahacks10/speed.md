@@ -1,23 +1,23 @@
 ---
 description: Forensics | Easy - Speed
-sidebar_position: 0
+sidebar_position: 2
 tags: [easy]
 ---
 
-import PasswordForm from '@site/src/components/PasswordForm';
+import PasswordForm from '@site/src/components/PasswordForm2';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # Speed
 
-Foresnics | Easy - Speed
+Forensics | Easy - Speed
 
 ## Challenge
 
-This music is so jarring!! Why are there so many weird sounds?! I wish there was a way to look into the audio and clean out the clutter. (Please wrap all solutions within a ‘scs{}’ wrapper)
+This music is so jarring!! Why are there so many weird sounds?! I wish there was a way to look into the audio and clean out the clutter. (Please wrap your answer like such: scs\{answer\})
 
 <audio controls>
-  <source src="./assets/sonic.wav" type="audio/wav"></source>
+  <source src="/assets/ugahacks10/sonic.wav" type="audio/wav"></source>
 </audio>
 If the browser-based audio doesn't play: [Download Audio](./assets/sonic.wav)
 
@@ -26,7 +26,7 @@ If the browser-based audio doesn't play: [Download Audio](./assets/sonic.wav)
 
 Q1 - 100 points  
 What is the hidden message?
-<PasswordForm hash="ef817e81d95ff270551a8727a72f7a05130ddfed62c86111bbdfbf51d8d2bf48e70a95090e7b1230132b07463a06b7a02400f35c8e60e47c9e363b18fe08fa14" algorithm="sha512" />
+<PasswordForm hash="177b313d458854c6b227dfdfe9059802b38e70c91d482e0aa7b466789d05cc591f7c994940cd8f8c60a8a4ec17b75619010fb233536cab335c72dac3bbee7434" algorithm="sha512" />
 
 <!--
 ## Solution

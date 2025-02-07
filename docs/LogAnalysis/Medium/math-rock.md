@@ -1,12 +1,14 @@
 ---
 description: Log Analysis | Medium - Math Rock
-sidebar_position: 0
+sidebar_position: 4
 tags: [medium]
 ---
 
-import PasswordForm from '@site/src/components/PasswordForm';
+import PasswordForm from '@site/src/components/PasswordForm2';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import DownloadLink from '@site/src/components/DownloadLink';
+
 
 # Math Rock
 
@@ -14,9 +16,9 @@ Log Analsysis | Medium - Math Rock
 
 ## Challenge
 
-We recorded a beautiful session with Ichika Nito the other day. Unfortunately, a group of mischievous teens broke into our studio and messed with the frequency log data. We need the piece for our marketing, so it is crucial that you find the frequency that was manipulated so that we don’t make our customers’ ears bleed! (Please wrap all solutions within a ‘scs{}’ wrapper)
+We recorded a beautiful session with Ichika Nito the other day. Unfortunately, a group of mischievous teens broke into our studio and messed with the frequency log data. We need the piece for our marketing, so it is crucial that you find the frequency that was manipulated so that we don’t make our customers’ ears bleed! (Please wrap your answer like such: scs\{answer\})
 
-[ichika-nito.log](./assets/ichika-nito.log)
+<DownloadLink file="assets/ugahacks10/ichika-nito.log">ichika-nito.log</DownloadLink>
 
 :::tip
 <b>
@@ -31,9 +33,8 @@ What tool(s) is commonly used for log analysis?
 
 Q1 - 100 points  
 Which ticker contains the abnormal frequency data point?
-<PasswordForm hash="849b0ae0f07887057678b91304d63379b433755a1c50be41ce90c6598503908f6d955a79b34a178770cf7ea56830fc54f19c9fb61f451dba1e984d5462950d55" algorithm="sha512" />
+<PasswordForm hash="2665432eaf58932349796499ee4ab959c83dd5a0a3f2fc9a02308091a0c02b38074425a759c16fdb5c73c228797bc400b517d2e5c3864b9896a3a31192af8781" algorithm="sha512" />
 
-<!--
 ## Solution
 
 <details>
@@ -42,9 +43,7 @@ Which ticker contains the abnormal frequency data point?
     2. Place the three extracted columns next to each other on the excel file
     3. Select the ‘frequency’ and ‘amplitude’ columns > search for ‘XY scatter’ > select the first scatter plot option
     4. Identify the outlier data point.
-    5. <b>scs\{XWPS\}</b>
 </details>
--->
 
 ## Credits
 

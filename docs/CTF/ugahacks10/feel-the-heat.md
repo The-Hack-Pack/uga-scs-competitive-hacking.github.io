@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 ![Message](./assets/ugahacksxscs-post.png)
 
-## HEAD ON OVER TO THE FIRST CHALLENGE!
+## [HEAD ON OVER TO THE FIRST CHALLENGE!](nu-hair)
 
 ## Credits
 
