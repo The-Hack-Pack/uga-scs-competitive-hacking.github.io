@@ -65,6 +65,16 @@ const config: Config = {
   ],
 
   themeConfig: {
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
+        }
+      }
+    },
     docs: {
       sidebar: {
         hideable: true,
@@ -127,7 +137,7 @@ const config: Config = {
     },
     */
   } satisfies Preset.ThemeConfig,
-  plugins: [lunrSearch],
+  plugins: [lunrSearch, require.resolve("docusaurus-plugin-image-zoom")],
 };
 
 export default config;
