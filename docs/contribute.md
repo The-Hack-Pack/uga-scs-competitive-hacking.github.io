@@ -10,7 +10,12 @@ This is our guide on how you can make your own challenges or edit existing ones 
 
 Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io). We use a static-site generator called [Docusaurus](https://docusaurus.io/) version 3.7.0, which you should familiarize yourself with first. After you have a basic understanding of the documentation, you can proceed to either make your own challenge or edit an existing one!
 
-## Creating a New Challenge
+## Writeups
+### Creating a New Writeup
+
+
+## Challenges
+### Creating a New Challenge
 
     To make your own challenge, first fork the repository and clone it to your device. Next, head to the `docs` folder from root and you will see folders for all the categories. Head to the folder for your challenge's category, then to the respective difficulty folder contained inside, and then create a text document (.md extension). Name it to your challenge's name. Then, copy-paste the template below into your doc.
     :::tip
@@ -61,7 +66,7 @@ Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/u
 
     And you're done! Make a pull request to the development branch and an officer will validate and approve you!
 
-## Editing an Existing Challenge
+### Editing an Existing Challenge
 
 Do you want to fix a challenge or update solution guide? To edit an existing challenge, you can simply click the "Edit This Page" link at the bottom of the challenge page. From there, you can fork the repository, edit the page, and make a pull request to the `development` branch. **DO NOT TOUCH THE GH-PAGES BRANCH.** Our officer team will review the changes and publish them!
 
