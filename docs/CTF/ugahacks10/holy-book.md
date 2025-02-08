@@ -26,10 +26,8 @@ What do these numbers mean? (Please wrap your answer like such: scs\{answer\})
 
 Q1 - 100 points  
 What is the hidden message?
-Location: <PasswordForm hash="" algorithm="sha512" />
-
 <PasswordForm 
-    hash="3674b87138a2294cc4f163b34b7d60280389fca943f59003180a6371144bac0a34a9765004f3789dc25e6956d3649cfc241d9d72c26ddbc2aaf659ecdce184a1"
+    hash="f19d5155550b369b7c57a30cf53954fa405b01f54e1389fc058a67dc822002d16aa1e1b5e20d74db9fa287f07cb477349a76544ac5d7a835a1d14b98067edc32"
     algorithm="sha512"
     googleFormUrl="https://docs.google.com/forms/d/e/1FAIpQLScejpY43zw9qjQpvY6lUnmgIouxd8yYeGxgjbeEIEujEEj1vw/formResponse"
     entryId="entry.618474535"

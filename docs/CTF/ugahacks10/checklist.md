@@ -38,7 +38,7 @@ What is the most common file format that allows for file extraction?
 />
 
 Q3 - 10 points  
-What is the hidden message (lowercase)?
+What is the hidden message?
 <PasswordForm 
     hash="4b284107b9c2f1ab0124829735c4abff4333d97752347968830cc630763d1487864f4e87207c82b5841fb714d09789521c50f858fabcd94899b2f164d7964a58"
     algorithm="sha512"
