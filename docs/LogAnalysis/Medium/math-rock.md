@@ -1,5 +1,5 @@
 ---
-description: Log Analysis | Medium - Math Rock
+description: "Log Analysis | Medium - Math Rock"
 sidebar_position: 4
 tags: [medium]
 ---
@@ -8,7 +8,6 @@ import PasswordForm from '@site/src/components/PasswordForm2';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DownloadLink from '@site/src/components/DownloadLink';
-
 
 # Math Rock
 
@@ -20,7 +19,7 @@ We recorded a beautiful session with Ichika Nito the other day. Unfortunately, a
 
 <DownloadLink file="assets/ugahacks10/ichika-nito.log">ichika-nito.log</DownloadLink>
 
-:::tip
+:::tip hint
 <b>
 Here are some python files to help you extract the data from the log file:  
 [amplitude.py](./assets/amplitude.py)  
@@ -31,8 +30,7 @@ What tool(s) is commonly used for log analysis?
 </b>
 :::
 
-Q1 - 100 points  
-Which ticker contains the abnormal frequency data point?
+Q1. Which ticker contains the abnormal frequency data point?  
 <PasswordForm hash="2665432eaf58932349796499ee4ab959c83dd5a0a3f2fc9a02308091a0c02b38074425a759c16fdb5c73c228797bc400b517d2e5c3864b9896a3a31192af8781" algorithm="sha512" />
 
 ## Solution

@@ -1,10 +1,10 @@
 ---
-description: Forensics | Easy - Speed
+description: "Forensics | Easy - Speed"
 sidebar_position: 2
 tags: [easy]
 ---
 
-import PasswordForm from '@site/src/components/PasswordForm2';
+import PasswordForm from '@site/src/components/PasswordForm3';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -21,12 +21,18 @@ This music is so jarring!! Why are there so many weird sounds?! I wish there was
 </audio>
 If the browser-based audio doesn't play: [Download Audio](./assets/sonic.wav)
 
-:::tip <b>How can you access the spectrogram of this wave file?</b>
+:::tip hint
+<b>How can you access the spectrogram of this wave file?</b>
 :::
 
 Q1 - 100 points  
 What is the hidden message?
-<PasswordForm hash="177b313d458854c6b227dfdfe9059802b38e70c91d482e0aa7b466789d05cc591f7c994940cd8f8c60a8a4ec17b75619010fb233536cab335c72dac3bbee7434" algorithm="sha512" />
+<PasswordForm 
+    hash="177b313d458854c6b227dfdfe9059802b38e70c91d482e0aa7b466789d05cc591f7c994940cd8f8c60a8a4ec17b75619010fb233536cab335c72dac3bbee7434"
+    algorithm="sha512"
+    googleFormUrl="https://docs.google.com/forms/d/e/1FAIpQLSehukyoaR8WeLBkYXYmq2cqb9VATCBSHvCO_9cbipi8Chez3w/formResponse"
+    entryId="entry.618474535"
+/>
 
 <!--
 ## Solution

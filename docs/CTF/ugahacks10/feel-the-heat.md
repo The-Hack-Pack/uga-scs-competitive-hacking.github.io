@@ -1,5 +1,5 @@
 ---
-description: UGAHacks X CTF - Feel The Heat!
+description: "UGAHacks X CTF - Feel The Heat!"
 sidebar_position: 0
 ---
 
