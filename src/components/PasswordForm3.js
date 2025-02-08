@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CryptoJS from "crypto-js";
 
-const PasswordForm2 = ({ hash, algorithm, googleFormUrl, entryId }) => {
+const PasswordForm3 = ({ hash, algorithm, googleFormUrl, entryId }) => {
   const [inputPassword, setInputPassword] = useState("");
   const [result, setResult] = useState("");
 
@@ -20,14 +20,28 @@ const PasswordForm2 = ({ hash, algorithm, googleFormUrl, entryId }) => {
     }
   };
 
+  const getCookie = (name) => {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return decodeURIComponent(parts.pop().split(";").shift());
+  };
+  
+
   const checkPassword = async () => {
     const inputHash = hashPassword(inputPassword, algorithm);
     if (inputHash === hash) {
       setResult("Correct!");
 
+      // Retrieve name and email from cookies
+      const name = getCookie("name");
+      const email = getCookie("email");
+
+      // Generate the "name-email" entryId
+      const nameEmailEntryId = `${name}-${email}`;
+
       // Submit to Google Form
       const formData = new FormData();
-      formData.append(entryId, inputPassword); // Use inputPassword instead of inputHash
+      formData.append(entryId, nameEmailEntryId); 
 
       try {
         await fetch(googleFormUrl, {
@@ -65,4 +79,4 @@ const PasswordForm2 = ({ hash, algorithm, googleFormUrl, entryId }) => {
   );
 };
 
-export default PasswordForm2;
+export default PasswordForm3;
