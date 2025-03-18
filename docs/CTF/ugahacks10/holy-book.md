@@ -16,6 +16,8 @@ Cryptography | Hard - Holy Book
 
 What do these numbers mean? (Please wrap your answer like such: scs\{answer\})
 
+[Download file](./assets/living%20on%20a%20prayer.mp3)
+
 :::tip hint
 <b> What is the easiest method to access the metadata of any file?</b>
 :::
