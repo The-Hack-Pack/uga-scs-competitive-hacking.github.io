@@ -17,7 +17,7 @@ There are two ways to solve this challenge. See if you can find it the fastest.
 
 ## Hints
 <details>
-  <summary>Solution Guide</summary>
+  <summary>Hints</summary>
 
   Before we dive into the solution, there are a couple of ways we can solve this challenge. 
   Once we open this .pcap file, we find that there is a total of 1510 packets. 
