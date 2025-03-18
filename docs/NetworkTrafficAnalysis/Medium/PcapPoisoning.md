@@ -1,19 +1,19 @@
 ---
-description: Network Traffic Analysis| Medium - PcapPoisoning
+description: Network Traffic Analysis | Medium - PcapPoisoning
 tags: [medium]
 sidebar_position: 0
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import DownloadLink from '@site/src/components/DownloadLink';
 
 # PcapPoisoning
 Network Traffic Analysis | Medium - PcapPoisoning
 ## Challenge
 Hide and Seek in this .pcap file. We need to find the flag inside of this file. 
 There are two ways to solve this challenge. See if you can find it the fastest. 
-<DownloadLink file="assets/trace.pcap">trace.pcap</DownloadLink>
+
+[trace.pcap](./assets/trace.pcap)  
 
 ## Hints
 <details>
