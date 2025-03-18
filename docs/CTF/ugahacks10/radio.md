@@ -38,7 +38,6 @@ What is the plaintext English message in the recording?
     entryId="entry.1013997341"
 />
 
-<!--
 ## Solution
 
 <details>
@@ -46,13 +45,12 @@ What is the plaintext English message in the recording?
     1. What is the number that was recorded?
        1. Go to [DTMF decoder tool](https://unframework.github.io/dtmf-detect/)
        2. Enter in the audio file
-       3. <b>scs\{27333\}</b>
-    2. <b>scs\{XWPS\}</b>
+       <!--3. <b>scs\{27333\}</b>-->
+    2. What is the plaintext English message in the recording?
        1. Go to T9 (Text Message Cipher) in [dcode.xyz](https://www.dcode.fr/t9-cipher)
-       2. Choose the answer that correlates fits best
-       3. <b>scs\{CREED\}</b>
+       2. Choose the answer that fits best (might take multiple attempts)
+       <!--3. <b>scs\{CREED\}</b>-->
 </details>
--->
 
 ## Credits
 

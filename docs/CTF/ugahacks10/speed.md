@@ -34,7 +34,6 @@ What is the hidden message?
     entryId="entry.618474535"
 />
 
-<!--
 ## Solution
 
 <details>
@@ -47,9 +46,8 @@ What is the hidden message?
        1. Download audacity
        2. Drag and drop the .wav file
        3. Right click the track and select 'Spectrogram'
-    3. Answer: <b>scs\{LIVE AND LEARN\}</b>
+    <!--3. Answer: <b>scs\{LIVE AND LEARN\}</b>-->
 </details>
--->
 
 ## Credits
 

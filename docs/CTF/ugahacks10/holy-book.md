@@ -35,19 +35,22 @@ What is the hidden message?
     entryId="entry.618474535"
 />
 
-<!--
 ## Solution
 
 <details>
     <summary>Solution Guide</summary>
     1. Title is related to the cipher being used
-    2. Lyrics is the book/dictionary for the cipher
-    3. To find the cipher, run strings on the mp3 file OR just open the file as a text file
-       1. Cipher: 159, 150, 147, 40, 150, 221, 285, 147, 281, 242
+    2. Lyrics is the book/dictionary for the cipher (which is in image metadata)
+    3. To find the cipher, run `strings` on the mp3 file in Linux OR just open the file as a text file
+
+        <details>
+            <summary> Reveal Cipher </summary>
+
+            Cipher: 159, 150, 147, 40, 150, 221, 285, 147, 281, 242
+        </details>
     4. Copy paste Cipher and Lyrics (the “book”) into a decoder
-    5. <b>scs\{BADHAIRDAY\}</b>
+    <!--5. <b>scs\{BADHAIRDAY\}</b>-->
 </details>
--->
 
 ## Credits
 
