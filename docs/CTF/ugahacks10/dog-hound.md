@@ -35,7 +35,6 @@ What famous artists’ hometown is my friend visiting? (no middle name)
     entryId="entry.1013997341"
 />
 
-<!--
 ## Solution
 <details>
     <summary>Solution Guide</summary>
@@ -47,12 +46,11 @@ What famous artists’ hometown is my friend visiting? (no middle name)
           2. Longitude: 88.7034 deg, or 88 deg 42 min 12.24 sec
        4. (Optional) Convert to WSG84 for easy tracking: 34.2576° N, 88.7034° W
        5. Paste that WSG84 location into google maps
-       6. scs\{Tupelo\}
+       <!--6. scs\{Tupelo\}-->
     2. What famous artists’ hometown is my friend visiting? (no middle name)
        1. Search up “what famous artist was born in tupelo mississippi”
-       2. scs{Elvis Presley}
+       <!--2. scs{Elvis Presley}-->
 </details>
--->
 
 ## Credits
 

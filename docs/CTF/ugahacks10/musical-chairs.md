@@ -31,16 +31,14 @@ Where is Jimi?
     entryId="entry.618474535"
 />
 
-<!--
 ## Solution
 
 <details>
     <summary>Solution Guide</summary>
     1. Go to [dcode.xyz - music sheet cipher](https://www.dcode.fr/music-sheet-cipher)
     2. Enter in the musical notes and hit ‘decode’
-    3. <b>scs\{WATCHTOWER\}</b>
+    <!--3. <b>scs\{WATCHTOWER\}</b>-->
 </details>
--->
 
 ## Credits
 

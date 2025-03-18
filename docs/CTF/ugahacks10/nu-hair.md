@@ -27,15 +27,12 @@ What band is this vocalist a part of?
     entryId="entry.618474535"
 />
 
-<!--
 ## Solution
 <details>
     <summary>Solution Guide</summary>
-    1. Reverse image search leads to wikipedia page: [David Draiman - Wikipedia](https://en.wikipedia.org/wiki/David_Draiman)
-    2. You can also use ChatGPT Premium to input in the image
-    3. <b>scs\{Disturbed\}</b>
+    Try reverse image searching the person on Google or Yandex (the 2 websites you should always try). The answer should be straightforward from there.
+    <!--3. <b>scs\{Disturbed\}</b>-->
 </details>
--->
 
 ## Credits
 

@@ -3,7 +3,6 @@ description: "UGAHacks X CTF - Feel The Heat!"
 sidebar_position: 0
 ---
 
-import Login from '@site/src/components/login';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -16,7 +15,3 @@ import TabItem from '@theme/TabItem';
 ## Credits
 
 - Author(s): Divesh Gupta (legendile7)
-
-## Enter Your Details
-
-<Login />

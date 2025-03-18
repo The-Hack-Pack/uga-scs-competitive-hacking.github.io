@@ -46,7 +46,6 @@ What is the hidden message?
     entryId="entry.1238142575"
 />
 
-<!--
 ## Solution
 
 <details>
@@ -54,17 +53,16 @@ What is the hidden message?
     1. What is the name of the .wav file (add the extension to the answer)?
        1. Figure out that .jpeg is a supported file type for steganography
        2. Use ‘binwalk checklist.jpeg’ to view the contents inside of the file
-       3. <b>scs\{dj.wav\}</b>
+       <!--3. <b>scs\{dj.wav\}</b>-->
     2. What is the most common file format that allows for file extraction?
        1. Look this up
-       2. <b>scs\{zip\}</b>
+       <!--2. <b>scs\{zip\}</b>-->
     3. What is the hidden message (lowercase)?
        1. Copy the file from .jpeg to .zip format ‘cp checklist.jpeg check.zip’
        2. Unzip the compressed file to extract its contents ‘unzip check.zip’
        3. Take the extracted dj.wav file and plug it into this morse code to english translator
-       4. scs\{t4rn t&bl3s\}
+       <!--4. scs\{t4rn t&bl3s\}-->
 </details>
--->
 
 ## Credits
 
