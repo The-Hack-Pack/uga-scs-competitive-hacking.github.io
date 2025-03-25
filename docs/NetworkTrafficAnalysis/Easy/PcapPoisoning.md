@@ -1,6 +1,6 @@
 ---
-description: Network Traffic Analysis | Medium - PcapPoisoning
-tags: [medium]
+description: Network Traffic Analysis | Easy - PcapPoisoning
+tags: [easy]
 sidebar_position: 0
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # PcapPoisoning
-Network Traffic Analysis | Medium - PcapPoisoning
+Network Traffic Analysis | Easy - PcapPoisoning
 ## Challenge
 Hide and Seek in this .pcap file. We need to find the flag inside of this file. 
 There are two ways to solve this challenge. See if you can find it the fastest. 
@@ -28,3 +28,4 @@ There are two ways to solve this challenge. See if you can find it the fastest.
 
 ## Credits
 - Author(s): Aparna Sajith (apar2116)
+- Challenge Source: picoCTF

@@ -118,8 +118,12 @@ const config: Config = {
             label: 'Linktree',
             href: 'https://linktr.ee/thehackpackuga',
           },
+          {
+            label: 'Involvement Network',
+            href: 'https://uga.campuslabs.com/engage/organization/thehackpack',
+          },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} The Hack Pack at the University of Georgia.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The Hack Pack @ University of Georgia.`,
     },
     prism: {
       theme: prismThemes.github,
