@@ -1,6 +1,6 @@
 ---
-description: Network Traffic Analysis| Hard - WebNet 1
-tags: [hard]
+description: Network Traffic Analysis | Medium - WebNet 1
+tags: [medium]
 sidebar_position: 0
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # Web Net 1 
-Network Traffic Analysis | Hard - Web Net 1
+Network Traffic Analysis | Medium - Web Net 1
 ## Challenge
 In this scenario, we are given .pcap file and a key. 
 Hmmm... 
@@ -29,4 +29,5 @@ What do we do with the key?
 
 ## Credits
 - Author(s): Aparna Sajith (apar2116)
+- Challenge Source: picoCTF
 

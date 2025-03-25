@@ -20,6 +20,16 @@
   --ifm-font-family-base: 'Tomorrow';
 }
 
+
+[data-theme='dark'] h1, [data-theme='dark'] h2, [data-theme='dark'] h3, [data-theme='dark'] h4, [data-theme='dark'] h5, [data-theme='dark'] h6 {
+  color: #5697d7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #056a98;
+}
+
+
 .hero__title, .hero__subtitle {
   color: #FFFFFF !important; /* Ensures the text color is white */
 }
@@ -37,9 +47,18 @@
   margin-top: -12px;
 }
 
+.navbar__link:hover {
+  color: #5697d7;
+}
+
+.navbar__link--active {
+  color: #5697d7;
+}
+
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #a63a3a;
+  --ifm-color-primary: #cc2f2f;
   --ifm-color-primary-dark: #af2121;
   --ifm-color-primary-darker: #a51f1f;
   --ifm-color-primary-darkest: #881a1a;
