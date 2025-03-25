@@ -33,7 +33,7 @@ Cipher 2: `ᒬᒧᒪ⨃ᒧᒣ☐ ⟔☐ᒪ☐ᒥᐱ☐⊐`<PasswordForm hash="e9
 ### Web App Exploitation
 We've identified a website hiding suspicious information. 
 
-Access the challenge website <a href="https://thehackpack.org/webChallenge2/" target="_blank">here</a>.
+Access the challenge website <a href="https://thehackpack.org/CTF/webChallenge2/" target="_blank">here</a>.
 
 Flag 1: <PasswordForm hash="c0bc4d987e272e316c795223d725a28092c957ffd14c28de8c6a6dea7e4aa992c0dd27c0b1f5243e23e6125189b1e8072c01a3d0eb3302e5165453c63d79c8a5" algorithm="sha512" />
 Flag 2: <PasswordForm hash="a125f3f49045b31d03a9689922d56356d79629f2027e5b945f1956ee860fe2185db513821ac6524c69670a0468c3b6d820a77c6f7adc876ad1037dcbefb388ef" algorithm="sha512" />
@@ -59,7 +59,21 @@ Fake image's filename: <PasswordForm hash="eed87c8b3006f587aef65944c519065bff140
 <details>
   <summary>Solution Guide</summary>
 
-  Will be posted after CTF ends!
+  OSINT
+  1. Reverse Image Search or search the keywords visible in the picture
+  2. Search up the company's headquarters
+  3. Google Maps
+
+  Cryptography
+  1. Binary to Ascii
+  2. Pigpen cipher
+
+  Web App Exploitation
+  1. Image alt text on the website
+  2. Logged in Console Tab
+
+  Forensics
+  1. Reverse Image search all the people in the folder until you find one that doesn't give you any results. That one is fake & AI generated.
 
 </details>
 
