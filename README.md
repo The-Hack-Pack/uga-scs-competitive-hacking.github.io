@@ -58,7 +58,7 @@
 <br>
 
 > [!IMPORTANT]\
-> ➤ **Our GitHub repository is available [\***here**_](https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io). We use a static-site generator called [_**Docusaurus**\*](https://docusaurus.io/) version 3.7.0, which you should familiarize yourself with first. After you have a basic understanding of the documentation, you can proceed to either make your own challenge or edit an existing one!**
+> ➤ **Our GitHub repository is available [here](https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io). We use a static-site generator called [Docusaurus](https://docusaurus.io/) version 3.7.0, which you should familiarize yourself with first. After you have a basic understanding of the documentation, you can proceed to either make your own challenge or edit an existing one!**
 
 ### Creating a New Challenge
 
@@ -164,9 +164,10 @@ There are lot's of ways to support us! We would be so happy if you gave this rep
 
 ## Publication History
 
-| Tag                 | Date           | Description                                                          |
-| ------------------- | -------------- | -------------------------------------------------------------------- |
-| `Wave 1 Challenges` | `Sep 29, 2024` | released `CrowdSteg`, `Masked`, `Protected`, and `Top Card Maverick` |
+| Tag                 | Date           | Description                                                                  |
+| ------------------- | -------------- | ---------------------------------------------------------------------------- |
+| `Wave 1 Challenges` | `Sep 29, 2024` | released `CrowdSteg`, `Masked`, `Protected`, and `Top Card Maverick`         |
+| `Wave 2 Challenges` | `Mar 25, 2025` | released `Math Rock`, `Overflow`, `Fusion`, `Web Net 1`, and `PcapPoisoning` |
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#license)
 
