@@ -8,6 +8,9 @@ const config: Config = {
   tagline: 'UGA Practical & Competitive Cybersecurity Club',
   favicon: 'img/favicon.ico',
 
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
+
   // Set the production url of your site here
   url: 'https://thehackpack.org',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -18,9 +21,6 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'UGA-SCS-Competitive-Hacking', // Usually your GitHub org/user name.
   projectName: 'main-website', // Usually your repo name.
-
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -118,8 +118,12 @@ const config: Config = {
             label: 'Linktree',
             href: 'https://linktr.ee/thehackpackuga',
           },
+          {
+            label: 'Involvement Network',
+            href: 'https://uga.campuslabs.com/engage/organization/thehackpack',
+          },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} The Hack Pack at the University of Georgia.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The Hack Pack @ University of Georgia.`,
     },
     prism: {
       theme: prismThemes.github,

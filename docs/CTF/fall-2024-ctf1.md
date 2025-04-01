@@ -1,6 +1,6 @@
 ---
 description: Fall 2024 Intro CTF
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
@@ -28,7 +28,7 @@ Cipher 1: `Kz za, Hxazk?`<PasswordForm hash="28b45042bfef7dd8a22f1a50f658bdf2093
 Cipher 2 (all caps, space between words): `-.. --- - ... / .- -. -.. / -.. .- ... .... . ...`<PasswordForm hash="dd7945b0f8387d06cd3a048173d33ce64aca75358e106ab8dfa76cddf2c4345aef27e74ed577ecc85f88803b0e5ff0a9192270cb21c2771898ef9fc6bece740a" algorithm="sha512" />
 
 ### Web App Exploitation
-Access the challenge website <a href="https://thehackpack.org/webChallenge1/" target="_blank">here</a>.
+Access the challenge website <a href="https://thehackpack.org/CTF/webChallenge1/" target="_blank">here</a>.
 
 Flag 1: <PasswordForm hash="2ee39c027d5f776b629d8108abf124f9ae5e3aabadcc8a739936da3e8d7b2b45cacbdc0e70a3977bad1de260d2a9099732691fc280ca7dd2d88ae056088e92d1" algorithm="sha512" />
 Flag 2: <PasswordForm hash="8d4275a78fd2b31778b648422dac4c56de08bbe30ded44108d1f676cd5a0fd0937315eeb4aac557afcabcc3d6bd82b3eef1b2f6e0d2a49f2ac4e21f011d1dbdb" algorithm="sha512" />
