@@ -1,7 +1,7 @@
 # Hack Pack Security Policies and Procedures
 
 This document outlines security procedures and general policies for the
-GitHub Readme Stats project.
+Hack Pack Website.
 
 - [Hack Pack Security Policies and Procedures](#hack-pack-security-policies-and-procedures)
   - [Reporting a Vulnerability](#reporting-a-vulnerability)
@@ -9,7 +9,7 @@ GitHub Readme Stats project.
 
 ## Reporting a Vulnerability
 
-The GitHub Readme Stats team and community take all security vulnerabilities
+The Hack Pack Development team and community take all security vulnerabilities
 seriously. Thank you for improving the security of our open source
 software. We appreciate your efforts and responsible disclosure and will
 make every effort to acknowledge your contributions.
