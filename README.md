@@ -167,7 +167,7 @@ There are lot's of ways to support us! We would be so happy if you gave this rep
 | Tag                 | Date           | Description                                                                  |
 | ------------------- | -------------- | ---------------------------------------------------------------------------- |
 | `Wave 1 Challenges` | `Sep 29, 2024` | released `CrowdSteg`, `Masked`, `Protected`, and `Top Card Maverick`         |
-| `Wave 2 Challenges` | `Sep 29, 2024` | released `Math Rock`, `Overflow`, `Fusion`, `Web Net 1`, and `PcapPoisoning` |
+| `Wave 2 Challenges` | `Mar 25, 2025` | released `Math Rock`, `Overflow`, `Fusion`, `Web Net 1`, and `PcapPoisoning` |
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#license)
 
