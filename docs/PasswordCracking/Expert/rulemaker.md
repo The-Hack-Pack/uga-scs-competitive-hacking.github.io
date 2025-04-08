@@ -1,6 +1,6 @@
 ---
 description: Password Cracking | Expert - Rulemaker
-tags: [hard]
+tags: [expert]
 sidebar_position: 0
 ---
 
