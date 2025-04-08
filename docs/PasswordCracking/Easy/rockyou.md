@@ -22,17 +22,19 @@ Target Hash: `1a3dff6f600d9fd62f8ead361480cc61`
   Before we dive into the solution, let's quickly cover some background on password hashing.
 
   ## What is Hashing?
-  Hashing is the process of turning data, like a password, into a fixed-length string using a mathematical function. It’s one-way, meaning it can't be reversed to reveal the original password. Each time the same password is hashed, it produces the same output.
+  Hashing is the process of converting/encrypting data, like a password, into a fixed-length string using a mathematical function. It’s one-way, meaning it can't be reversed to reveal the original password. Each time the same password is hashed, it always produces the same output.
 
-  ## Why Do Websites Use Hashing?
-  Websites don’t store your actual password for security reasons. Instead, they store the hashed version. When you log in, the site hashes the password you enter and compares it to the stored hash linked to your username/email. If they match, you're allowed in. This ensures that even if someone steals the database, they can't easily recover your password.
+  ## Why Do We Use Hashing?
+  Websites don’t store your actual password for security reasons. Instead, they store the hashed version. When you log in, the site hashes the password you enter and compares it to the stored hash linked to your username/email. If they match, you're allowed in. This ensures that even if someone steals the password database, they can't easily recover your password.
 
   ## Hash Cracking
   Even though hashes can't be reversed, attackers can still crack them by generating hashes from potential passwords and comparing them to the given hash. This is done by brute-forcing hashes from a list of potential passwords. The attacker hashes each password and compares it to the target hash. When a match is found, the original password is revealed.
 
-  There are many methods to generate these potential passwords, including:
+  There are many methods to generate these potential passwords, including but not limited to:
   - Brute-force: Trying every possible combination of characters.
   - Dictionary attacks: Using a predefined list of common passwords (like RockYou).
+  - Mask Attacks: Bruteforcing only part of the password
+  - Hybrid Attacks: Combination of attack techniques
   - Rainbow tables: Precomputed tables that speed up the hash comparison process.
 
   Now, let’s move on to cracking the password in this challenge!
