@@ -23,7 +23,7 @@ Target Hash: `a9fe58ebbe541f23dcb988ac47e7ee6f`
 <details>
   <summary>Solution Guide</summary>
   
-  This challenge assumes you have solved the Easy challenge [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Easy/rockyou) and have a basic understanding of Hashcat. Please do that challenge and look over the solution guide before moving to this one. In RockYou, we used Hashcat to do a wordlist attack (aka Rainbow Tables Attack). However, we do not have a dictionary this time. We only have the password format of `THP-PASS-####` where the 4 numbers are unknown. Therefore, we will have to do a different attack to bruteforce every single number combination possible.
+  This challenge assumes you have solved the Easy challenge [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Easy/rockyou) and have a basic understanding of Hashcat. Please do that challenge and look over the solution guide before moving to this one. In RockYou, we used Hashcat to do a dictionary attack. However, we do not have a dictionary this time. We only have the password format of `THP-PASS-####` where the 4 numbers are unknown. Therefore, we will have to do a different attack to bruteforce every single number combination possible.
 
   Our first step is to identify the hash type. This can be done with an online tool such as https://hashes.com/en/tools/hash_identifier. After submitting the hash here, we can see that it is identified as an **MD5** hash.
 
