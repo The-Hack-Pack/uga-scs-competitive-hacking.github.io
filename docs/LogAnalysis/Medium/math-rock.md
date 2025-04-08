@@ -15,7 +15,7 @@ Log Analsysis | Medium - Math Rock
 
 ## Challenge
 
-We recorded a beautiful session with Ichika Nito the other day. Unfortunately, a group of mischievous teens broke into our studio and messed with the frequency log data. We need the piece for our marketing, so it is crucial that you find the frequency that was manipulated so that we don’t make our customers’ ears bleed! (Please wrap your answer like such: scs\{answer\})
+We recorded a beautiful session with Ichika Nito the other day. Unfortunately, a group of mischievous teens broke into our studio and messed with the frequency log data. We need the piece for our marketing, so it is crucial that you find the frequency that was manipulated so that we don’t make our customers’ ears bleed!
 
 <DownloadLink file="assets/ugahacks10/ichika-nito.log">ichika-nito.log</DownloadLink>
 [](./assets/ichika-nito.log)
