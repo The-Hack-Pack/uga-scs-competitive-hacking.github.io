@@ -21,18 +21,20 @@ Target Hash: `1a3dff6f600d9fd62f8ead361480cc61`
 
   Before we dive into the solution, let's quickly cover some background on password hashing.
 
-  ## What is Hashing?
-  Hashing is the process of turning data, like a password, into a fixed-length string using a mathematical function. It’s one-way, meaning it can't be reversed to reveal the original password. Each time the same password is hashed, it produces the same output.
+  <h2>What is Hashing?</h2>
+  Hashing is the process of converting/encrypting data, like a password, into a fixed-length string using a mathematical function. It’s one-way, meaning it can't be reversed to reveal the original password. Each time the same password is hashed, it always produces the same output.
 
-  ## Why Do Websites Use Hashing?
-  Websites don’t store your actual password for security reasons. Instead, they store the hashed version. When you log in, the site hashes the password you enter and compares it to the stored hash linked to your username/email. If they match, you're allowed in. This ensures that even if someone steals the database, they can't easily recover your password.
+  <h2>Why Do We Use Hashing?</h2>
+  Websites don’t store your actual password for security reasons. Instead, they store the hashed version. When you log in, the site hashes the password you enter and compares it to the stored hash linked to your username/email. If they match, you're allowed in. This ensures that even if someone steals the password database, they can't easily recover your password.
 
-  ## Hash Cracking
+  <h2>Hash Cracking</h2>
   Even though hashes can't be reversed, attackers can still crack them by generating hashes from potential passwords and comparing them to the given hash. This is done by brute-forcing hashes from a list of potential passwords. The attacker hashes each password and compares it to the target hash. When a match is found, the original password is revealed.
 
-  There are many methods to generate these potential passwords, including:
+  There are many methods to generate these potential passwords, including but not limited to:
   - Brute-force: Trying every possible combination of characters.
   - Dictionary attacks: Using a predefined list of common passwords (like RockYou).
+  - Mask Attacks: Bruteforcing only part of the password
+  - Hybrid Attacks: Combination of attack techniques
   - Rainbow tables: Precomputed tables that speed up the hash comparison process.
 
   Now, let’s move on to cracking the password in this challenge!
@@ -68,6 +70,9 @@ Target Hash: `1a3dff6f600d9fd62f8ead361480cc61`
       hashcat -a 0 -m 0 1a3dff6f600d9fd62f8ead361480cc61 /usr/share/wordlists/rockyou.txt.gz
       ```
   </details>
+  :::tip
+  Append your hashcat commands with `-O` to use Optimized Kernel. This speeds up the cracking process by limiting the password length to 12 characters.
+  :::
 
   After executing this command, hashcat will start cracking the hash by hashing every single password in the dictionary and comparing with our hash. This may take a few minutes but after a while, we should see our hash cracked!
 

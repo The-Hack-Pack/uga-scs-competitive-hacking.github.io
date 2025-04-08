@@ -1,7 +1,7 @@
 ---
-description: Forensics | Medium - Protected
+description: Password Cracking | Medium - Protected
 tags: [medium]
-sidebar_position: 0
+sidebar_position: 1
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
@@ -9,7 +9,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # Protected
-Forensics | Medium - Protected
+Password Cracking | Medium - Protected
 ## Challenge
 We have intercepted a PDF file but it seems to be protected with a password. Can you find a way through?
 
