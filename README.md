@@ -36,7 +36,6 @@
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Contribution Guide](#contribution-guide)
   - [Creating a New Challenge](#creating-a-new-challenge)
   - [Editing an Existing Challenge](#editing-an-existing-challenge)
