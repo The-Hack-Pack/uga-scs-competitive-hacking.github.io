@@ -2,9 +2,9 @@
 <img src="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/blob/main/static/img/social.png" alt="Logo" width="500" height="250" />
 <h1 align="center">The Hack Pack Website</h1>
 <p align="center">
-<a href="https://github.com/andreasbm/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Docusaurus-v3.7.0-blue.svg" height="20"/></a>
+<a href="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/graphs/framework"><img alt="Framework" src="https://img.shields.io/badge/Docusaurus-v3.7.0-blue.svg" height="20"/></a>
 <a href="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/The-Hack-Pack/uga-scs-competitive-hacking.github.io.svg" height="20"/></a>
-<a href="https://github.com/andreasbm/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
+<a href="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/graphs/maintained"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
 <a href="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/The-Hack-Pack/uga-scs-competitive-hacking.github.io?color=0088ff"/></a>
 <a href="https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io/graphs/issues"><img alt="Issues" src="https://img.shields.io/github/issues/The-Hack-Pack/uga-scs-competitive-hacking.github.io.svg" height="20"/></a>
 <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="License: CC BY-NC-ND 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg" height="20"/></a>
