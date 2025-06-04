@@ -34,7 +34,7 @@ Which command shows the current working directory?
 ### Question 3
 What command is used to change file permissions?
 <PasswordForm
-  hash="ee1067d2c54d8b095bb7b3937aa40968cc3475e4360433a8bf816217e823271fcc9e7222dd9e57afb5675d999b88f49574ed8e6a3833b1437910e9aba7b6575f"
+  hash="6b76c75225ee631974cdc7d0632b0ff497c7b79641bf6821f2fa091cf872ef789e4cd875772dda36d3ad7083e8e9c39f7f4bfeda41b9464a812afb79b894be0a"
   algorithm="sha512"
   challengeName="Linux 3"
   points={1}
@@ -195,7 +195,7 @@ Crack this password hash that follows the format of `DAWG-##` where `#` is a num
 10d5c804bce41fb34c9f8dfdd89b9ff9
 ```
 <PasswordForm
-  hash="e2260553cf5be566b56a8fdb1a9ce55accc010e4c80370f0be198897285de9c1f56a686ea10ad3dfea3d8a8fd60edcb22ba328a0f66024966ae15e7a49bfbff2"
+  hash="27edef6b6c749f47cab9fa96a23d6b1a52138ff4ed1287ab3dc06f5e3d5b96618b75095f1e9600c904fcb3ac2c80c7f11e75669a5147eb7ca0b3184fc2cc79fe"
   algorithm="sha512"
   challengeName="Pass 3"
   points={1}
