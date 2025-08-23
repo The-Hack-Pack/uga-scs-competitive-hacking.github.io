@@ -97,7 +97,7 @@ const Game = () => {
         <h4>King = 13</h4>
         <h4>Ace = 14</h4>
         <p>Card suits are ranked as follows:</p>
-        <h4>Spades > Hearts > Clubs > Diamonds</h4>
+        <h4>Spades &gt; Hearts &gt; Clubs &gt; Diamonds</h4>
         <p>Ties favor the dealer. If both draw the same card, the dealer wins.</p>
         <p>You need 20 wins in a row to win the game!</p>
       </div>
