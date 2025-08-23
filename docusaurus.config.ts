@@ -104,7 +104,7 @@ const config: Config = {
           label: 'Practice',
         },
         {to: 'about', label: 'About', position: 'left'},
-        {to: 'blog', label: 'Writeups', position: 'left'},
+        //{to: 'blog', label: 'Writeups', position: 'left'},
         {to: 'schedule', label: 'Schedule', position: 'left'},
       ],
     },
