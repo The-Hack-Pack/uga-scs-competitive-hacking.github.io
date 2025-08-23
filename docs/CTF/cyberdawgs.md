@@ -5,14 +5,13 @@ sidebar_position: 0
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import PasswordForm from '@site/src/components/PasswordForm4';
-import TeamNameBanner from '@site/src/components/TeamNameBanner';
+import PasswordForm from '@site/src/components/PasswordForm2';
 
 # UGA CyberDawgs CTF
 Welcome to the UGA CyberDawgs Capture The Flag competition! There are 20 questions, each is worth 1 percent of your total score. If you encounter any technical issues, ask for our help!
 
 *NOTE: Your correct answers are being saved and sent to us even if you refresh the page.*
-<TeamNameBanner />
+<!--<TeamNameBanner /> -->
 
 ## Linux
 ### Question 1
