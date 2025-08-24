@@ -18,6 +18,12 @@ Target Hash: `1a3dff6f600d9fd62f8ead361480cc61`
 ## Solution
 <details>
   <summary>Solution Guide</summary>
+  
+  <h2>Video Guide</h2>
+  Timestamp: 4:10-9:23
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/4lNpxP-zJsY?si=rFx-VwkmSan1SsQ0&start=250" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
+
+  ---
 
   Before we dive into the solution, let's quickly cover some background on password hashing.
 

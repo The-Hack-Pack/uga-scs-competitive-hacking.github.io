@@ -116,15 +116,15 @@ const config: Config = {
             href: 'http://discord.thehackpack.org',
           },
           {
-            label: 'Linktree',
-            href: 'https://linktr.ee/thehackpackuga',
+            label: 'LinkedIn',
+            href: 'https://www.linkedin.com/company/the-hack-pack',
           },
           {
-            label: 'Involvement Network',
-            href: 'https://uga.campuslabs.com/engage/organization/thehackpack',
+            label: 'Instagram',
+            href: 'https://www.instagram.com/thehackpackuga/',
           },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} The Hack Pack @ University of Georgia.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The Hack Pack at University of Georgia`,
     },
     prism: {
       theme: prismThemes.github,

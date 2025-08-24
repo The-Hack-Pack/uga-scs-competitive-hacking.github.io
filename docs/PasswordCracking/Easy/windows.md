@@ -18,9 +18,12 @@ Target Hash: `CB71EF0DA0400E47CCF9155E3E7DB453:C19E106F17653CDD586B95313D2053CA`
 ## Solution
 <details>
   <summary>Solution Guide</summary>
-  :::note
-  This challenge assumes you have some background knowledge on the hashing process. If you don't, please check out the solution guide for [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Easy/rockyou)
-  :::
+  
+  <h2>Video Guide</h2>
+  Timestamp: 13:53-17:30
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/4lNpxP-zJsY?si=rFx-VwkmSan1SsQ0&start=833" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
+
+  ---
 
   This is a unique kind of password cracking challenge as it is a Windows password and a format that you've probably not seen before. Windows passwords are designed to be resistant to bruteforce attacks and so we'll have to use a new technique known as a **Rainbow Tables Attack**. 
 

@@ -23,6 +23,12 @@ Target Hash: `a9fe58ebbe541f23dcb988ac47e7ee6f`
 <details>
   <summary>Solution Guide</summary>
   
+  <h2>Video Guide</h2>
+  Timestamp: 10:08-13:40
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/4lNpxP-zJsY?si=rFx-VwkmSan1SsQ0&start=608" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
+
+  ---
+
   This challenge assumes you have solved the Easy challenge [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Easy/rockyou) and have a basic understanding of Hashcat. Please do that challenge and look over the solution guide before moving to this one. In RockYou, we used Hashcat to do a dictionary attack. However, we do not have a dictionary this time. We only have the password format of `THP-PASS-####` where the 4 numbers are unknown. Therefore, we will have to do a different attack to bruteforce every single number combination possible.
 
   Our first step is to identify the hash type. This can be done with an online tool such as https://hashes.com/en/tools/hash_identifier. After submitting the hash here, we can see that it is identified as an **MD5** hash.
