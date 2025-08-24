@@ -15,39 +15,70 @@ export default function About() {
           </p>
         </div>
         <h1>Meet The Officers</h1>
-        <div style={{ maxWidth: '1000px', margin: '20px auto', textAlign: 'center' }}>
+        <div style={{ maxWidth: '1500px', margin: '20px auto', textAlign: 'center' }}>
           <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
             {/* First Row */}
-            <div style={{ flex: '0 0 30%', margin: '10px' }}>
+            <div style={{ flex: '0 0 20%', margin: '10px' }}>
               <img src={require('@site/static/img/divesh.webp').default} alt="Divesh Gupta" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
               <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/divesh2027/" target="_blank"><strong>Divesh Gupta</strong></a></p>
               <p style={{ margin: '5px 0', fontSize: '0.9em' }}>President</p>
             </div>
-            <div style={{ flex: '0 0 30%', margin: '10px' }}>
+            <div style={{ flex: '0 0 20%', margin: '10px' }}>
               <img src={require('@site/static/img/ethan.webp').default} alt="Ethan Mund" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
               <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/ethan-mund227/" target="_blank"><strong>Ethan Mund</strong></a></p>
               <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Vice President</p>
             </div>
-            <div style={{ flex: '0 0 30%', margin: '10px' }}>
-              <img src={require('@site/static/img/cole.webp').default} alt="Cole Nangle" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
-              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/cole-nangle/" target="_blank"><strong>Cole Nangle</strong></a></p>
-              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Lead Training Coordinator</p>
+            <div style={{ flex: '0 0 20%', margin: '10px' }}>
+              <img src={require('@site/static/img/garrett.webp').default} alt="Garrett Moore" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
+              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/garrett-moore-/" target="_blank"><strong>Garrett Moore</strong></a></p>
+              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Training Coordinator</p>
             </div>
-            {/* Second Row */}
-            <div style={{ flex: '0 0 30%', margin: '10px' }}>
+            <div style={{ flex: '0 0 20%', margin: '10px' }}>
               <img src={require('@site/static/img/swapnil.webp').default} alt="Swapnil Roy" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
               <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/swapnil-roy/" target="_blank"><strong>Swapnil Roy</strong></a></p>
-              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Treasurer</p>
+              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Treasurer, Trainer</p>
             </div>
-            <div style={{ flex: '0 0 30%', margin: '10px' }}>
-              <img src={require('@site/static/img/aparna.webp').default} alt="Aparna Sajith" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
-              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/aparna-sajith-a90716206/" target="_blank"><strong>Aparna Sajith</strong></a></p>
+            {/* Second Row */}
+            <div style={{ flex: '0 0 20%', margin: '10px' }}>
+              <img src={require('@site/static/img/placeholder.webp').default} alt="Pragnya Nallagonda" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
+              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/pragnya-nallagonda-45a92a236/" target="_blank"><strong>Pragnya Nallagonda</strong></a></p>
+              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Secretary</p>
+            </div>
+            <div style={{ flex: '0 0 20%', margin: '10px' }}>
+              <img src={require('@site/static/img/placeholder.webp').default} alt="Soumay Mali" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
+              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/soumay-mali-41482a294/" target="_blank"><strong>Soumay Mali</strong></a></p>
               <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Marketing Officer</p>
             </div>
-            <div style={{ flex: '0 0 30%', margin: '10px' }}>
+            <div style={{ flex: '0 0 20%', margin: '10px' }}>
               <img src={require('@site/static/img/sriram.webp').default} alt="SriRam Surisetty" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
               <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/sriram-surisetty-389483290/" target="_blank"><strong>SriRam Surisetty</strong></a></p>
-              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Competition Coordinator</p>
+              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Event Coordinator</p>
+            </div>
+            <div style={{ flex: '0 0 20%', margin: '10px' }}>
+              <img src={require('@site/static/img/hung.webp').default} alt="Hung Nguyen" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
+              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/hung-nguyen-123456789/" target="_blank"><strong>Hung Nguyen</strong></a></p>
+              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Graphic Designer, Trainer</p>
+            </div>
+            {/* Third Row */}
+            <div style={{ flex: '0 0 20%', margin: '10px' }}>
+              <img src={require('@site/static/img/placeholder.webp').default} alt="Zayan Hoodani" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
+              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/zayanh1/" target="_blank"><strong>Zayan Hoodani</strong></a></p>
+              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Trainer</p>
+            </div>
+            <div style={{ flex: '0 0 20%', margin: '10px' }}>
+              <img src={require('@site/static/img/placeholder.webp').default} alt="Caleb Floyd" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
+              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="" target="_blank"><strong>Caleb Floyd</strong></a></p>
+              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Website Admin</p>
+            </div>
+            <div style={{ flex: '0 0 20%', margin: '10px' }}>
+              <img src={require('@site/static/img/agni.webp').default} alt="Agni Athreya" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
+              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/agniathreya/" target="_blank"><strong>Agni Athreya</strong></a></p>
+              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>ARES Lab Director</p>
+            </div>
+            <div style={{ flex: '0 0 20%', margin: '10px' }}>
+              <img src={require('@site/static/img/placeholder.webp').default} alt="Michael Bowers" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
+              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="" target="_blank"><strong>Michael Bowers</strong></a></p>
+              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>New Website Developer</p>
             </div>
           </div>
         </div>
