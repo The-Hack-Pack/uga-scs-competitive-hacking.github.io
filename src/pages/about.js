@@ -5,13 +5,16 @@ export default function About() {
   return (
     <Layout title="About" description="Learn more about The Hack Pack">
       <div style={{ padding: '20px', textAlign: 'center' }}>
-        <h1>About</h1>
+        <h1>About The Hack Pack</h1>
         <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
           <p>
-            The Hack Pack is the <strong>practical & competitive cybersecurity</strong> club at the University of Georgia. Learn hands-on cybersecurity and then apply your knowledge in competitions!
+            The Hack Pack is the University of Georgia's official <strong>competitive and practical cybersecurity club</strong>. We are a vibrant community of students passionate about all aspects of security, from network defense to penetration testing and everything in between.
           </p>
           <p>
-            Open to <strong>all UGA students</strong> regardless of any experience! We will teach and prepare you for everything with our weekly training sessions, practice challenges, team-based & solo competitions, and writeups.
+            Whether you're a seasoned professional or someone new to cybersecurity, you've found your home. We welcome <strong>all UGA students</strong> regardless of experience level and provide hands-on training, competitive opportunities, and career-readiness resources.
+          </p>
+          <p>
+            Our philosophy is centered around <strong>hands-on learning</strong> through weekly training sessions, practice challenges, team-based competitions, and detailed writeups. We create a supportive environment where you can learn, grow, and challenge yourself alongside fellow cybersecurity enthusiasts.
           </p>
         </div>
         <h1>Meet The Officers</h1>
