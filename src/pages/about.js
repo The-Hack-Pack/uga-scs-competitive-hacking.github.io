@@ -43,7 +43,7 @@ export default function About() {
             </div>
             {/* Second Row */}
             <div style={{ flex: '0 0 20%', margin: '10px' }}>
-              <img src={require('@site/static/img/placeholder.webp').default} alt="Pragnya Nallagonda" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
+              <img src={require('@site/static/img/pragnya.webp').default} alt="Pragnya Nallagonda" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
               <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/pragnya-nallagonda-45a92a236/" target="_blank"><strong>Pragnya Nallagonda</strong></a></p>
               <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Secretary</p>
             </div>
@@ -64,13 +64,13 @@ export default function About() {
             </div>
             {/* Third Row */}
             <div style={{ flex: '0 0 20%', margin: '10px' }}>
-              <img src={require('@site/static/img/placeholder.webp').default} alt="Zayan Hoodani" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
+              <img src={require('@site/static/img/zayan.webp').default} alt="Zayan Hoodani" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
               <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/zayanh1/" target="_blank"><strong>Zayan Hoodani</strong></a></p>
               <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Trainer</p>
             </div>
             <div style={{ flex: '0 0 20%', margin: '10px' }}>
               <img src={require('@site/static/img/placeholder.webp').default} alt="Caleb Floyd" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
-              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="" target="_blank"><strong>Caleb Floyd</strong></a></p>
+              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/caleb-floyd-622253367" target="_blank"><strong>Caleb Floyd</strong></a></p>
               <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Website Admin</p>
             </div>
             <div style={{ flex: '0 0 20%', margin: '10px' }}>
