@@ -14,39 +14,6 @@ Welcome to the Fall 2025 Kickoff Capture The Flag competition! There are 20 chal
 *NOTE: Your correct answers are being saved and sent even if you refresh the page.*
 <NameBanner />
 
-## Linux
-### Question 1
-What command lists files in a directory?
-<PasswordForm
-  hash="777ab7e034a7f7f2c6aa3199de4cf85528320c0835fcbde7e3dada27a58094ca23085d7480c6e6123b0afdcef98876996a1dc478fb7682c3099fb3a1123a7204"
-  algorithm="sha512"
-  challengeName="Linux 1"
-  points={1}
-/>
-### Question 2
-Which command shows the current working directory?
-<PasswordForm
-  hash="ee1067d2c54d8b095bb7b3937aa40968cc3475e4360433a8bf816217e823271fcc9e7222dd9e57afb5675d999b88f49574ed8e6a3833b1437910e9aba7b6575f"
-  algorithm="sha512"
-  challengeName="Linux 2"
-  points={1}
-/>
-### Question 3
-What command is used to change file permissions?
-<PasswordForm
-  hash="6b76c75225ee631974cdc7d0632b0ff497c7b79641bf6821f2fa091cf872ef789e4cd875772dda36d3ad7083e8e9c39f7f4bfeda41b9464a812afb79b894be0a"
-  algorithm="sha512"
-  challengeName="Linux 3"
-  points={1}
-/>
-### Question 4
-What is the full command to create a blank file called `test.txt`
-<PasswordForm
-  hash="b6d745155986c413d3c1a789ea76509b168d69eff75b3624f3b936032daedc5c60ecbf50c05165c4f6f34085491e9831e8424c3ffef832a46eecc871e4dca07a"
-  algorithm="sha512"
-  challengeName="Linux 4"
-  points={1}
-/>
 ## OSINT
 ### Question 5
 What does OSINT stand for?
@@ -120,64 +87,11 @@ Decode this symbol cipher:
   challengeName="Crypto 4"
   points={1}
 />
-## Python
-### Question 13
-What variable type is this?
-```python
-quality = 32.7
-```
-<PasswordForm
-  hash="48737c9143addc143ef957a0b53c918414d40500f7cb98402d86e9609ae325e7aceed6264a508ffaed99a27dfb984ddd3bb75ceaee6546f043f7963ede6616ec"
-  algorithm="sha512"
-  challengeName="Python 1"
-  points={1}
-/>
-### Question 14
-What is the value of `ord('X')`?
 
-<PasswordForm
-  hash="bb90b23776dfde3333f63a924ebd2a039d80fc9280a7d1e9418529ced428930b69a95d55c4d9238f30b73789b4ebe0356bb9b8707025e3c527ca34825a160e2d"
-  algorithm="sha512"
-  challengeName="Python 2"
-  points={1}
-/>
-### Question 15
-What will the following python code output?
-```python
-data = [223.4, 13.7, 9.0, 12.53, 924924.2, 5.5]
-amnt = 0
-for i in data:
-  if (i > 12.1):
-    amnt += 1
-print(amnt)
-```
-<PasswordForm
-  hash="a321d8b405e3ef2604959847b36d171eebebc4a8941dc70a4784935a4fca5d5813de84dfa049f06549aa61b20848c1633ce81b675286ea8fb53db240d831c568"
-  algorithm="sha512"
-  challengeName="Python 3"
-  points={1}
-/>
-### Question 16
-We’ve received this encrypted unicode that has been shifted backwards by 3 characters:
-```
-112 101 94 109 98 112 101 102 99 113
-```
-<PasswordForm
-  hash="50786baa29393875bb7fc3a71ab6f72751687d25a535d158f577c5582b9cb6cfd7e12f93c552b57c7c9a9f6f9a56e4802ce7bab15a1ca5fa222705c9d6cea886"
-  algorithm="sha512"
-  challengeName="Python 4"
-  points={1}
-/>
+## Web App Exploitation
+## Forensics
+
 ## Password Cracking
-### Question 17
-What tool is most commonly used in password cracking?
-
-<PasswordForm
-  hash="82a9dda829eb7f8ffe9fbe49e45d47d2dad9664fbb7adf72492e3c81ebd3e29134d9bc12212bf83c6840f10e8246b9db54a4859b7ccd0123d86e5872c1e5082f"
-  algorithm="sha512"
-  challengeName="Pass 1"
-  points={1}
-/>
 ### Question 18
 Crack this password hash using `rockyou.txt`:
 ```
