@@ -21,7 +21,7 @@ const NameBanner = () => {
     const newName = prompt('Enter your full name:');
     if (newName) {
       Cookies.set('name', newName, { expires: 7 });
-      setTeamName(newName);
+      setName(newName);
     }
   };
 
