@@ -62,7 +62,7 @@ What is the flag?
 <PasswordForm
   hash="4e9fa155d0aed83c07a760f009eb35faab49f0bf7e1b4cc53144b8b011680c8e57cb2f07918adbde1cc45651ff764047ba9f08403968062a03be8d0b56d0b839"
   algorithm="sha512"
-  challengeName="OSINT 4"
+  challengeName="OSINT 6"
   points={1}
 />
 
