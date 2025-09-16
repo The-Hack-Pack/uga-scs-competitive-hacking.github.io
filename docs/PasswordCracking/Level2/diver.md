@@ -19,7 +19,7 @@ Target Hash: `7d2eec8b9a92dd4d4dde274e09031129`
 <details>
   <summary>Solution Guide</summary>
   :::note
-  This challenge assumes you know how to solve [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Easy/rockyou) and [**Fusion**](https://thehackpack.org/practice/PasswordCracking/Hard/fusion).
+  This challenge assumes you know how to solve [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Level1/rockyou) and [**Fusion**](https://thehackpack.org/practice/PasswordCracking/Level2/fusion).
   :::
 
   ---
@@ -50,10 +50,10 @@ Target Hash: `7d2eec8b9a92dd4d4dde274e09031129`
   hashcat -m 0 -a 0 hash.txt wordlist.txt -r rules.rule
   ```
 
-  If you want to learn more in depth, try [**Rulemaker**](https://thehackpack.org/practice/PasswordCracking/Expert/rulemaker) after finishing this challenge. 
+  If you want to learn more in depth, try [**Rulemaker**](https://thehackpack.org/practice/PasswordCracking/Level2/rulemaker) after finishing this challenge. 
 
   ---
-  Alright, now let's solve this challenge. You should be able to find a wordlist with knowledge from [**Fusion**](https://thehackpack.org/practice/PasswordCracking/Hard/fusion).
+  Alright, now let's solve this challenge. You should be able to find a wordlist with knowledge from [**Fusion**](https://thehackpack.org/practice/PasswordCracking/Level2/fusion).
   :::warning
   When using wordlists with rules, you should always remove all spaces & special characters and convert the wordlist to lowercase beforehand
   :::
