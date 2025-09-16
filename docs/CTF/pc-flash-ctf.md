@@ -166,16 +166,17 @@ We've received a password hash that's based on our about page with 1 number appe
 />
 
 ### Challenge 12
-(40 points)
+(30 points)
 
-We've recieved a zip file with an encrypted zip file inside, can you figure out the password? (Hint: comment)
+We've recieved a zip file with an encrypted zip file inside, can you get in? (Hint: meta)
 
+[Download Zip](./assets/outside.zip)
 <!-- Password: 8rhq209rhq90hf22rh09qiwfq -->
 <PasswordForm
   hash="2684c41e86acae180e07d02c7b3930bb0f5b0d5746355f9b886dd0091093ed46003a2f13296828ce50d38981593f376ed5eecee8d42515df7b30cb71375d2a21"
   algorithm="sha512"
   challengeName="Passcrack 12"
-  points={40}
+  points={30}
 />
 
 
