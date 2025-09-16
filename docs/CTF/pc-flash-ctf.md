@@ -11,6 +11,8 @@ import NameBanner from '@site/src/components/TeamNameBanner';
 # Password Cracking Flash CTF
 Welcome to the Fall 2025 Kickoff Capture The Flag competition! You will work in teams of 4. Questions have varying point values.
 
+**Total Points Available: 325**
+
 *NOTE: Your correct answers are being saved and sent even if you refresh the page.*
 <NameBanner />
 
