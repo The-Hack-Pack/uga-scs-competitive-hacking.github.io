@@ -48,7 +48,7 @@ We've received a password hash in the format of `THP-DML?-249#` where `?` is an 
 
 `cc1f062de5a0967c1c3d7ae4b4c5aeee`
 <PasswordForm
-  hash="7c6617c46a5f1b3ecac7aa93efa7b25a46a85cf64a890bfd4144fca93e88f3aed0a2dbf307e5fb54193c061fa2110528b803b210f519be93e55abcaf5c83a0a3"
+  hash="586d15ab97b01efe9ad559c0ece1799fdcb0e372713eee8c2b4cc2961a98739588f9c6b1f80ec701f63230abfcca8b0026ba382d823aed1bf2c8db9e29d4fb85"
   algorithm="sha512"
   challengeName="Passcrack 3"
   points={10}
@@ -156,7 +156,7 @@ We've received a `/etc/shadow` file from a linux environment, can you get into a
 We've received a password hash that's based on our about page with 2 numbers appended. (Hint: `cewl <site> -w <output>`)
 
 `1719e76336b93effb3d3cc3ca781fade`
-<!-- Password: kn1TG7psLu -->
+<!-- Password: Roy1 -->
 <PasswordForm
   hash="50ee3bc067a235724487014812a4f6b33d5f8e502b7877239c4495aa314a6f4070643b14c1ed094d41f5c4330ac86e351419052c862961713526a29606c9cb39"
   algorithm="sha512"
