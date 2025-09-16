@@ -154,7 +154,7 @@ We've received a `/etc/shadow` file from a linux environment, can you get into a
 ### Challenge 11
 (40 points)
 
-We've received a password hash that's based on our about page with 2 numbers appended. (Hint: `cewl <site> -w <output>`)
+We've received a password hash that's based on our about page with 1 number appended. (Hint: You can make a wordlist with `cewl <website> -w <output>`)
 
 `1719e76336b93effb3d3cc3ca781fade`
 <!-- Password: Roy1 -->
