@@ -100,6 +100,7 @@ We've received a password hash based on the 10k most common passwords with 1 dig
 We've received an encrypted PDF file with a password from rockyou.txt.
 
 [Download PDF](./assets/pdf-protected.pdf) (If it opens in new tab, use Ctrl/Command + S to save).
+<!--Password: mcqueen1-->
 
 <PasswordForm
   hash="10bfa5178194b4876ba4680e14217c1527441d6b7e7eb2c483800b9399507bb144102eec5553b7ede61028f18d7018098136e3f94074e910219702b2cacc370c"
@@ -144,7 +145,7 @@ We've received a `/etc/shadow` file from a linux environment, can you get into a
 [Download /etc/shadow](./assets/shadow.txt)
 <!-- Password: kn1TG7psLu -->
 <PasswordForm
-  hash="ca06a2c533db85ea68c70a3d1173a37a3b0716f70ff18e36f9c91e095b1f43400d10d1becedf623e00481312fd829ce9c48272df782b0760a773a38d4f4295aa"
+  hash="e9c1a065977f25f20e197d14a0b331e89d349e004071095b35157091a29076b70a785bddb82f2926c4527bc235115382ff5d8107c44e9f0f12eca6a13dc8f0a3"
   algorithm="sha512"
   challengeName="Passcrack 10"
   points={50}
