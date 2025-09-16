@@ -46,7 +46,7 @@ const PasswordForm4 = ({ hash, algorithm, challengeName, points }) => {
 
 
     try {
-      await fetch('https://script.google.com/macros/s/AKfycbwaUetsTeGAc22aChQV6l2rQAVPJN6za8jkIRPeWeIlOO0jnFltqLoN_CojmSZHBoqb/exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbzdwGVxiBKfv8tFUy5P_EgmK4owMqC-BjCbEzJhkPVSRvFz_-N2Ay1RODYuHskhc2YM/exec', {
         method: 'POST',
         body: JSON.stringify(payload),
         headers: { 'Content-Type': 'application/json' },

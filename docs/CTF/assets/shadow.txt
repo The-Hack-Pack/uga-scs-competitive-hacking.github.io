@@ -1,0 +1,8 @@
+root:*:19000:0:99999:7::::
+daemon:*:17900:0:99999:7::::
+sys:*:17900:0:99999:7::::
+admin:$6$p01i8iqarTDiXHEv$a2Nq92q7uaRkyEjAeHvoYUfzzHF9S/NTh2MequFpxsTNd6HWVzT13xdrYa4H9aILjwnlc/p7iceZau4EjDT0a0:19000:0:99999:7::::
+alice::19000:0:99999:7::::
+bob::18950:0:99999:7::::
+carol::18900:0:99999:7::::
+dave::18890:0:99999:7::::
