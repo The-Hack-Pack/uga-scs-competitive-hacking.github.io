@@ -1,13 +1,13 @@
 ---
-description: Password Cracking | Easy - RockYou
-tags: [easy]
+description: Password Cracking | Level 1 - RockYou
+tags: [level1]
 sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
 
 # RockYou
-Password Cracking | Easy - RockYou
+Password Cracking | Level 1 - RockYou
 ## Challenge
 A password hash was retrieved that needs to be cracked. We have received intel that the password is from the RockYou breach.
 

@@ -1,13 +1,13 @@
 ---
-description: Password Cracking | Hard - Fusion
-tags: [hard]
+description: Password Cracking | Level 2 - Fusion
+tags: [level2]
 sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm2';
 
 # Fusion
-Password Cracking | Hard - Fusion
+Password Cracking | Level 2 - Fusion
 ## Challenge
 A password hash was retrieved that needs to be cracked. We have received intel that the password is a Netflix movie or show with a number at the end. Can you crack the password?
 

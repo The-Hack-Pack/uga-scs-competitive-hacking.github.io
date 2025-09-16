@@ -1,13 +1,13 @@
 ---
-description: Password Cracking | Hard - Diver
-tags: [hard]
+description: Password Cracking | Level 2 - Diver
+tags: [level2]
 sidebar_position: 1
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm2';
 
 # Diver
-Password Cracking | Hard - Diver
+Password Cracking | Level 2 - Diver
 ## Challenge
 A password hash was retrieved that needs to be cracked. We have received intel that the password is vehicles but have some sort of rule affecting them.
 

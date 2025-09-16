@@ -1,13 +1,13 @@
 ---
-description: Password Cracking | Expert - Rulemaker
-tags: [expert]
-sidebar_position: 0
+description: Password Cracking | Level 2 - Rulemaker
+tags: [level2]
+sidebar_position: 2
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm2';
 
 # Rulemaker
-Password Cracking | Expert - Rulemaker
+Password Cracking | Level 2 - Rulemaker
 ## Challenge
 A password hash was retrieved that needs to be cracked. We know it's based on animals but there's some weird prepending & appending with numbers and common special characters. Can you crack the hash?
 

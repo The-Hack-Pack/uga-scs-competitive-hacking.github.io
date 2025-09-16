@@ -1,7 +1,7 @@
 ---
-description: Password Cracking | Medium - Protected
-tags: [medium]
-sidebar_position: 1
+description: Password Cracking | Level 1 - Protected
+tags: [level1]
+sidebar_position: 3
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
@@ -9,7 +9,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # Protected
-Password Cracking | Medium - Protected
+Password Cracking | Level 1 - Protected
 ## Challenge
 We have intercepted a PDF file but it seems to be protected with a password. Can you find a way through?
 

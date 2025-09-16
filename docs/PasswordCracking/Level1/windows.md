@@ -1,13 +1,13 @@
 ---
-description: Password Cracking | Easy - Windows
-tags: [easy]
+description: Password Cracking | Level 1 - Windows
+tags: [level1]
 sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm2';
 
 # Windows
-Password Cracking | Easy - Windows
+Password Cracking | Level 1 - Windows
 ## Challenge
 A Windows password hash was retrieved that needs to be cracked. Can you retrieve the original password?
 

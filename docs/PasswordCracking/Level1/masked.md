@@ -1,13 +1,13 @@
 ---
-description: Password Cracking | Medium - Masked
-tags: [medium]
-sidebar_position: 0
+description: Password Cracking | Level 1 - Masked
+tags: [level1]
+sidebar_position: 2
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
 
 # Masked
-Password Cracking | Medium - Masked
+Password Cracking | Level 1 - Masked
 ## Challenge
 A password hash was retrieved that needs to be cracked. We have received intel that the password is of the format 
 
