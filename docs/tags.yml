@@ -1,16 +1,16 @@
 easy:
-  label: 'Easy'
-  permalink: '/easy'
-  description: 'Easy level challenges.'
+  label: 'Level1'
+  permalink: '/level1'
+  description: 'Level 1 challenges.'
 medium:
-  label: 'Medium'
-  permalink: '/medium'
-  description: 'Medium level challenges.'
+  label: 'Level2'
+  permalink: '/level2'
+  description: 'Level 2 challenges.'
 hard:
-  label: 'Hard'
-  permalink: '/hard'
-  description: 'Hard level challenges.'
+  label: 'Level3'
+  permalink: '/level3'
+  description: 'Level 3 challenges.'
 expert:
-  label: 'Expert'
-  permalink: '/expert'
-  description: 'Expert level challenges.'
+  label: 'Level4'
+  permalink: '/level4'
+  description: 'Level 4 challenges.'
