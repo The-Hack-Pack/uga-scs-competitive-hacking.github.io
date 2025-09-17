@@ -19,7 +19,7 @@ Target Hash: `9ac155fa85bf02a8712c1498c1c58799`
 <details>
   <summary>Solution Guide</summary>
   :::note
-    This challenge assumes you know how to solve [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Easy/rockyou), [**Fusion**](https://thehackpack.org/practice/PasswordCracking/Hard/fusion), & [**Diver**](https://thehackpack.org/practice/PasswordCracking/Hard/diver).
+    This challenge assumes you know how to solve [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Level1/rockyou), [**Fusion**](https://thehackpack.org/practice/PasswordCracking/Level2/fusion), & [**Diver**](https://thehackpack.org/practice/PasswordCracking/Level2/diver).
   :::
 
   You should know how to get the wordlist for animals (make sure to sanitize it, remove spaces, & make it lowercase). You'll notice that if you try any pre existing rules in hashcat, you won't get the password. This is because this challenge requires you to craft your own rules.
@@ -27,7 +27,7 @@ Target Hash: `9ac155fa85bf02a8712c1498c1c58799`
   ---
   
   <h2>How to make rules in Hashcat</h2>
-  As you know from [**Diver**](https://thehackpack.org/practice/PasswordCracking/Hard/diver), Hashcat rules let you transform every word in your wordlist using lightweight text manipulation instructions. It’s like regex, but much more optimized and tuned specifically for password cracking.
+  As you know from [**Diver**](https://thehackpack.org/practice/PasswordCracking/Level2/diver), Hashcat rules let you transform every word in your wordlist using lightweight text manipulation instructions. It’s like regex, but much more optimized and tuned specifically for password cracking.
 
   Rules are written one instruction per line, with each instruction telling Hashcat how to modify the base word. You can do things like:
   - Add characters (`$!` adds `!` to the end, `^@` adds `@` to the beginning)

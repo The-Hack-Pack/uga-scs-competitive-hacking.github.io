@@ -20,7 +20,7 @@ Target Hash: `427e3d9c817de20912d9838f1f2ad7d0`
   <summary>Solution Guide</summary>
   
   :::note
-  This challenge assumes you know how to solve [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Easy/rockyou) & [**Masked**](https://thehackpack.org/practice/PasswordCracking/Medium/masked).
+  This challenge assumes you know how to solve [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Level1/rockyou) & [**Masked**](https://thehackpack.org/practice/PasswordCracking/Level1/masked).
   :::
 
   As you may be able to tell from the challenge title, we need to fuse or combine 2 different password cracking techniques for this: dictionary attack & mask attack. But notice, we are not provided with a wordlist so we will need to research.
@@ -41,7 +41,7 @@ Target Hash: `427e3d9c817de20912d9838f1f2ad7d0`
 
   We're now ready to attack the hash and obtain our password. As usual, we will use hashcat but this time with their [**Hybrid**](https://hashcat.net/wiki/doku.php?id=hybrid_attack) mode. Hashcat has two hybrid modes. Attack mode `-a 6` is wordlist appended with mask (wordlist + mask). Attack mode `-a 7` is wordlist prepended with mask (mask + wordlist). We know our hash is our wordlist with a number (the mask) appended at the end so we will use `-a 6`. 
 
-  You should know how to find out hash type from [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Easy/rockyou). You should know which mask to use from [**Masked**](https://thehackpack.org/practice/PasswordCracking/Medium/masked). I now encourage you to craft the attack command yourself.
+  You should know how to find out hash type from [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Level1/rockyou). You should know which mask to use from [**Masked**](https://thehackpack.org/practice/PasswordCracking/Level2/masked). I now encourage you to craft the attack command yourself.
   <details>
     <summary>Reveal Command</summary>
     
