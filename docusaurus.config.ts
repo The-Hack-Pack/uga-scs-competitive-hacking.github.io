@@ -124,7 +124,7 @@ const config: Config = {
             href: 'https://www.instagram.com/thehackpackuga/',
           },
           {
-            label: 'Youtube',
+            label: 'YouTube',
             href: 'https://www.youtube.com/@TheHackPackUGA',
           },
       ],
