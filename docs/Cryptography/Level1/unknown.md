@@ -1,13 +1,13 @@
 ---
-description: Cryptography | Easy - Unknown
-tags: [easy]
+description: Cryptography | Level 1 - Unknown
+tags: [level1]
 sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
 
 # Unknown
-Cryptography | Easy - Unknown
+Cryptography | Level 1 - Unknown
 
 ## Challenge
 We have intercepted a message written in a strange language, see if you can decrypt it.
