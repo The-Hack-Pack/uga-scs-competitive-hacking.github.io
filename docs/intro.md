@@ -8,15 +8,15 @@ Welcome to **The Hack Pack**'s official practice page!
 
 ## Getting Started
 
-On the left sidebar, there are different categories of competitive cybersecurity. Under each category, there are multiple challenges ranging from **Easy** to **Hard** difficulties. Each difficulty assumes you have knowledge on the previous difficulty challenges in the category.
+On the left sidebar, there are different categories of competitive cybersecurity. Under each category, there are multiple challenges ranging from **Level 1** to **Level 3** difficulties. Each difficulty assumes you have knowledge on the previous difficulty challenges in the category.
 
 Click on one of them to view the challenge. There will be instructions on your goal, any available file downloads, a submission field to check your answers, and a solution guide. Use these to practice and learn!
 
 View challenges by difficulty:
-- [Easy](https://thehackpack.org/practice/tags/easy) 
-- [Medium](https://thehackpack.org/practice/tags/medium)
-- [Hard](https://thehackpack.org/practice/tags/hard)
-- [Expert](https://thehackpack.org/practice/tags/expert)  
+- [Level1](https://thehackpack.org/practice/tags/level1) 
+- [Level2](https://thehackpack.org/practice/tags/level2)
+- [Level3](https://thehackpack.org/practice/tags/level3)
+- [Level4](https://thehackpack.org/practice/tags/level4)  
 
 ## What you'll need
 
