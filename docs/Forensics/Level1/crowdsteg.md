@@ -1,13 +1,13 @@
 ---
-description: Cryptography | Level 2 - CrowdSteg
-tags: [level2]
-sidebar_position: 0
+description: Forensics | Level 1 - CrowdSteg
+tags: [level1]
+sidebar_position: 2
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
 
 # CrowdSteg
-Cryptography | Level 2 - CrowdSteg
+Forensics | Level 1 - CrowdSteg
 
 ## Challenge
 We have recieved an image that is hiding something. See if you can find the secret.
