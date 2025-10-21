@@ -123,6 +123,10 @@ const config: Config = {
             label: 'Instagram',
             href: 'https://www.instagram.com/thehackpackuga/',
           },
+          {
+            label: 'YouTube',
+            href: 'https://www.youtube.com/@TheHackPackUGA',
+          },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} The Hack Pack at University of Georgia`,
     },

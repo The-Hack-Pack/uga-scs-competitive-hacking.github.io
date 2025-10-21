@@ -1,13 +1,13 @@
 ---
-description: Cryptography | Medium - CrowdSteg
-tags: [medium]
+description: Cryptography | Level 2 - CrowdSteg
+tags: [level2]
 sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
 
 # CrowdSteg
-Cryptography | Medium - CrowdSteg
+Cryptography | Level 2 - CrowdSteg
 
 ## Challenge
 We have recieved an image that is hiding something. See if you can find the secret.

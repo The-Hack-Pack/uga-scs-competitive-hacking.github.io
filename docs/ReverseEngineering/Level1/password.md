@@ -1,13 +1,13 @@
 ---
-description: Reverse Engineering | Easy - Password
-tags: [easy]
+description: Reverse Engineering | Level 1 - Password
+tags: [level1]
 sidebar_position: 1
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
 
 # Password
-Reverse Engineering | Easy - Password
+Reverse Engineering | Level 1 - Password
 ## Challenge
 We have created a binary for you to break into as training. See if you can figure out a password that will authenticate with the program.
 

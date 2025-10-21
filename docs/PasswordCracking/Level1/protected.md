@@ -21,7 +21,7 @@ Flag: <PasswordForm hash="efca4e4f572283feda8600aefc9a7660d57e50662160eaa92feced
 <details>
   <summary>Solution Guide</summary>
   
-  This challenge requires basic understanding of password cracking & Hashcat's dictionary attack so please do [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Easy/rockyou) before doing this challenge.
+  This challenge requires basic understanding of password cracking & Hashcat's dictionary attack so please do [**RockYou**](https://thehackpack.org/practice/PasswordCracking/Level1/rockyou) before doing this challenge.
   
   Encrypted PDF files also have a password hash. We can extract it with a tool like John The Ripper (JTR) or an online tool. We will use an online tool: https://hashes.com/en/johntheripper/pdf2john. This online tool uses JTR behind the scenes. Upload the pdf file and you will get the password hash.
 

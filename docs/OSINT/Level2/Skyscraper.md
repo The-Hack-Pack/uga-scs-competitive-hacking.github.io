@@ -1,13 +1,13 @@
 ---
-description: Open Source Intelligence | Medium - Skyscraper
-tags: [medium]
+description: Open Source Intelligence | Level 2 - Skyscraper
+tags: [level2]
 sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
 
 # Skyscraper
-Open Source Intelligence | Medium - Skyscraper
+Open Source Intelligence | Level 2 - Skyscraper
 ## Challenge
 We have received a photograph that needs investigation. Can you find the following information?
 

@@ -1,6 +1,6 @@
 ---
-description: Forensics | Easy - Broken
-tags: [easy]
+description: Forensics | Level 1 - Broken
+tags: [level1]
 sidebar_position: 0
 ---
 
@@ -9,7 +9,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # Broken
-Forensics | Easy - Broken
+Forensics | Level 1 - Broken
 ## Challenge
 We have intercepted a dank meme. Unfortunately, it seems to be corrupted. Can you fix it?
 

@@ -1,7 +1,7 @@
 ---
-description: "Log Analysis | Medium - Math Rock"
+description: "Log Analysis | Level 2 - Math Rock"
 sidebar_position: 4
-tags: [medium]
+tags: [level2]
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm2';
@@ -11,7 +11,7 @@ import DownloadLink from '@site/src/components/DownloadLink';
 
 # Math Rock
 
-Log Analsysis | Medium - Math Rock
+Log Analsysis | Level 2 - Math Rock
 
 ## Challenge
 

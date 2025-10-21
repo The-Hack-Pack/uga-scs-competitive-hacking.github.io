@@ -1,13 +1,13 @@
 ---
-description: Open Source Intelligence | Easy - TV
-tags: [easy]
+description: Open Source Intelligence | Level 1 - TV
+tags: [level1]
 sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
 
 # TV
-Open Source Intelligence | Easy - TV
+Open Source Intelligence | Level 1 - TV
 ## Challenge
 We have received a photograph that needs investigation. Can you find the following information?
 
