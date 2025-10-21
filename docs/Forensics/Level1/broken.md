@@ -1,7 +1,7 @@
 ---
 description: Forensics | Level 1 - Broken
 tags: [level1]
-sidebar_position: 0
+sidebar_position: 1
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
