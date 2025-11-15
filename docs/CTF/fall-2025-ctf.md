@@ -5,10 +5,14 @@ sidebar_position: 0
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import PasswordForm from '@site/src/components/PasswordForm2';
+import PasswordForm from '@site/src/components/PasswordForm5';
+import NameBanner from '@site/src/components/NameBanner';
 
 # Fall 2025 Kickoff CTF
-Welcome to the Fall 2025 Kickoff Capture The Flag competition! There are 15 questions across 10 challenges.
+Welcome to the Fall 2025 Kickoff Capture The Flag competition! There are 15 questions across 10 challenges. Each question is worth 1 point.
+
+*NOTE: Your correct answers are being saved and sent even if you refresh the page.*
+<NameBanner />
 
 ## OSINT
 ### Challenge 1

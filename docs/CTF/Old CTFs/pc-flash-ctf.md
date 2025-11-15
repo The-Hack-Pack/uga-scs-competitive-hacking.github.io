@@ -5,16 +5,10 @@ sidebar_position: 0
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import PasswordForm from '@site/src/components/PasswordForm4';
-import NameBanner from '@site/src/components/TeamNameBanner';
+import PasswordForm from '@site/src/components/PasswordForm2';
 
 # Password Cracking Flash CTF
-Welcome to the Fall 2025 Kickoff Capture The Flag competition! You will work in teams of 4. Questions have varying point values.
-
-**Total Points Available: 325**
-
-*NOTE: Your correct answers are being saved and sent even if you refresh the page.*
-<NameBanner />
+Welcome to the Fall 2025 Kickoff Capture The Flag competition! You will work in teams of 4.
 
 ## Password Cracking
 ### Challenge 1
