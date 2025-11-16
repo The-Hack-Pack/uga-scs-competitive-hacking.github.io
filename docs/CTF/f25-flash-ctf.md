@@ -119,6 +119,18 @@ Website: https://notes.thehackpack.org
   points={20}
 />
 
+### Question # (20 points)
+Can you find the flag on this fetch service?
+
+Website: https://fetch.thehackpack.org
+
+<PasswordForm
+  hash="a8bf0d2b4b898010105df4063dc81f7b93078e155f067b8d5564daf52f3184d6c98e745966351a5e4f9646d2611dc0eadeecea0b055f3de4f16e34b3c86254bf"
+  algorithm="sha512"
+  challengeName="Web 3"
+  points={30}
+/>
+
 ## Reverse Engineering
 
 
