@@ -64,6 +64,14 @@
   border-radius: 12px;
 }
 
+[data-theme='dark'] .scheduleFrame {
+  filter: invert(0.9) hue-rotate(180deg);
+}
+
+[data-theme='dark'] .scheduleFrame img {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 .mapFrame {
   width: 100%;
   height: 450px;
