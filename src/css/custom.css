@@ -1,3 +1,39 @@
+/* Custom download button styles for CTF page */
+.download-btn-link {
+  text-decoration: none;
+}
+
+.download-btn {
+  background: var(--ifm-color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.32em 0.9em;
+  font-family: var(--ifm-font-family-base);
+  font-size: 0.95em;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+  margin: 0.25em 0 0.7em 0;
+  display: inline-block;
+}
+
+.download-btn:hover, .download-btn:focus {
+  background: var(--ifm-color-primary-dark);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transform: translateY(-2px) scale(1.04);
+}
+
+[data-theme='dark'] .download-btn {
+  background: var(--ifm-color-primary);
+  color: #fff;
+}
+[data-theme='dark'] .download-btn:hover, [data-theme='dark'] .download-btn:focus {
+  background: var(--ifm-color-primary-darkest);
+  color: #fff;
+}
 @import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
 /**
  * Any CSS included here will be global. The classic template

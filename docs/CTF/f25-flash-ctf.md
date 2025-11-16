@@ -17,9 +17,12 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 ## OSINT
 
 ### Challenge 2 (20 points)
+
 We've received this Discord bot repository where sensitive information may have been exposed. Can you find the flag?
 
-[discord-bot-project.zip](./assets/discord-bot-project.zip)
+<a href="/assets/f25-flash-ctf/discord-bot-project.zip" download class="download-btn-link">
+  <button type="button" class="download-btn">Download discord-bot-project.zip</button>
+</a>
 
 <PasswordForm
   hash="764af21e5395f1d38b62defbe7a0fe463a73632cc56fc9edd648cdd7d60a6bfbd98a70609f46807dd9ccd8bc02474c5b4f618ca797a1b8d880540ad2de92b300"
@@ -80,9 +83,12 @@ Hash: `ce7f4c18a74bfa86af7c22b7222e34f3`
 
 ## Forensics
 ### Challenge 10 (10 points)
+
 This image is suspicious, can you find the flag?
 
-[sus.png](./assets/sus.png)
+<a href="/assets/f25-flash-ctf/sus.png" download class="download-btn-link">
+  <button type="button" class="download-btn">Download sus.png</button>
+</a>
 
 <PasswordForm
   hash="93c4cf3f44fbee1c71c2e4e8d43ee6e13f1839030832b21c6a86a036e2c933fc4349defaac5c8a56512253940d554102f08ce1e6b66090ca9efb924657806b1e"
@@ -92,9 +98,12 @@ This image is suspicious, can you find the flag?
 />
 
 ### Challenge 11 (20 points)
+
 We've got a packet capture where someone downloaded some secret files. Can you find the flag?
 
-[data-download.pcap](./assets/data-download.pcap)
+<a href="/assets/f25-flash-ctf/data-download.pcap" download class="download-btn-link">
+  <button type="button" class="download-btn">Download data-download.pcap</button>
+</a>
 
 <PasswordForm
   hash="9023cd00306a084ab4746a12bbf3e6578965782fec525fb6cbc251d522dbbd7e9297dc8b2482ca9ac09c95f0f2284063afb1597c77590a76e603e0e3b75236e4"
@@ -104,9 +113,12 @@ We've got a packet capture where someone downloaded some secret files. Can you f
 />
 
 ### Challenge 12 (30 points)
+
 We've received a raw email of someone sending suspicious data to someone. Can you find the flag?
 
-[email.eml](./assets/email.eml)
+<a href="/assets/f25-flash-ctf/email.eml" download class="download-btn-link">
+  <button type="button" class="download-btn">Download email.eml</button>
+</a>
 
 <PasswordForm
   hash="aa98c7c5f893e40cc17893bef60c9fabc7d6949d4a511badad0e8879bc50774f2b680dc1c07bac9282b29ce0ac1204fe37778d6705609a29789b8834ccb30501"
