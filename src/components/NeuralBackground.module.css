@@ -1,0 +1,10 @@
+.neuralBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(135deg, #120404 0%, #2d0a0a 50%, #1a0505 100%);
+}

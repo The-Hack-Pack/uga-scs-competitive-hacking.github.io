@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero {
-  background-color: #490000 !important;
+  background-color: transparent !important;
 }
 
 .navbar {

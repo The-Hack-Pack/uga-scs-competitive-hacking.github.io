@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
+import NeuralBackground from '@site/src/components/NeuralBackground';
 
 import styles from './index.module.css';
 
@@ -34,6 +35,7 @@ export default function Home(): JSX.Element {
     <Layout
       title={`${siteConfig.title}`}
       description="UGA Practical & Competitive Cybersecurity Club">
+      <NeuralBackground />
       <HomepageHeader />
       <main>
         <HomepageFeatures />
