@@ -1,0 +1,152 @@
+.aboutContainer {
+  padding: 20px;
+  text-align: center;
+  min-height: calc(100vh - 60px);
+}
+
+.introSection {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  text-align: center;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.introSection p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.pageTitle {
+  font-size: 3em;
+  margin-bottom: 30px;
+  animation: fadeInDown 0.6s ease-out;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, #5697d7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sectionTitle {
+  font-size: 2.5em;
+  margin: 60px 0 40px;
+  animation: fadeInDown 0.6s ease-out;
+}
+
+.officersGrid {
+  max-width: 1500px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+
+.officerCard {
+  flex: 0 0 calc(20% - 30px);
+  min-width: 200px;
+  padding: 20px;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.05);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+[data-theme='dark'] .officerCard {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.officerCard:hover {
+  transform: translateY(-10px) scale(1.05);
+  background-color: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .officerCard:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 30px rgba(86, 151, 215, 0.3);
+}
+
+.officerImage {
+  width: 70%;
+  height: auto;
+  border-radius: 20%;
+  transition: all 0.3s ease;
+  filter: grayscale(20%);
+}
+
+.officerCard:hover .officerImage {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+.officerName {
+  margin: 15px 0 5px;
+  font-size: 1.3em;
+}
+
+.officerName a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.officerName a:hover {
+  color: var(--ifm-color-primary);
+}
+
+.officerRole {
+  margin: 5px 0;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .officerCard {
+    flex: 0 0 calc(33.333% - 30px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .officerCard {
+    flex: 0 0 calc(50% - 30px);
+  }
+  
+  .pageTitle {
+    font-size: 2.5em;
+  }
+  
+  .sectionTitle {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .officerCard {
+    flex: 0 0 100%;
+  }
+}
