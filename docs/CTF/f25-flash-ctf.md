@@ -9,7 +9,7 @@ import PasswordForm from '@site/src/components/PasswordForm5';
 import NameBanner from '@site/src/components/NameBanner';
 
 # Fall 2025 Flash CTF
-Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to use any online tool including AI. There are 20 total questions.
+Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to use any online tool including AI. There are 20 total challenges.
 
 *NOTE: Your correct answers are being saved and sent even if you refresh the page.*
 <NameBanner />
@@ -20,7 +20,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 
 ## Password Cracking
 
-### Question # (10 points)
+### Challenge # (10 points)
 We've received this password hash that seems to originate from the RockYou breach. Can you crack the password?
 
 Hash: `31d8c2fe81a635bef93315aa8234c1a0`
@@ -32,7 +32,7 @@ Hash: `31d8c2fe81a635bef93315aa8234c1a0`
   points={10}
 />
 
-### Question # (20 points)
+### Challenge # (20 points)
 We've received this password hash that seems to follow the pattern of `THP-PASS-####` where `#` is a number. Can you crack the password?
 
 Hash: `fbb4ba434d9d6413e4f3a3381a646cb3`
@@ -44,7 +44,7 @@ Hash: `fbb4ba434d9d6413e4f3a3381a646cb3`
   points={20}
 />
 
-### Question # (30 points)
+### Challenge # (30 points)
 We've received this password hash that seems to be a dog breed appended by a special character and number. Can you crack the password?
 
 Hash: `ce7f4c18a74bfa86af7c22b7222e34f3`
@@ -57,7 +57,7 @@ Hash: `ce7f4c18a74bfa86af7c22b7222e34f3`
 />
 
 ## Forensics
-### Question # (10 points)
+### Challenge # (10 points)
 This image is suspicious, can you find the flag?
 
 [sus.png](./assets/sus.png)
@@ -69,7 +69,7 @@ This image is suspicious, can you find the flag?
   points={10}
 />
 
-### Question # (20 points)
+### Challenge # (20 points)
 We've got a packet capture where someone downloaded some secret files. Can you find the flag?
 
 [data-download.pcap](./assets/data-download.pcap)
@@ -81,7 +81,7 @@ We've got a packet capture where someone downloaded some secret files. Can you f
   points={20}
 />
 
-### Question # (30 points)
+### Challenge # (30 points)
 We've received a raw email of someone sending suspicious data to someone. Can you find the flag?
 
 [email.eml](./assets/email.eml)
@@ -97,7 +97,7 @@ We've received a raw email of someone sending suspicious data to someone. Can yo
 
 ## Web App Exploitation
 
-### Question # (10 points)
+### Challenge # (10 points)
 It seems like some clanker hid something to help its robot friends on this website. Can you find the flag?
 
 <PasswordForm
@@ -107,7 +107,7 @@ It seems like some clanker hid something to help its robot friends on this websi
   points={10}
 />
 
-### Question # (20 points)
+### Challenge # (20 points)
 Can you find the flag on my notes website?
 
 Website: https://notes.thehackpack.org
@@ -119,7 +119,7 @@ Website: https://notes.thehackpack.org
   points={20}
 />
 
-### Question # (30 points)
+### Challenge # (30 points)
 Can you find the flag on this fetch service?
 
 Website: https://fetch.thehackpack.org
