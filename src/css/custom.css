@@ -30,8 +30,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.hero__title, .hero__subtitle {
-  color: #FFFFFF !important; /* Ensures the text color is white */
+[data-theme='dark'] .hero__title, 
+[data-theme='dark'] .hero__subtitle {
+  color: #FFFFFF !important;
+}
+
+[data-theme='light'] .hero__title, 
+[data-theme='light'] .hero__subtitle {
+  color: #000000 !important;
+}
+
+[data-theme='light'] .hero .button--secondary {
+  background-color: #782929 !important;
+  color: #FFFFFF !important;
+  border-color: #782929 !important;
+}
+
+[data-theme='light'] .hero .button--secondary:hover {
+  background-color: #5d2020 !important;
+  border-color: #5d2020 !important;
 }
 
 .hero {

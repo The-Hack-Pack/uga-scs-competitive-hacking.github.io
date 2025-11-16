@@ -18,6 +18,19 @@ const NeuralBackground: React.FC = () => {
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
+    // Detect theme
+    const isDarkTheme = () => document.documentElement.getAttribute('data-theme') === 'dark';
+    let darkTheme = isDarkTheme();
+
+    // Watch for theme changes
+    const observer = new MutationObserver(() => {
+      darkTheme = isDarkTheme();
+    });
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme'],
+    });
+
     // Set canvas size
     const resizeCanvas = () => {
       canvas.width = window.innerWidth;
@@ -26,13 +39,27 @@ const NeuralBackground: React.FC = () => {
     resizeCanvas();
     window.addEventListener('resize', resizeCanvas);
 
+    // Mouse position
+    const mouse = { x: -1000, y: -1000 };
+    const handleMouseMove = (e: MouseEvent) => {
+      mouse.x = e.clientX;
+      mouse.y = e.clientY;
+    };
+    const handleMouseLeave = () => {
+      mouse.x = -1000;
+      mouse.y = -1000;
+    };
+    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('mouseleave', handleMouseLeave);
+
     // Particle system
     const particles: Particle[] = [];
     const particleCount = 100;
     const maxDistance = 150;
+    const mouseDistance = 200;
     const particleSpeed = 0.3;
 
-    // Initialize particles
+    // Initialize particles with colors
     for (let i = 0; i < particleCount; i++) {
       particles.push({
         x: Math.random() * canvas.width,
@@ -45,7 +72,7 @@ const NeuralBackground: React.FC = () => {
     // Animation loop
     const animate = () => {
       // Clear canvas with fade effect
-      ctx.fillStyle = 'rgba(18, 4, 4, 0.05)';
+      ctx.fillStyle = darkTheme ? 'rgba(18, 4, 4, 0.05)' : 'rgba(245, 245, 245, 0.05)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       // Update and draw particles
@@ -58,11 +85,40 @@ const NeuralBackground: React.FC = () => {
         if (particle.x < 0 || particle.x > canvas.width) particle.vx *= -1;
         if (particle.y < 0 || particle.y > canvas.height) particle.vy *= -1;
 
-        // Draw particle
+        // Determine if this is a blue particle (odd indices)
+        const isBlue = i % 2 === 1;
+        const particleColor = darkTheme 
+          ? (isBlue ? '#5697d7' : '#ff4444')
+          : (isBlue ? '#056a98' : '#a63a3a');
+        const particleColorHover = darkTheme
+          ? (isBlue ? '#7ab3e8' : '#ff6666')
+          : (isBlue ? '#0789c7' : '#c94c4c');
+
+        // Check distance to mouse
+        const dmx = mouse.x - particle.x;
+        const dmy = mouse.y - particle.y;
+        const distanceToMouse = Math.sqrt(dmx * dmx + dmy * dmy);
+
+        // Draw particle (larger if near mouse)
+        const particleSize = distanceToMouse < mouseDistance ? 3 : 2;
         ctx.beginPath();
-        ctx.arc(particle.x, particle.y, 2, 0, Math.PI * 2);
-        ctx.fillStyle = '#ff4444';
+        ctx.arc(particle.x, particle.y, particleSize, 0, Math.PI * 2);
+        ctx.fillStyle = distanceToMouse < mouseDistance ? particleColorHover : particleColor;
         ctx.fill();
+
+        // Draw connection to mouse
+        if (distanceToMouse < mouseDistance) {
+          const opacity = (1 - distanceToMouse / mouseDistance) * 0.8;
+          ctx.beginPath();
+          ctx.moveTo(particle.x, particle.y);
+          ctx.lineTo(mouse.x, mouse.y);
+          const mouseLineColor = darkTheme
+            ? (isBlue ? '86, 151, 215' : '255, 102, 102')
+            : (isBlue ? '5, 106, 152' : '166, 58, 58');
+          ctx.strokeStyle = `rgba(${mouseLineColor}, ${opacity})`;
+          ctx.lineWidth = 2;
+          ctx.stroke();
+        }
 
         // Draw connections
         for (let j = i + 1; j < particles.length; j++) {
@@ -75,7 +131,11 @@ const NeuralBackground: React.FC = () => {
             ctx.beginPath();
             ctx.moveTo(particle.x, particle.y);
             ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(255, 68, 68, ${opacity})`;
+            // Use blue if either particle is blue
+            const lineColor = darkTheme
+              ? ((i % 2 === 1 || j % 2 === 1) ? '86, 151, 215' : '255, 68, 68')
+              : ((i % 2 === 1 || j % 2 === 1) ? '5, 106, 152' : '166, 58, 58');
+            ctx.strokeStyle = `rgba(${lineColor}, ${opacity})`;
             ctx.lineWidth = 1;
             ctx.stroke();
           }
@@ -90,6 +150,9 @@ const NeuralBackground: React.FC = () => {
     // Cleanup
     return () => {
       window.removeEventListener('resize', resizeCanvas);
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mouseleave', handleMouseLeave);
+      observer.disconnect();
     };
   }, []);
 

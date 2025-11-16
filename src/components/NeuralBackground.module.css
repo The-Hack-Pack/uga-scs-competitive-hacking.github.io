@@ -5,6 +5,12 @@
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  pointer-events: none;
+}
+
+[data-theme='dark'] .neuralBackground {
   background: linear-gradient(135deg, #120404 0%, #2d0a0a 50%, #1a0505 100%);
+}
+
+[data-theme='light'] .neuralBackground {
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 50%, #f0f0f0 100%);
 }
