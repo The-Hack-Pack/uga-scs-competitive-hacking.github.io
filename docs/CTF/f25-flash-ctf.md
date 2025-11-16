@@ -30,6 +30,16 @@ We've received this Discord bot repository where sensitive information may have 
 
 ## Cryptography
 
+### Challenge 4 (20 points)
+We've received an emoji that apparently contains the flag, can you find it? Here's the emoji `😀󠅤󠅘󠅠󠅫󠅕󠅝󠅟󠅚󠅙󠅏󠅔󠅕󠅓󠅟󠅔󠅕󠅏󠅘󠅡󠄢󠄤󠄠󠅘󠅡󠄠󠄢󠅭`
+
+<PasswordForm
+  hash="3919957e93f59b6715f586368c3dbb34b348c0e64d136fa4d58c7c838f3e372b07d8942353b3c83894961d3923580b78fc4debea222bd389467e4279be26e71d"
+  algorithm="sha512"
+  challengeName="Crypto 2"
+  points={20}
+/>
+
 ## Password Cracking
 
 ### Challenge 7 (10 points)
