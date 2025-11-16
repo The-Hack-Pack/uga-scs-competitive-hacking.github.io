@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CryptoJS from 'crypto-js';
 import Cookies from 'js-cookie';
 
-const PasswordForm4 = ({ hash, algorithm, challengeName, points }) => {
+const PasswordForm5 = ({ hash, algorithm, challengeName, points }) => {
   const [inputPassword, setInputPassword] = useState('');
   const [result, setResult] = useState('');
   const [teamName, setName] = useState('');
@@ -73,4 +73,4 @@ const PasswordForm4 = ({ hash, algorithm, challengeName, points }) => {
   );
 };
 
-export default PasswordForm4;
+export default PasswordForm5;
