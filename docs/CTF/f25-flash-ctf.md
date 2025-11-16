@@ -107,6 +107,18 @@ It seems like some clanker hid something to help its robot friends on this websi
   points={10}
 />
 
+### Question # (20 points)
+Can you find the flag on my notes website?
+
+Website: https://notes.thehackpack.org
+
+<PasswordForm
+  hash="efe039aa825ccced01e94d06809bf097e933e4e2d2e68dbb518d13518a9810e2023ed5c9fb1fe2025e9f860c88d688a77ea5a8f745157bc7452ef37e3a7b43a4"
+  algorithm="sha512"
+  challengeName="Web 2"
+  points={20}
+/>
+
 ## Reverse Engineering
 
 
