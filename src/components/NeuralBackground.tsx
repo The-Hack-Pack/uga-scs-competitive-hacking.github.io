@@ -21,10 +21,15 @@ const NeuralBackground: React.FC = () => {
     // Detect theme
     const isDarkTheme = () => document.documentElement.getAttribute('data-theme') === 'dark';
     let darkTheme = isDarkTheme();
+    let needsClear = false;
 
     // Watch for theme changes
     const observer = new MutationObserver(() => {
-      darkTheme = isDarkTheme();
+      const newTheme = isDarkTheme();
+      if (newTheme !== darkTheme) {
+        darkTheme = newTheme;
+        needsClear = true;
+      }
     });
     observer.observe(document.documentElement, {
       attributes: true,
@@ -70,9 +75,17 @@ const NeuralBackground: React.FC = () => {
     }
 
     // Animation loop
+    let frameCount = 0;
     const animate = () => {
-      // Clear canvas with fade effect
-      ctx.fillStyle = darkTheme ? 'rgba(18, 4, 4, 0.05)' : 'rgba(245, 245, 245, 0.05)';
+      // On first frame or theme change, clear completely to prevent burn-in
+      if (frameCount === 0 || needsClear) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        frameCount++;
+        needsClear = false;
+      }
+      
+      // Clear canvas with fade effect (higher opacity to prevent trail buildup)
+      ctx.fillStyle = darkTheme ? 'rgba(18, 4, 4, 0.3)' : 'rgba(220, 220, 220, 0.3)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       // Update and draw particles
