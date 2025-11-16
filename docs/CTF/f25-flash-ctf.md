@@ -30,7 +30,7 @@ We've received this Discord bot repository where sensitive information may have 
 
 ## Cryptography
 
-### Challenge 4 (20 points)
+### Challenge 5 (20 points)
 We've received an emoji that apparently contains the flag, can you find it? Here's the emoji `😀󠅤󠅘󠅠󠅫󠅕󠅝󠅟󠅚󠅙󠅏󠅔󠅕󠅓󠅟󠅔󠅕󠅏󠅘󠅡󠄢󠄤󠄠󠅘󠅡󠄠󠄢󠅭`
 
 <PasswordForm
