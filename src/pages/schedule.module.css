@@ -79,6 +79,10 @@
   border-radius: 12px;
 }
 
+[data-theme='dark'] .mapFrame {
+  filter: brightness(0.8) contrast(1.1);
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
