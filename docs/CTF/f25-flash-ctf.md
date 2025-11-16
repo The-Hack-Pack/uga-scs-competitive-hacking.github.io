@@ -21,7 +21,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 ## Password Cracking
 
 ### Question # (10 points)
-We've received this password hash that seems to originate from the rockyou breach. Can you crack the password?
+We've received this password hash that seems to originate from the RockYou breach. Can you crack the password?
 
 Hash: `31d8c2fe81a635bef93315aa8234c1a0`
 
