@@ -97,6 +97,16 @@ We've received a raw email of someone sending suspicious data to someone. Can yo
 
 ## Web App Exploitation
 
+### Question # (10 points)
+It seems like some clanker hid something to help its robot friends on this website. Can you find the flag?
+
+<PasswordForm
+  hash="91117b4e78d28daba58d84bb705f3fd4509e25dd51b9b982af26f7e4b32c425aa1fbcd689bc0a2a1d1edf52c5c98cbb5a39d934a51ce514519e233b9ef57c872"
+  algorithm="sha512"
+  challengeName="Web 1"
+  points={10}
+/>
+
 ## Reverse Engineering
 
 
