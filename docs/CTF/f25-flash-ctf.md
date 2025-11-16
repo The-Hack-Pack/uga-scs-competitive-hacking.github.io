@@ -119,7 +119,7 @@ Website: https://notes.thehackpack.org
   points={20}
 />
 
-### Question # (20 points)
+### Question # (30 points)
 Can you find the flag on this fetch service?
 
 Website: https://fetch.thehackpack.org
