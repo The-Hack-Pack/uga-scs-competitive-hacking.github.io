@@ -1,3 +1,4 @@
+require('dotenv').config();
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
@@ -145,7 +146,7 @@ const config: Config = {
       appId: '5GXQMMJFJQ',
       apiKey: process.env.ALGOLIA_API_KEY,
       indexName: 'The Hack Pack Website',
-      contextualSearch: true,
+      contextualSearch: true
     },
     /*
     announcementBar: {
