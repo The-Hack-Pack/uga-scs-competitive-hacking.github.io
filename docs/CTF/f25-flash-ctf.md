@@ -306,12 +306,12 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 ## Reverse Engineering
 
 <div className="challenge-box">
-  ### 19 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  ### 19 <PointsLabel points={15} /><DifficultyLabel level="Easy" />
   <div className="challenge-author">Challenge Author: Swapnil Roy (thespcrewroy)</div>
 </div>
 
 <div className="challenge-box">
-  ### 20 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  ### 20 <PointsLabel points={25} /><DifficultyLabel level="Medium" />
   <div className="challenge-author">Challenge Author: Swapnil Roy (thespcrewroy)</div>
 </div>
 
