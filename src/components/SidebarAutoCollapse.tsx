@@ -5,19 +5,17 @@ export default function SidebarAutoCollapse() {
   const location = useLocation();
 
   useEffect(() => {
-    // Adjust this path to match your CTF page route
-    if (location.pathname.includes('/practice/CTF/f25-flash-ctf')) {
-      // Find the sidebar collapse button (update selector if needed)
+    // Collapse only when entering the target route for the first time
+    let hasCollapsed = false;
+    if (location.pathname.includes('/practice/CTF/f25-flash-ctf') && !hasCollapsed) {
       const collapseBtn = document.querySelector('[aria-label="Collapse sidebar"]');
-      if (collapseBtn) {
-        // Only collapse if not already collapsed
-        const sidebar = document.querySelector('.theme-doc-sidebar-container');
-        if (sidebar && !sidebar.classList.contains('sidebar-hidden')) {
-          (collapseBtn as HTMLElement).click();
-        }
+      const sidebar = document.querySelector('.theme-doc-sidebar-container');
+      if (collapseBtn && sidebar && !sidebar.classList.contains('sidebar-hidden')) {
+        (collapseBtn as HTMLElement).click();
+        hasCollapsed = true;
       }
     }
-  }, [location]);
+  }, [location.pathname]);
 
   return null;
 }

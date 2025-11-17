@@ -1,4 +1,5 @@
 ---
+title: "Fall 2025 Flash CTF"
 description: "Fall 2025 Flash CTF"
 sidebar_position: 0
 ---
@@ -16,16 +17,16 @@ import PointsLabel from '@site/src/components/PointsLabel';
 <SidebarAutoCollapse />
 
 # Fall 2025 Flash CTF
-Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to use any online tool including Google and AI. There are 20 total challenges across 7 categories. Point values correlate to difficulty.
+Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & encouraged to use any online tool including Google and AI.
 
-*NOTE: Your correct answers are being saved and sent even if you refresh the page.*
+*NOTE: Correct submissions are being saved, refreshing won’t erase them from the server.*
 <NameBanner />
 
 
 ## Open Source Intelligence
 
 <div className="challenge-box">
-  ### Challenge 1 <PointsLabel points={10}/><DifficultyLabel level="Easy" />
+  ### 1 - Tree <PointsLabel points={10}/><DifficultyLabel level="Easy" />
   A local historian has uncovered a strange property deed, but the original owner's name is smudged. The deed is for a famous local landmark in Athens, Georgia, pictured below.
 
   We need to find the full name of the man who originally owned this tree and granted it its 'freedom'.
@@ -45,7 +46,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 </div>
 
 <div className="challenge-box">
-  ### Challenge 2 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  ### 2 - Discord Bot <PointsLabel points={20} /><DifficultyLabel level="Medium" />
   We've received this Discord bot repository where sensitive information may have been exposed. Can you find the flag?
 
   <a href="/assets/f25-flash-ctf/discord-bot-project.zip" download class="download-btn-link">
@@ -61,7 +62,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 </div>
 
 <div className="challenge-box">
-  ### Challenge 3 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
+  ### 3 - Off The Grid <PointsLabel points={30} /><DifficultyLabel level="Hard" />
   We've been tasked to find the exact time Zayan went off the grid. All we have is this note found at their desk.
   The flag format is `thp{DD-MM-YYYY_HH:MM}`
 
@@ -86,11 +87,11 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 ## Cryptography
 
 <div className="challenge-box">
-  ### Challenge 4 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  ### 4 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
 </div>
 
 <div className="challenge-box">
-  ### Challenge 5 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  ### 5 - Emoji <PointsLabel points={20} /><DifficultyLabel level="Medium" />
   We've received an emoji that apparently contains the flag, can you find it? Here's the emoji: 
   ```
   😀󠅤󠅘󠅠󠅫󠅕󠅝󠅟󠅚󠅙󠅏󠅔󠅕󠅓󠅟󠅔󠅕󠅏󠅘󠅡󠄢󠄤󠄠󠅘󠅡󠄠󠄢󠅭
@@ -105,14 +106,14 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 </div>
 
 <div className="challenge-box">
-  ### Challenge 6 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
+  ### 6 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
 </div>
 
 
 ## Password Cracking
 
 <div className="challenge-box">
-  ### Challenge 7 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  ### 7 - Let's Rock <PointsLabel points={10} /><DifficultyLabel level="Easy" />
   We've received this password hash that seems to originate from the RockYou breach. Can you crack the password?
 
   Hash: `31d8c2fe81a635bef93315aa8234c1a0`
@@ -126,7 +127,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 </div>
 
 <div className="challenge-box">
-  ### Challenge 8 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  ### 8 - Mask Up <PointsLabel points={20} /><DifficultyLabel level="Medium" />
   We've received this password hash that seems to follow the pattern of `THP-PASS-####` where `#` is a number. Can you crack the password?
 
   Hash: `fbb4ba434d9d6413e4f3a3381a646cb3`
@@ -140,7 +141,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 </div>
 
 <div className="challenge-box">
-  ### Challenge 9 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
+  ### 9 - Dawg <PointsLabel points={30} /><DifficultyLabel level="Hard" />
   We've received this password hash that seems to be a dog breed appended by a special character and number. Can you crack the password?
 
   Hash: `ce7f4c18a74bfa86af7c22b7222e34f3`
@@ -157,7 +158,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 ## Forensics
 
 <div className="challenge-box">
-  ### Challenge 10 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  ### 10 - Amogus <PointsLabel points={10} /><DifficultyLabel level="Easy" />
 
   This image is suspicious, can you find the flag?
 
@@ -174,7 +175,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 </div>
 
 <div className="challenge-box">
-  ### Challenge 11 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  ### 11 - Data Exfil <PointsLabel points={20} /><DifficultyLabel level="Medium" />
 
   We've got a packet capture where someone downloaded some secret files. Can you find the flag?
 
@@ -191,7 +192,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 </div>
 
 <div className="challenge-box">
-  ### Challenge 12 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
+  ### 12 - Encrypted Email <PointsLabel points={30} /><DifficultyLabel level="Hard" />
 
   We've received a raw email of someone sending suspicious data to someone. Can you find the flag?
 
@@ -211,23 +212,23 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 ## Log Analysis
 
 <div className="challenge-box">
-  ### Challenge 13 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  ### 13 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
 </div>
 
 <div className="challenge-box">
-  ### Challenge 14 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  ### 14 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
 </div>
 
 <div className="challenge-box">
-  ### Challenge 15 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
+  ### 15 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
 </div>
 
 
 ## Web App Exploitation
 
 <div className="challenge-box">
-  ### Challenge 16 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
-  It seems like some clanker hid something to help its robot friends on this website. Can you find the flag?
+  ### 16 - Robot <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  It seems like some clanker hid something on this website. Can you find the flag?
 
   <PasswordForm
     hash="91117b4e78d28daba58d84bb705f3fd4509e25dd51b9b982af26f7e4b32c425aa1fbcd689bc0a2a1d1edf52c5c98cbb5a39d934a51ce514519e233b9ef57c872"
@@ -238,7 +239,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 </div>
 
 <div className="challenge-box">
-  ### Challenge 17 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  ### 17 - Notes <PointsLabel points={20} /><DifficultyLabel level="Medium" />
   Can you find the flag on my notes website? (NOTE: Bruteforcing web challenges is out of scope and should not be done.)
 
   Website: https://notes.thehackpack.org
@@ -252,7 +253,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 </div>
 
 <div className="challenge-box">
-  ### Challenge 18 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
+  ### 18 - Fetch The Flag <PointsLabel points={30} /><DifficultyLabel level="Hard" />
   Can you find the flag on this fetch service? (NOTE: Bruteforcing web challenges is out of scope and should not be done.)
 
   Website: https://fetch.thehackpack.org
@@ -269,11 +270,11 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed to 
 ## Reverse Engineering
 
 <div className="challenge-box">
-  ### Challenge 19 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  ### 19 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
 </div>
 
 <div className="challenge-box">
-  ### Challenge 20 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  ### 20 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
 </div>
 
 

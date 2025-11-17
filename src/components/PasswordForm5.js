@@ -92,9 +92,27 @@ const PasswordForm5 = ({ hash, algorithm, challengeName, points }) => {
               width: '70%'
             }}
           />
-          <button type="submit" style={{ padding: '6px 16px', borderRadius: '4px', border: '1px solid #ccc', background: 'transparent', fontWeight: 'bold', fontSize: '1rem', cursor: 'pointer', marginLeft: '8px' }}>
+          <button
+            type="submit"
+            className="pf5-check-btn"
+            style={{
+              padding: '6px 16px',
+              borderRadius: '4px',
+              border: '1px solid black',
+              background: 'transparent',
+              fontWeight: 'bold',
+              fontSize: '1rem',
+              cursor: 'pointer',
+              marginLeft: '8px'
+            }}
+          >
             Check
           </button>
+          <style>{`
+            [data-theme='dark'] .pf5-check-btn {
+              border: 1px solid white !important;
+            }
+          `}</style>
         </form>
         <p style={{ marginTop: '10px', fontWeight: 'bold' }}>{result}</p>
       </div>
