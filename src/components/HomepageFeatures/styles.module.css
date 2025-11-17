@@ -11,7 +11,7 @@
 }
 
 .featureCard {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(67, 0, 0, 0.4);
   border-radius: 16px;
   padding: 1.5rem;
   height: 100%;
@@ -22,7 +22,7 @@
 
 .featureCard:hover {
   transform: translateY(-5px);
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(67, 0, 0, 0.3);
 }
 
 [data-theme='light'] .featureCard {

@@ -85,7 +85,7 @@ const NeuralBackground: React.FC = () => {
       }
       
       // Clear canvas with fade effect (higher opacity to prevent trail buildup)
-      ctx.fillStyle = darkTheme ? 'rgba(19, 3, 3, 1)' : 'rgba(220, 220, 220, 0.3)';
+      ctx.fillStyle = darkTheme ? 'rgba(0, 0, 0, 1)' : 'rgba(220, 220, 220, 0.3)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       // Update and draw particles
