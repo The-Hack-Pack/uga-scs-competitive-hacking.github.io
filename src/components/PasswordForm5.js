@@ -6,6 +6,8 @@ const PasswordForm5 = ({ hash, algorithm, challengeName, points }) => {
   const [inputPassword, setInputPassword] = useState('');
   const [result, setResult] = useState('');
   const [teamName, setName] = useState('');
+  const [isIncorrect, setIsIncorrect] = useState(false);
+  const [isCorrect, setIsCorrect] = useState(false);
 
   useEffect(() => {
     const existingTeam = Cookies.get('name');
@@ -25,12 +27,17 @@ const PasswordForm5 = ({ hash, algorithm, challengeName, points }) => {
   };
 
   const checkPassword = async () => {
-    const inputHash = hashPassword(inputPassword, algorithm);
+    const strippedPassword = inputPassword.replace(/\s+/g, '');
+    const inputHash = hashPassword(strippedPassword, algorithm);
     if (inputHash === hash) {
-      setResult('✅ Correct!');
+      setResult('✅ Correct! +' + points + ' points.');
+      setIsIncorrect(false);
+      setIsCorrect(true);
       await submitResult(inputPassword);
     } else {
       setResult('❌ Incorrect. Try again.');
+      setIsIncorrect(true);
+      setIsCorrect(false);
     }
   };
 
@@ -58,18 +65,39 @@ const PasswordForm5 = ({ hash, algorithm, challengeName, points }) => {
   };
 
   return (
-    <div>
-      <form onSubmit={(e) => { e.preventDefault(); checkPassword(); }}>
-        <input
-          type="text"
-          value={inputPassword}
-          onChange={(e) => setInputPassword(e.target.value)}
-          placeholder="Enter answer"
-        />
-        <button type="submit">Check</button>
-      </form>
-      <p>{result}</p>
-    </div>
+      <div style={{ maxWidth: '350px', padding: '12px 0', textAlign: 'left' }}>
+        <form onSubmit={(e) => { e.preventDefault(); checkPassword(); }}>
+          <label htmlFor="password-input" style={{ fontWeight: 'bold', fontSize: '1rem' }}>Submission</label><br />
+          <input
+            id="password-input"
+            type="text"
+            value={inputPassword}
+            onChange={(e) => {
+              setInputPassword(e.target.value);
+              if (isIncorrect) setIsIncorrect(false);
+              if (isCorrect) setIsCorrect(false);
+            }}
+            placeholder="Enter answer"
+            style={{
+              padding: '6px',
+              border: isCorrect
+                ? '2px solid green'
+                : isIncorrect
+                  ? '2px solid red'
+                  : '1px solid #ccc',
+              borderRadius: '4px',
+              fontSize: '1rem',
+              marginTop: '4px',
+              marginBottom: '8px',
+              width: '70%'
+            }}
+          />
+          <button type="submit" style={{ padding: '6px 16px', borderRadius: '4px', border: '1px solid #ccc', background: 'transparent', fontWeight: 'bold', fontSize: '1rem', cursor: 'pointer', marginLeft: '8px' }}>
+            Check
+          </button>
+        </form>
+        <p style={{ marginTop: '10px', fontWeight: 'bold' }}>{result}</p>
+      </div>
   );
 };
 
