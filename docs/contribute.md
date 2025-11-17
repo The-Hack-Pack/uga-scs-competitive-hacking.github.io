@@ -73,4 +73,4 @@ Do you want to fix a challenge or update solution guide? To edit an existing cha
 
 ## Have Questions?
 
-Reach out to us on our Discord server! If you want to communicate privately, DM our website admin (@cartmama) or email us at [hello@thehackpack.org](mailto:hello@thehackpack.org).
+Reach out to us on our Discord server! If you want to communicate privately, DM our website admin (@toastymellow03) or email us at [hello@thehackpack.org](mailto:hello@thehackpack.org).
