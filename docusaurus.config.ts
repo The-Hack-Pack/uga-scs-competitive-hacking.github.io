@@ -143,7 +143,7 @@ const config: Config = {
     },
     algolia: {
       appId: '5GXQMMJFJQ',
-      apiKey: '3e9ce2be0d01cdcc33cf951fd03f29ef',
+      apiKey: process.env.ALGOLIA_API_KEY,
       indexName: 'The Hack Pack Website',
       contextualSearch: true,
     },
