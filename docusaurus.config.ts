@@ -8,8 +8,13 @@ const config: Config = {
   tagline: 'UGA Practical & Competitive Cybersecurity Club',
   favicon: 'img/favicon.ico',
 
+
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Set the production url of your site here
   url: 'https://thehackpack.org',
