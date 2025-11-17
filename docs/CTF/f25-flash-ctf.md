@@ -14,6 +14,8 @@ import '@site/src/components/css/challengeBox.css';
 import DifficultyLabel from '@site/src/components/DifficultyLabel';
 import PointsLabel from '@site/src/components/PointsLabel';
 
+import Leaderboard from '@site/src/components/Leaderboard';
+
 <SidebarAutoCollapse />
 
 # Fall 2025 Flash CTF
@@ -21,6 +23,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 
 *NOTE: Correct submissions are being saved, refreshing won’t erase them from the server.*
 <NameBanner />
+
+<Leaderboard />
 
 
 ## Open Source Intelligence
