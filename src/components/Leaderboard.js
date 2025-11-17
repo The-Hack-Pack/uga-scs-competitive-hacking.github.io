@@ -20,6 +20,18 @@ const Leaderboard = () => {
   const [entries, setEntries] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [expanded, setExpanded] = useState(false);
+
+  useEffect(() => {
+    if (expanded) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [expanded]);
 
   useEffect(() => {
     let isMounted = true;
@@ -52,12 +64,52 @@ const Leaderboard = () => {
   if (error) return <div>{error}</div>;
 
   return (
-    <div className="leaderboard-container" style={{ maxWidth: '600px', margin: '32px auto', padding: '16px', border: '1px solid #ccc', borderRadius: '12px', background: '#fafafa', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+    <div
+      className="leaderboard-container"
+      style={{
+        maxWidth: expanded ? '100vw' : '600px',
+        width: expanded ? '100vw' : 'auto',
+        margin: expanded ? '0' : '32px auto',
+        padding: expanded ? '32px' : '16px',
+        border: '1px solid #ccc',
+        borderRadius: expanded ? '0' : '12px',
+        background: '#fafafa',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        position: expanded ? 'fixed' : 'relative',
+        top: expanded ? 0 : 'auto',
+        left: expanded ? 0 : 'auto',
+        height: expanded ? '100vh' : 'auto',
+        zIndex: expanded ? 9999 : 'auto',
+        overflow: expanded ? 'auto' : 'visible',
+      }}
+    >
       <h2 style={{ textAlign: 'center', marginBottom: '8px', color: '#1565c0', width: '100%' }}>Leaderboard</h2>
       <div style={{ textAlign: 'center', marginBottom: '16px', color: '#888', fontSize: '0.95rem' }}>
         (Leaderboard auto-updates every 30 seconds)
       </div>
-      <div style={{ width: '100%' }}>
+      <button
+        onClick={() => setExpanded(e => !e)}
+        style={{
+          marginBottom: '16px',
+          padding: '6px 18px',
+          borderRadius: '6px',
+          border: '1px solid #1565c0',
+          background: expanded ? '#1565c0' : 'transparent',
+          color: expanded ? '#fff' : '#1565c0',
+          fontWeight: 'bold',
+          fontSize: '1rem',
+          cursor: 'pointer',
+          alignSelf: 'center',
+          zIndex: 10001
+        }}
+        aria-label={expanded ? 'Collapse leaderboard' : 'Expand leaderboard'}
+      >
+        {expanded ? 'Collapse' : 'Expand'}
+      </button>
+      <div style={{ width: '100%', maxHeight: expanded ? '70vh' : 'none', overflowY: expanded ? 'auto' : 'visible' }}>
         <table className="leaderboard-table" style={{ width: 'fit-content', margin: '0 auto', borderCollapse: 'collapse', textAlign: 'center' }}>
         <thead>
           <tr>
@@ -68,7 +120,7 @@ const Leaderboard = () => {
           </tr>
         </thead>
         <tbody>
-          {entries.map((entry, idx) => (
+          {(expanded ? entries : entries.slice(0, 10)).map((entry, idx) => (
             <tr key={entry['Name'] + idx}>
               <td style={{ padding: '8px', textAlign: 'center' }}>{idx + 1}</td>
               <td style={{ padding: '8px' }}>{entry['Name']}</td>
@@ -100,6 +152,9 @@ const Leaderboard = () => {
         }
         [data-theme='dark'] .leaderboard-container h2 {
           color: #90caf9 !important;
+        }
+        .leaderboard-container[style*='position: fixed'] {
+          box-shadow: 0 0 0 100vw rgba(0,0,0,0.5);
         }
       `}</style>
     </div>
