@@ -27,6 +27,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 <Leaderboard />
 
 
+
 ## Open Source Intelligence
 
 <div className="challenge-box">
@@ -47,6 +48,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="OSINT 1"
     points={10}
   />
+
+  <div className="challenge-author">Challenge Author: Zayan Hoodani (zayanh)</div>
 </div>
 
 <div className="challenge-box">
@@ -63,6 +66,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="OSINT 2"
     points={20}
   />
+
+  <div className="challenge-author">Challenge Author: Zayan Hoodani (zayanh)</div>
 </div>
 
 <div className="challenge-box">
@@ -84,6 +89,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="OSINT 3"
     points={30}
   />
+
+  <div className="challenge-author">Challenge Author: Zayan Hoodani (zayanh)</div>
 </div>
 
 
@@ -92,6 +99,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 
 <div className="challenge-box">
   ### 4 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  <div className="challenge-author">Challenge Author: SriRam Surisetty (famousmagic87870)</div>
 </div>
 
 <div className="challenge-box">
@@ -107,10 +115,13 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="Crypto 2"
     points={20}
   />
+
+  <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
 
 <div className="challenge-box">
   ### 6 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
+  <div className="challenge-author">Challenge Author: SriRam Surisetty (famousmagic87870)</div>
 </div>
 
 
@@ -128,6 +139,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="Pass 1"
     points={10}
   />
+
+  <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
 
 <div className="challenge-box">
@@ -142,6 +155,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="Pass 2"
     points={20}
   />
+
+  <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
 
 <div className="challenge-box">
@@ -156,6 +171,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="Pass 3"
     points={30}
   />
+
+  <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
 
 
@@ -176,6 +193,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="Forensics 1"
     points={10}
   />
+
+  <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
 
 <div className="challenge-box">
@@ -193,6 +212,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="Forensics 2"
     points={20}
   />
+
+  <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
 
 <div className="challenge-box">
@@ -210,6 +231,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="Forensics 3"
     points={30}
   />
+
+  <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
 
 
@@ -217,14 +240,17 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 
 <div className="challenge-box">
   ### 13 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  <div className="challenge-author">Challenge Author: Hung Nguyen (triumviratesys)</div>
 </div>
 
 <div className="challenge-box">
   ### 14 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  <div className="challenge-author">Challenge Author: Hung Nguyen (triumviratesys)</div>
 </div>
 
 <div className="challenge-box">
   ### 15 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
+  <div className="challenge-author">Challenge Author: Hung Nguyen (triumviratesys)</div>
 </div>
 
 
@@ -240,6 +266,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="Web 1"
     points={10}
   />
+
+  <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
 
 <div className="challenge-box">
@@ -254,6 +282,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="Web 2"
     points={20}
   />
+
+  <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
 
 <div className="challenge-box">
@@ -268,6 +298,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="Web 3"
     points={30}
   />
+
+  <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
 
 
@@ -275,13 +307,11 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 
 <div className="challenge-box">
   ### 19 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  <div className="challenge-author">Challenge Author: Swapnil Roy (thespcrewroy)</div>
 </div>
 
 <div className="challenge-box">
   ### 20 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  <div className="challenge-author">Challenge Author: Swapnil Roy (thespcrewroy)</div>
 </div>
 
-
-## Credits
-
-- Author(s): Divesh Gupta (legendile7), Zayan Hoodani (zayanh)
