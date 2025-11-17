@@ -5,15 +5,18 @@ sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
+import '@site/src/components/css/challengeBox.css';
 
 # Pyc
 Reverse Engineering | Level 1 - Pyc
-## Challenge
-We have created a python script for you to break into as training. See if you can figure out a password that will authenticate with the program.
+<div className="challenge-box">
+  ## Challenge
+  We have created a python script for you to break into as training. See if you can figure out a password that will authenticate with the program.
 
-Download file: [rev.pyc](./assets/rev.pyc)
+  Download file: [rev.pyc](./assets/rev.pyc)
 
-<PasswordForm hash="b5368f3271b484d3ca35e63a102e636dc8e83e238b10b70124a2da6a51e7f8060f6bb76e748d8c0d4f9da4d2012dd5db09e2f455f4d9d95bd9ac27439d37d890" algorithm="sha512" />
+  <PasswordForm hash="b5368f3271b484d3ca35e63a102e636dc8e83e238b10b70124a2da6a51e7f8060f6bb76e748d8c0d4f9da4d2012dd5db09e2f455f4d9d95bd9ac27439d37d890" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

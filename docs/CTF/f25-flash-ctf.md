@@ -13,7 +13,6 @@ import SidebarAutoCollapse from '@site/src/components/SidebarAutoCollapse';
 import '@site/src/components/css/challengeBox.css';
 import DifficultyLabel from '@site/src/components/DifficultyLabel';
 import PointsLabel from '@site/src/components/PointsLabel';
-
 import Leaderboard from '@site/src/components/Leaderboard';
 
 <SidebarAutoCollapse />

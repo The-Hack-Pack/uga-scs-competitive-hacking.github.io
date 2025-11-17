@@ -24,7 +24,11 @@
   cursor: pointer;
   transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
   margin: 0.25em 0 0.7em 0;
+  margin-right: 16px;
   display: inline-block;
+}
+.download-btn-link:last-child {
+  margin-right: 0;
 }
 
 .download-btn:hover, .download-btn:focus {
