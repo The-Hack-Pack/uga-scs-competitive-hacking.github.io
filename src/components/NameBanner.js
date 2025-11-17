@@ -43,7 +43,7 @@ const NameBanner = () => {
     let isMounted = true;
     const fetchPoints = () => {
       setLoading(true);
-      fetch(SHEET_CSV_URL)
+      fetch(SHEET_CSV_URL + `&cb=${Date.now()}`)
         .then(res => res.text())
         .then(csv => {
           if (!isMounted) return;
