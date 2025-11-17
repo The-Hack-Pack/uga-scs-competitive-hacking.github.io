@@ -46,7 +46,7 @@ export default function About() {
               <p className={styles.officerRole}>Secretary</p>
             </div>
             <div className={styles.officerCard}>
-              <img src={require('@site/static/img/placeholder.webp').default} alt="Soumay Mali" className={styles.officerImage} />
+              <img src={require('@site/static/img/soumay.webp').default} alt="Soumay Mali" className={styles.officerImage} />
               <p className={styles.officerName}><a href="https://www.linkedin.com/in/soumay-mali-41482a294/" target="_blank"><strong>Soumay Mali</strong></a></p>
               <p className={styles.officerRole}>Marketing Officer</p>
             </div>

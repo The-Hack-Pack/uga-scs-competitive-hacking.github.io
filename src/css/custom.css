@@ -1,3 +1,11 @@
+/* Prevent DocSearch result text from turning white on hover in light mode */
+[data-theme='light'] .DocSearch {
+  --docsearch-hit-active-color: #222;
+}
+/* Make DocSearch input placeholder text black in light mode */
+[data-theme='light'] .DocSearch-Button-Placeholder {
+  color: #000 !important;
+}
 /* Custom download button styles for CTF page */
 .download-btn-link {
   text-decoration: none;
