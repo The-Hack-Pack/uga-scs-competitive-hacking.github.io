@@ -35,6 +35,7 @@
   color: #fff;
 }
 @import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+@import '@docsearch/css';
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to

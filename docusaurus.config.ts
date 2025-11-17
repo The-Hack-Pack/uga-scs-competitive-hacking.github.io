@@ -1,7 +1,6 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import lunrSearch from 'docusaurus-lunr-search';
 
 const config: Config = {
   title: 'THE HACK PACK',
@@ -78,7 +77,6 @@ const config: Config = {
     zoom: {
       selector: '.markdown :not(em) > img',
       config: {
-        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
         background: {
           light: 'rgb(255, 255, 255)',
           dark: 'rgb(50, 50, 50)'
@@ -91,7 +89,6 @@ const config: Config = {
         autoCollapseCategories: true,
       },
     },
-    // Replace with your project's social card
     image: 'img/social.png',
     navbar: {
       title: 'THE HACK PACK',
@@ -144,6 +141,12 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
+    algolia: {
+      appId: '5GXQMMJFJQ',
+      apiKey: '3e9ce2be0d01cdcc33cf951fd03f29ef',
+      indexName: 'The Hack Pack Website',
+      contextualSearch: true,
+    },
     /*
     announcementBar: {
       id: 'underConstruction',
@@ -155,7 +158,11 @@ const config: Config = {
     },
     */
   } satisfies Preset.ThemeConfig,
-  plugins: [lunrSearch, require.resolve("docusaurus-plugin-image-zoom")],
+  plugins: [
+    require.resolve("docusaurus-plugin-image-zoom"),
+  ],
+
+  // DocSearch v4 config added to main themeConfig above
 };
 
 export default config;

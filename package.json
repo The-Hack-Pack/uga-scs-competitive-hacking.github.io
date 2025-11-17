@@ -15,6 +15,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@docsearch/react": "4",
     "@docusaurus/core": "^3.9.2",
     "@docusaurus/faster": "^3.9.2",
     "@docusaurus/plugin-content-docs": "^3.9.2",
@@ -24,11 +25,9 @@
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "crypto-js": "^4.2.0",
-    "docusaurus-lunr-search": "^3.4.0",
     "docusaurus-plugin-image-zoom": "^3.0.0",
     "dotenv": "^16.4.5",
     "js-cookie": "^3.0.5",
-    "lunr": "^2.3.9",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

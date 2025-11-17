@@ -103,7 +103,7 @@ const Leaderboard = () => {
           fontSize: '1rem',
           cursor: 'pointer',
           alignSelf: 'center',
-          zIndex: 10001
+          zIndex: expanded ? 10 : 'auto'
         }}
         aria-label={expanded ? 'Collapse leaderboard' : 'Expand leaderboard'}
       >
