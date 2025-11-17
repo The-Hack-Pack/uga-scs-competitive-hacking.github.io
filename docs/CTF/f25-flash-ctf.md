@@ -18,7 +18,7 @@ import Leaderboard from '@site/src/components/Leaderboard';
 <SidebarAutoCollapse />
 
 # Fall 2025 Flash CTF
-Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & encouraged to use any online tool including Google and AI.
+Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & encouraged to use any online tool including Google and AI. Attacking the competition platform is strictly prohibited.
 
 *NOTE: Correct submissions are being saved, refreshing won’t erase them from the server.*
 <NameBanner />
@@ -305,7 +305,22 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 ## Reverse Engineering
 
 <div className="challenge-box">
-  ### 19 <PointsLabel points={15} /><DifficultyLabel level="Easy" />
+  ### 19 - Binary Keystone <PointsLabel points={15} /><DifficultyLabel level="Easy" />
+  Can you find the right key to unlock the core logic?
+
+  Flag format: `thp{key}`
+
+  <a href="/assets/f25-flash-ctf/keystone.bin" download class="download-btn-link">
+    <button type="button" class="download-btn">Download keystone.bin</button>
+  </a>
+
+  <PasswordForm
+    hash="c234467c3ed869103c06c69cf2b6c047fcd90cddd891f2d5e8c3e1efb1eb2b51a5a90d1d0cb5457a80df28434e0f6b90ae13c7f6e261076c0af4925abef9a6b4"
+    algorithm="sha512"
+    challengeName="RE 1"
+    points={15}
+  />
+
   <div className="challenge-author">Challenge Author: Swapnil Roy (thespcrewroy)</div>
 </div>
 
