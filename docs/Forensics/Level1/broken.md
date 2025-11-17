@@ -7,15 +7,18 @@ sidebar_position: 1
 import PasswordForm from '@site/src/components/PasswordForm';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import '@site/src/components/css/challengeBox.css';
 
 # Broken
 Forensics | Level 1 - Broken
-## Challenge
-We have intercepted a dank meme. Unfortunately, it seems to be corrupted. Can you fix it?
+<div className="challenge-box">
+  ## Challenge
+  We have intercepted a dank meme. Unfortunately, it seems to be corrupted. Can you fix it?
 
-Download file: <a href={require('@site/static/assets/broken.png').default} download>broken.png</a>
+  Download file: <a href={require('@site/static/assets/broken.png').default} download>broken.png</a>
 
-<PasswordForm hash="b1df31cc3e723b6f6fe2b030fe6642534b1540fc2baff262cf4d1c30812f89ce2d5e5fc5ad2150a3aaa4e3bb901d11a6fdd7c43bedce5354be55748f951ff960" algorithm="sha512" />
+  <PasswordForm hash="b1df31cc3e723b6f6fe2b030fe6642534b1540fc2baff262cf4d1c30812f89ce2d5e5fc5ad2150a3aaa4e3bb901d11a6fdd7c43bedce5354be55748f951ff960" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

@@ -7,7 +7,7 @@ sidebar_position: 0
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import PasswordForm from '@site/src/components/PasswordForm5';
+import PasswordForm from '@site/src/components/PasswordFormCTF';
 import NameBanner from '@site/src/components/NameBanner';
 import SidebarAutoCollapse from '@site/src/components/SidebarAutoCollapse';
 import '@site/src/components/css/challengeBox.css';

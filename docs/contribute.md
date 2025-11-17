@@ -7,7 +7,7 @@ sidebar_position: 1
 This is our guide on how you can make your own challenges or edit existing ones for this website!
 
 ## Getting Started
-Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io). We use a static-site generator called [Docusaurus](https://docusaurus.io/) version 3.8.2, which you should familiarize yourself with first. After you have a basic understanding of the documentation, you can proceed to either make your own challenge or edit an existing one!
+Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/uga-scs-competitive-hacking.github.io). We use a static-site generator called [Docusaurus](https://docusaurus.io/) version 3.9.2, which you should familiarize yourself with first. After you have a basic understanding of the documentation, you can proceed to either make your own challenge or edit an existing one!
 
 ## Challenges
 ### Creating a New Challenge
@@ -28,17 +28,20 @@ Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/u
     ---
 
     import PasswordForm from '@site/src/components/PasswordForm2';
+    import '@site/src/components/css/challengeBox.css';
 
     # CHALLENGE-NAME
     DESCRIPTION-FIELD-FROM-ABOVE-COPY-PASTED-HERE
 
     ## Challenge
-    CHALLENGE-DESCRIPTION-HERE
+    <div className="challenge-box">
+      CHALLENGE-DESCRIPTION-HERE
 
-    ![DOWNLOADABLE FILE](./assets/YOURFILE)
+      ![DOWNLOADABLE FILE](./assets/YOURFILE)
 
-    <!--- This is an answer submission form, you can have multiple --->
-    <PasswordForm hash="ANSWER-HASH-GOES-HERE" algorithm="sha512" />
+      <!--- This is an answer submission form, you can have multiple --->
+      <PasswordForm hash="ANSWER-HASH-GOES-HERE" algorithm="sha512" />
+    </div>
 
     ## Solution
     <details>

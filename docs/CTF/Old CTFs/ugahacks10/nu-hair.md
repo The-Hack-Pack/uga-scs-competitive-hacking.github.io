@@ -4,7 +4,7 @@ sidebar_position: 1
 tags: [easy]
 ---
 
-import PasswordForm from '@site/src/components/PasswordForm3';
+import PasswordForm from '@site/src/components/PasswordForm2';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 

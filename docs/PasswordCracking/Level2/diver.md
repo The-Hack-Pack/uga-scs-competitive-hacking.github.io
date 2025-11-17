@@ -5,15 +5,18 @@ sidebar_position: 1
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm2';
+import '@site/src/components/css/challengeBox.css';
 
 # Diver
 Password Cracking | Level 2 - Diver
-## Challenge
-A password hash was retrieved that needs to be cracked. We have received intel that the password is vehicles but have some sort of rule affecting them.
+<div className="challenge-box">
+  ## Challenge
+  A password hash was retrieved that needs to be cracked. We have received intel that the password is vehicles but have some sort of rule affecting them.
 
-Target Hash: `7d2eec8b9a92dd4d4dde274e09031129`
+  Target Hash: `7d2eec8b9a92dd4d4dde274e09031129`
 
-<PasswordForm hash="8ca396630157e199d0780785dd031679cc645a9df7943ce0261a8b2d78ae45b4bce7b8a5a4da7c90fb9ab8dcf7bcee2017540a8e29d613c07eab9544c1a7e2df" algorithm="sha512" />
+  <PasswordForm hash="8ca396630157e199d0780785dd031679cc645a9df7943ce0261a8b2d78ae45b4bce7b8a5a4da7c90fb9ab8dcf7bcee2017540a8e29d613c07eab9544c1a7e2df" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

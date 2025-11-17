@@ -5,16 +5,19 @@ sidebar_position: 3
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm2';
+import '@site/src/components/css/challengeBox.css';
 
 # Embedded
 Forensics | Level 1 - Embedded
 
-## Challenge
-We have recieved an image that is hiding something. See if you can find the secret.
+<div className="challenge-box">
+  ## Challenge
+  We have recieved an image that is hiding something. See if you can find the secret.
 
-[Download Image](./assets/embedded.png)
+  [Download Image](./assets/embedded.png)
 
-<PasswordForm hash="f8edd80c039cbe2677c1279bb44bf074b42cf9406c0801019a80340376ef0d7f50f9d94dee03f7124a790ed1c4033f610858b0d8d50b25eb1d768e73285d8253" algorithm="sha512" />
+  <PasswordForm hash="f8edd80c039cbe2677c1279bb44bf074b42cf9406c0801019a80340376ef0d7f50f9d94dee03f7124a790ed1c4033f610858b0d8d50b25eb1d768e73285d8253" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

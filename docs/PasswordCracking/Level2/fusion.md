@@ -5,15 +5,18 @@ sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm2';
+import '@site/src/components/css/challengeBox.css';
 
 # Fusion
 Password Cracking | Level 2 - Fusion
-## Challenge
-A password hash was retrieved that needs to be cracked. We have received intel that the password is a Netflix movie or show with a number at the end. Can you crack the password?
+<div className="challenge-box">
+  ## Challenge
+  A password hash was retrieved that needs to be cracked. We have received intel that the password is a Netflix movie or show with a number at the end. Can you crack the password?
 
-Target Hash: `427e3d9c817de20912d9838f1f2ad7d0`
+  Target Hash: `427e3d9c817de20912d9838f1f2ad7d0`
 
-<PasswordForm hash="37afa22691121b292edfbbfd6f6de98b920ef64cd387ec217fecb4248e454bcc2ba17fe06a25ab4f05f7afb73ca0db32124ce5f8934235eec32f111676596cf3" algorithm="sha512" />
+  <PasswordForm hash="37afa22691121b292edfbbfd6f6de98b920ef64cd387ec217fecb4248e454bcc2ba17fe06a25ab4f05f7afb73ca0db32124ce5f8934235eec32f111676596cf3" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

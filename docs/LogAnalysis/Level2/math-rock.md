@@ -1,6 +1,6 @@
 ---
 description: "Log Analysis | Level 2 - Math Rock"
-sidebar_position: 4
+sidebar_position: 0
 tags: [level2]
 ---
 
@@ -8,29 +8,27 @@ import PasswordForm from '@site/src/components/PasswordForm2';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DownloadLink from '@site/src/components/DownloadLink';
+import '@site/src/components/css/challengeBox.css';
 
 # Math Rock
 
 Log Analsysis | Level 2 - Math Rock
+<div className="challenge-box">
+    ## Challenge
 
-## Challenge
+    We recorded a beautiful session with Ichika Nito the other day. Unfortunately, a group of mischievous teens broke into our studio and messed with the frequency log data. We need the piece for our marketing, so it is crucial that you find the frequency that was manipulated so that we don’t make our customers’ ears bleed!
 
-We recorded a beautiful session with Ichika Nito the other day. Unfortunately, a group of mischievous teens broke into our studio and messed with the frequency log data. We need the piece for our marketing, so it is crucial that you find the frequency that was manipulated so that we don’t make our customers’ ears bleed!
+    <DownloadLink file="assets/ugahacks10/ichika-nito.log">ichika-nito.log</DownloadLink>
+    [](./assets/ichika-nito.log)
 
-<DownloadLink file="assets/ugahacks10/ichika-nito.log">ichika-nito.log</DownloadLink>
-[](./assets/ichika-nito.log)
+    :::tip hint
+    Here is a Python script to help you extract the column data from the log file:
+    [**extract.py**](./assets/extract.py)
+    :::
 
-:::tip hint
-<b>
-Here is a Python script to help you extract the column data from the log file:
-[extract.py](./assets/extract.py)
-
-What tool(s) is commonly used for log analysis?
-</b>
-:::
-
-Q1. Which ticker contains the abnormal frequency data point?  
-<PasswordForm hash="456e688ee12388847b3d245d8ae5d10f488dcdf1b5ad1a1aa6dddcb9ccc3e23c824e134b9f69fae368e69e18eba67fa5cc1dec6246bf5f58e1a5a2afcd9bac63" algorithm="sha512" />
+    Which ticker contains the abnormal frequency data point?  
+    <PasswordForm hash="456e688ee12388847b3d245d8ae5d10f488dcdf1b5ad1a1aa6dddcb9ccc3e23c824e134b9f69fae368e69e18eba67fa5cc1dec6246bf5f58e1a5a2afcd9bac63" algorithm="sha512" />
+</div>
 
 ## Solution
 

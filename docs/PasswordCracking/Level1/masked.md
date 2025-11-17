@@ -5,19 +5,22 @@ sidebar_position: 2
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
+import '@site/src/components/css/challengeBox.css';
 
 # Masked
 Password Cracking | Level 1 - Masked
-## Challenge
-A password hash was retrieved that needs to be cracked. We have received intel that the password is of the format 
+<div className="challenge-box">
+  ## Challenge
+  A password hash was retrieved that needs to be cracked. We have received intel that the password is of the format 
 
-`THP-PASS-####`
+  `THP-PASS-####`
 
-where `#` is a number 0-9.
+  where `#` is a number 0-9.
 
-Target Hash: `a9fe58ebbe541f23dcb988ac47e7ee6f`
+  Target Hash: `a9fe58ebbe541f23dcb988ac47e7ee6f`
 
-<PasswordForm hash="0b0583b4d6ee8fe50f52b780d92d4e774c371c8d42ef73beb2dbb284f6891388acf60ea4b201ad8f8704ae3e64e07bc33e0161f922d4e475bf73f61d5522141f" algorithm="sha512" />
+  <PasswordForm hash="0b0583b4d6ee8fe50f52b780d92d4e774c371c8d42ef73beb2dbb284f6891388acf60ea4b201ad8f8704ae3e64e07bc33e0161f922d4e475bf73f61d5522141f" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

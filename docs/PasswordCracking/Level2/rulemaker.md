@@ -5,15 +5,18 @@ sidebar_position: 2
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm2';
+import '@site/src/components/css/challengeBox.css';
 
 # Rulemaker
 Password Cracking | Level 2 - Rulemaker
-## Challenge
-A password hash was retrieved that needs to be cracked. We know it's based on animals but there's some weird prepending & appending with numbers and common special characters. Can you crack the hash?
+<div className="challenge-box">
+  ## Challenge
+  A password hash was retrieved that needs to be cracked. We know it's based on animals but there's some weird prepending & appending with numbers and common special characters. Can you crack the hash?
 
-Target Hash: `9ac155fa85bf02a8712c1498c1c58799`
+  Target Hash: `9ac155fa85bf02a8712c1498c1c58799`
 
-<PasswordForm hash="281d94de86ee7784940315015a148730856f88fe6bd0babeedf4ec8a6a17cc372dd5d8524da97341d6929276618a5da2a22bad0d1b1ca4a8b517475002d2831e" algorithm="sha512" />
+  <PasswordForm hash="281d94de86ee7784940315015a148730856f88fe6bd0babeedf4ec8a6a17cc372dd5d8524da97341d6929276618a5da2a22bad0d1b1ca4a8b517475002d2831e" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

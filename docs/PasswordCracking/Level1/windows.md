@@ -5,15 +5,18 @@ sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm2';
+import '@site/src/components/css/challengeBox.css';
 
 # Windows
 Password Cracking | Level 1 - Windows
-## Challenge
-A Windows password hash was retrieved that needs to be cracked. Can you retrieve the original password?
+<div className="challenge-box">
+  ## Challenge
+  A Windows password hash was retrieved that needs to be cracked. Can you retrieve the original password?
 
-Target Hash: `CB71EF0DA0400E47CCF9155E3E7DB453:C19E106F17653CDD586B95313D2053CA`
+  Target Hash: `CB71EF0DA0400E47CCF9155E3E7DB453:C19E106F17653CDD586B95313D2053CA`
 
-<PasswordForm hash="166e8d0e8480ce0f969e1558286a6060c51e35ebc1a960092f492c46a52dac1db85dcb5f0df3efe82a2dcef3145ae28cf47b7be1bdf90b1f4b83fe05f60dd86d" algorithm="sha512" />
+  <PasswordForm hash="166e8d0e8480ce0f969e1558286a6060c51e35ebc1a960092f492c46a52dac1db85dcb5f0df3efe82a2dcef3145ae28cf47b7be1bdf90b1f4b83fe05f60dd86d" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

@@ -5,16 +5,19 @@ sidebar_position: 2
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
+import '@site/src/components/css/challengeBox.css';
 
 # CrowdSteg
 Forensics | Level 1 - CrowdSteg
 
-## Challenge
-We have recieved an image that is hiding something. See if you can find the secret.
+<div className="challenge-box">
+  ## Challenge
+  We have received an image that is hiding something. See if you can find the secret.
 
-[Download Image](./assets/crowdsteg.png)
+  [Download Image](./assets/crowdsteg.png)
 
-<PasswordForm hash="c935c6aa6d9a74c430d85dedebff140e46cd0527e71610f96bad887bd242535971a6528382772b59ccf79e842da42e65b58c4e5c6fa2b4e45988a54584eba8ac" algorithm="sha512" />
+  <PasswordForm hash="c935c6aa6d9a74c430d85dedebff140e46cd0527e71610f96bad887bd242535971a6528382772b59ccf79e842da42e65b58c4e5c6fa2b4e45988a54584eba8ac" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

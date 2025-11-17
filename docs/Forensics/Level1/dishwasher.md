@@ -1,20 +1,23 @@
 ---
-description: Forensics | Level 1 - Robot
+description: Forensics | Level 1 - Dishwasher
 tags: [level1]
 sidebar_position: 4
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm2';
+import '@site/src/components/css/challengeBox.css';
 
-# Robot
-Forensics | Level 1 - Robot
+# Dishwasher
+Forensics | Level 1 - Dishwasher
 
-## Challenge
-We have recieved an image of a robot that is hiding something. We know that there's a password involved which is name of this robot (no spaces, lowercase). See if you can find the secret.
+<div className="challenge-box">
+  ## Challenge
+  We have recieved an image of a robot that is hiding something. We know that there's a password involved which is name of this robot (no spaces, lowercase). See if you can find the secret.
 
-[Download Image](./assets/robotsteg.jpg)
+  [Download Image](./assets/robotsteg.jpg)
 
-<PasswordForm hash="ff028e5456fef3db9f5dd231ac24970b1a06599537cc035274dd26b204869e6c441acec25ef8afcae73f49d349e9507d6d060bd2e19680b326db9b68f9cdb274" algorithm="sha512" />
+  <PasswordForm hash="ff028e5456fef3db9f5dd231ac24970b1a06599537cc035274dd26b204869e6c441acec25ef8afcae73f49d349e9507d6d060bd2e19680b326db9b68f9cdb274" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

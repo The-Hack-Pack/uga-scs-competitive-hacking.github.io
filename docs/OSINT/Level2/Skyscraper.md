@@ -5,25 +5,28 @@ sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
+import '@site/src/components/css/challengeBox.css';
 
 # Skyscraper
 Open Source Intelligence | Level 2 - Skyscraper
-## Challenge
-We have received a photograph that needs investigation. Can you find the following information?
+<div className="challenge-box">
+  ## Challenge
+  We have received a photograph that needs investigation. Can you find the following information?
 
-[Download Photo](./assets/skyscraper.jpg)
+  [Download Photo](./assets/skyscraper.jpg)
 
-Q1. Name of the building (one word):
-<PasswordForm hash="16e59805e030f81a011cd8d7e2bc1afac23872e77fee22fe610017fc23d5c8ea6508b790a9015d6d41b65c49f82de67508b76d8505531cbace503fd0977d6cb9" algorithm="sha512" />
+  Q1. Name of the building (one word):
+  <PasswordForm hash="16e59805e030f81a011cd8d7e2bc1afac23872e77fee22fe610017fc23d5c8ea6508b790a9015d6d41b65c49f82de67508b76d8505531cbace503fd0977d6cb9" algorithm="sha512" />
 
-Q2. Height of the building (number of feet):
-<PasswordForm hash="489e0295450907aed85a453525f115f56fa142c4e2a549ba69faef3d684e11925699b323e41717c52c2fafaf741a1432f6596c46da1e97f353f378d001e65d0c" algorithm="sha512" />
+  Q2. Height of the building (number of feet):
+  <PasswordForm hash="489e0295450907aed85a453525f115f56fa142c4e2a549ba69faef3d684e11925699b323e41717c52c2fafaf741a1432f6596c46da1e97f353f378d001e65d0c" algorithm="sha512" />
 
-Q3. What year was this building built?
-<PasswordForm hash="5ac8c0e24a0918f67ad4099606af4e6dd5e120f92d3902ffc17cf80a3dc258631220bb57970caeb0b9732c623c5363d711390de76354df84aec836a6f4c035f8" algorithm="sha512" />
+  Q3. What year was this building built?
+  <PasswordForm hash="5ac8c0e24a0918f67ad4099606af4e6dd5e120f92d3902ffc17cf80a3dc258631220bb57970caeb0b9732c623c5363d711390de76354df84aec836a6f4c035f8" algorithm="sha512" />
 
-Q4. What is this building's Building Identification Number (BIN)?
-<PasswordForm hash="06172fefe8ce12eb6394ce1e2cdc1010ebf0f17738f677eed6a52d7e313a6a7f493fb1f9c1cf693e78ad484146c1bcaec9f77f51cf6922dd3a21a5b83e0adbc1" algorithm="sha512" />
+  Q4. What is this building's Building Identification Number (BIN)?
+  <PasswordForm hash="06172fefe8ce12eb6394ce1e2cdc1010ebf0f17738f677eed6a52d7e313a6a7f493fb1f9c1cf693e78ad484146c1bcaec9f77f51cf6922dd3a21a5b83e0adbc1" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

@@ -5,16 +5,19 @@ sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
+import '@site/src/components/css/challengeBox.css';
 
 # Unknown
 Cryptography | Level 1 - Unknown
 
-## Challenge
-We have intercepted a message written in a strange language, see if you can decrypt it.
+<div className="challenge-box">
+  ## Challenge
+  We have intercepted a message written in a strange language, see if you can decrypt it.
 
-![Message](./assets/1.png)
+  ![Message](./assets/1.png)
 
-<PasswordForm hash="67d39006efe5c9c0bdc62389ca3fcea4421f45dcb516b1a09f54852b91f30a26976a2607702d889cf1a52d590b3e2e9ec65f19c1a9ba02044ec8a3d2bbfa876f" algorithm="sha512" />
+  <PasswordForm hash="67d39006efe5c9c0bdc62389ca3fcea4421f45dcb516b1a09f54852b91f30a26976a2607702d889cf1a52d590b3e2e9ec65f19c1a9ba02044ec8a3d2bbfa876f" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

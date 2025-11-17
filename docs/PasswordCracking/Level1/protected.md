@@ -7,15 +7,18 @@ sidebar_position: 3
 import PasswordForm from '@site/src/components/PasswordForm';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import '@site/src/components/css/challengeBox.css';
 
 # Protected
 Password Cracking | Level 1 - Protected
-## Challenge
-We have intercepted a PDF file but it seems to be protected with a password. Can you find a way through?
+<div className="challenge-box">
+  ## Challenge
+  We have intercepted a PDF file but it seems to be protected with a password. Can you find a way through?
 
-Download file: <a href={require("./assets/protected.pdf").default} download>protected.pdf</a>
+  Download file: <a href={require("./assets/protected.pdf").default} download>protected.pdf</a>
 
-Flag: <PasswordForm hash="efca4e4f572283feda8600aefc9a7660d57e50662160eaa92fecedc8db4e3499465cbd4c0fa3305132677b6403ef833c582255d1dc9a50f17236cc12778b4954" algorithm="sha512" />
+  Flag: <PasswordForm hash="efca4e4f572283feda8600aefc9a7660d57e50662160eaa92fecedc8db4e3499465cbd4c0fa3305132677b6403ef833c582255d1dc9a50f17236cc12778b4954" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>

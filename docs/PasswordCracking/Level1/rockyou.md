@@ -5,15 +5,18 @@ sidebar_position: 0
 ---
 
 import PasswordForm from '@site/src/components/PasswordForm';
+import '@site/src/components/css/challengeBox.css';
 
 # RockYou
 Password Cracking | Level 1 - RockYou
-## Challenge
-A password hash was retrieved that needs to be cracked. We have received intel that the password is from the RockYou breach.
+<div className="challenge-box">
+  ## Challenge
+  A password hash was retrieved that needs to be cracked. We have received intel that the password is from the RockYou breach.
 
-Target Hash: `1a3dff6f600d9fd62f8ead361480cc61`
+  Target Hash: `1a3dff6f600d9fd62f8ead361480cc61`
 
-<PasswordForm hash="8dd4bff6e1f530bfca70d85f200d29c23f85f29e4df83fffbe734587388bed8266dcda49f7f7c25ab84cb4e204b666c476d09aaee6bfc73552e625a787150701" algorithm="sha512" />
+  <PasswordForm hash="8dd4bff6e1f530bfca70d85f200d29c23f85f29e4df83fffbe734587388bed8266dcda49f7f7c25ab84cb4e204b666c476d09aaee6bfc73552e625a787150701" algorithm="sha512" />
+</div>
 
 ## Solution
 <details>
