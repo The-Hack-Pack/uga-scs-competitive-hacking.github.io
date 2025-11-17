@@ -13,7 +13,9 @@ Open Source Intelligence | Level 2 - Skyscraper
   ## Challenge
   We have received a photograph that needs investigation. Can you find the following information?
 
-  [Download Photo](./assets/skyscraper.jpg)
+  <a href="/assets/OSINT/skyscraper.jpg" download class="download-btn-link">
+    <button type="button" class="download-btn">Download skyscraper.jpg</button>
+  </a>
 
   Q1. Name of the building (one word):
   <PasswordForm hash="16e59805e030f81a011cd8d7e2bc1afac23872e77fee22fe610017fc23d5c8ea6508b790a9015d6d41b65c49f82de67508b76d8505531cbace503fd0977d6cb9" algorithm="sha512" />

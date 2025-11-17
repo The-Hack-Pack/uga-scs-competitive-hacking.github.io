@@ -36,8 +36,11 @@ Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/u
     ## Challenge
     <div className="challenge-box">
       CHALLENGE-DESCRIPTION-HERE
-
-      ![DOWNLOADABLE FILE](./assets/YOURFILE)
+      
+      <!--- This is a file download, you can have multiple --->
+      <a href="/assets/CATEGORY/FILE" download class="download-btn-link">
+        <button type="button" class="download-btn">Download FILE</button>
+      </a>
 
       <!--- This is an answer submission form, you can have multiple --->
       <PasswordForm hash="ANSWER-HASH-GOES-HERE" algorithm="sha512" />
@@ -56,7 +59,7 @@ Our GitHub repository is available [**here**](https://github.com/The-Hack-Pack/u
 
     </details>
 
-    If you have any downloadble files, place them in the `assets` folder (which should be in the same directory as your challenge). Make sure to convert your answer(s) to all **lowercase** and then to **SHA-512** (can be done at a site like [**this**](https://sha512.online/)) and put it in the PasswordForm component(s).
+    If you have any downloadble files, place them in the `/static/assets/CATEGORY` folder from root. If you have anything you want to display and **not** download (for example, images in solution guides), place them in the `assets` folder of your `challenge.md` file. Make sure to convert your answer(s) to all **lowercase** and then to **SHA-512** (can be done at a site like [**this**](https://sha512.online/)) and put it in the PasswordForm component(s).
 
     :::note
     Make sure to DM one of the officers with the answer(s) to the challenge! This is required for approval!

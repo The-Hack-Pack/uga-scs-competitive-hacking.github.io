@@ -13,8 +13,10 @@ Open Source Intelligence | Level 1 - TV
 <div className="challenge-box">
   ## Challenge
   We have received a photograph that needs investigation. Can you find the following information?
-
-  [Download Photo](./assets/TV.jfif)
+  
+  <a href="/assets/OSINT/TV.jfif" download class="download-btn-link">
+    <button type="button" class="download-btn">Download TV.jfif</button>
+  </a>
 
   Q1. Season & Episode of the show (Format: `S#E#` where `#` is the number):
   <PasswordForm hash="1eadf00209c56f7b9625ead3b7c74550b36ebff800212d20d159bc5f3d10f4c5d8f913ea7863dc38a3eaf521522f961649693c959bd94e7464b290ae408ce5e6" algorithm="sha512" />
