@@ -8,13 +8,21 @@ const PasswordForm5 = ({ hash, algorithm, challengeName, points }) => {
   const [teamName, setName] = useState('');
   const [isIncorrect, setIsIncorrect] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
+  const [alreadySolved, setAlreadySolved] = useState(false);
 
   useEffect(() => {
     const existingTeam = Cookies.get('name');
     if (existingTeam) {
       setName(existingTeam);
     }
-  }, []);
+    // Check localStorage for solved status
+    const solvedKey = `pf5-solved-${challengeName}`;
+    if (localStorage.getItem(solvedKey) === 'true') {
+      setAlreadySolved(true);
+      setIsCorrect(true);
+      setResult('✅ Already solved!');
+    }
+  }, [challengeName]);
 
 
   const hashPassword = (password, algorithm) => {
@@ -27,12 +35,17 @@ const PasswordForm5 = ({ hash, algorithm, challengeName, points }) => {
   };
 
   const checkPassword = async () => {
+    if (alreadySolved) return;
     const strippedPassword = inputPassword.replace(/\s+/g, '');
     const inputHash = hashPassword(strippedPassword, algorithm);
     if (inputHash === hash) {
       setResult('✅ Correct! +' + points + ' points.');
       setIsIncorrect(false);
       setIsCorrect(true);
+      setAlreadySolved(true);
+      // Mark as solved in localStorage
+      const solvedKey = `pf5-solved-${challengeName}`;
+      localStorage.setItem(solvedKey, 'true');
       await submitResult(inputPassword);
     } else {
       setResult('❌ Incorrect. Try again.');
@@ -91,6 +104,7 @@ const PasswordForm5 = ({ hash, algorithm, challengeName, points }) => {
               marginBottom: '8px',
               width: '70%'
             }}
+            disabled={alreadySolved}
           />
           <button
             type="submit"
@@ -102,11 +116,13 @@ const PasswordForm5 = ({ hash, algorithm, challengeName, points }) => {
               background: 'transparent',
               fontWeight: 'bold',
               fontSize: '1rem',
-              cursor: 'pointer',
-              marginLeft: '8px'
+              cursor: alreadySolved ? 'not-allowed' : 'pointer',
+              marginLeft: '8px',
+              opacity: alreadySolved ? 0.6 : 1
             }}
+            disabled={alreadySolved}
           >
-            Check
+            {alreadySolved ? 'Solved' : 'Check'}
           </button>
           <style>{`
             [data-theme='dark'] .pf5-check-btn {
@@ -114,7 +130,7 @@ const PasswordForm5 = ({ hash, algorithm, challengeName, points }) => {
             }
           `}</style>
         </form>
-        <p style={{ marginTop: '10px', fontWeight: 'bold' }}>{result}</p>
+        <p style={{ marginTop: '10px', fontWeight: 'bold', color: alreadySolved ? 'green' : undefined }}>{result}</p>
       </div>
   );
 };
