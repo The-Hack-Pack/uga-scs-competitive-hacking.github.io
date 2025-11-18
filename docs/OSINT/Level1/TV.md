@@ -15,7 +15,7 @@ Open Source Intelligence | Level 1 - TV
   We have received a photograph that needs investigation. Can you find the following information?
   
   <a href="/assets/OSINT/TV.jfif" download class="download-btn-link">
-    <button type="button" class="download-btn">Download TV.jfif</button>
+    <button type="button" class="download-btn">Download TV.jpg</button>
   </a>
 
   Q1. Season & Episode of the show (Format: `S#E#` where `#` is the number):
