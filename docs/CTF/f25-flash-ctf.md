@@ -131,7 +131,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
   Flag Format: `thp{}`
 
   <PasswordForm
-    hash="dd27ea025a0a1e68abdd286e6276d63cc93376e51f00a171127ccf18df1d48d2227d3f380c8b98498d2b752408511f0bd614a71c5b0a914ad8929065cf662499"
+    hash="aaa48642d2c687f28ec2b80b9a1d9301b9c021864147e95a15b40aeb128ada164a4d6cb2f8946dacb35854b42a7b668c98ef2107dd9147d843459f211573f1cd"
     algorithm="sha512"
     challengeName="Crypto 2"
     points={20}
