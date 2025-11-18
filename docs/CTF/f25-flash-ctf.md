@@ -100,12 +100,42 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 ## Cryptography
 
 <div className="challenge-box">
-  ### 4 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  ### 4 - Zgyzhs <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  Oh no! There is a malicious virus on our servers that's making all of our text backwards, there is only one way to stop it and that is to enter a super secret phrase. Luckily we managed to get the phrase, unluckily it has been encoding. 
+
+  Can you figure out the plaintext of the encrypted password:
+  ```
+  gsk{uorkgsvhxirkg}
+  ```
+
+  Flag Format: `thp{}`
+
+  <PasswordForm
+    hash="6e88fb0efbb640209fad4af8a11823336f824cab4d38594fd6b96bffb2957e9538bfe7be649f95332db342d22e857ee9944dd1cdbce57f13362d2f92af2147cc"
+    algorithm="sha512"
+    challengeName="Crypto 1"
+    points={10}
+  />
+
   <div className="challenge-author">Challenge Author: SriRam Surisetty (famousmagic87870)</div>
 </div>
 
 <div className="challenge-box">
-  ### 5 - <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  ### 5 - Choo Choo <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  One spooky night a train conductor is all alone at a railway station after a long day's work. However, he notices that there are a weird number of train tracks and that they have been shifted around. All of a sudden he hears an eerie train horn, and then all of a sudden he sees a ghost train rush by him!!! When the train finally stops a skeleton walks out and hands him this message: 
+  ```
+  ao{lbatplar}h_d
+  ```
+  What are the ghosts trying to say?
+
+  Flag Format: `thp{}`
+
+  <PasswordForm
+    hash="dd27ea025a0a1e68abdd286e6276d63cc93376e51f00a171127ccf18df1d48d2227d3f380c8b98498d2b752408511f0bd614a71c5b0a914ad8929065cf662499"
+    algorithm="sha512"
+    challengeName="Crypto 2"
+    points={20}
+  />
 
   <div className="challenge-author">Challenge Author: SriRam Surisetty (famousmagic87870)</div>
 </div>
@@ -122,8 +152,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
   <PasswordForm
     hash="3919957e93f59b6715f586368c3dbb34b348c0e64d136fa4d58c7c838f3e372b07d8942353b3c83894961d3923580b78fc4debea222bd389467e4279be26e71d"
     algorithm="sha512"
-    challengeName="Crypto 2"
-    points={20}
+    challengeName="Crypto 3"
+    points={30}
   />
   <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
