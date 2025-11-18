@@ -283,22 +283,53 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 
 
 ## Log Analysis
-
 <div className="challenge-box">
-  ### 13 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  We're conducting our biannual Microsoft Exchange Server security audit. Can you go in and see if anything has gotten through our standard spam filters?
+
+  NOTE: Challenges 13-15 all use this same file.
+
+  <a href="/assets/f25-flash-ctf/microsoft_exchange_audit.csv" download class="download-btn-link">
+    <button type="button" class="download-btn">Download microsoft_exchange_audit.csv</button>
+  </a>
+  #### 
+
+  ### 13 - Microsoft Exchange Audit 1 <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  How many `SMTP SEND` events are in the logs?
+
+  Flag Format: `thp{#}`
+
+  <PasswordForm
+    hash="d46b9e8ef1c7909062d8748dd741a2307fb2786e7e50f0d68b9a1a769d2eb86690aba62b9ddc179bcb3ef1ef07676caca7d16fb479d459f07f8f4b82f75bf4f7"
+    algorithm="sha512"
+    challengeName="Log 1"
+    points={10}
+  />
+
+  ### 14 - Microsoft Exchange Audit 2 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  Which internal email account received the most emails from external sources?
+
+  Flag Format: `thp{email}`
+
+  <PasswordForm
+    hash="a9ea75fc04cc13e90083233b2975788c78ba0f1413c6bb66d3a0891a614116d008961dfe474ef6f23c95f6ea4eb0e1e96e96aa1c8af35fc16e4739becf2cee82"
+    algorithm="sha512"
+    challengeName="Log 2"
+    points={20}
+  />
+
+  ### 15 - Microsoft Exchange Audit 3 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
+  Which IP address in the `185.220.101.0/24` subnet successfully delivered an email (not quarantined/rejected)?
+
+  Flag Format: `thp{#.#.#.#}`
+
+  <PasswordForm
+    hash="e62f7e6dbff30e0c2867a615a4f2acf6564072904744a867743b09830369cc605bc674399c359419954d2423e0e701affbca7a405b8c1dae03a4a691f9a1e5c3"
+    algorithm="sha512"
+    challengeName="Log 3"
+    points={30}
+  />
   <div className="challenge-author">Challenge Author: Hung Nguyen (triumviratesys)</div>
 </div>
-
-<div className="challenge-box">
-  ### 14 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
-  <div className="challenge-author">Challenge Author: Hung Nguyen (triumviratesys)</div>
-</div>
-
-<div className="challenge-box">
-  ### 15 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
-  <div className="challenge-author">Challenge Author: Hung Nguyen (triumviratesys)</div>
-</div>
-
 
 ## Web App Exploitation
 
@@ -358,7 +389,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 ## Reverse Engineering
 
 <div className="challenge-box">
-  ### 19 - Binary Keystone <PointsLabel points={15} /><DifficultyLabel level="Easy" />
+  ### 19 - Binary Keystone <PointsLabel points={10} /><DifficultyLabel level="Easy" />
   Can you find the right key to unlock the core logic?
 
   Flag format: `thp{key}`
@@ -371,14 +402,32 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     hash="c234467c3ed869103c06c69cf2b6c047fcd90cddd891f2d5e8c3e1efb1eb2b51a5a90d1d0cb5457a80df28434e0f6b90ae13c7f6e261076c0af4925abef9a6b4"
     algorithm="sha512"
     challengeName="RE 1"
-    points={15}
+    points={10}
   />
 
   <div className="challenge-author">Challenge Author: Swapnil Roy (thespcrewroy)</div>
 </div>
 
 <div className="challenge-box">
-  ### 20 <PointsLabel points={25} /><DifficultyLabel level="Medium" />
+  ### 20 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
   <div className="challenge-author">Challenge Author: Swapnil Roy (thespcrewroy)</div>
 </div>
 
+## Survey
+<div className="challenge-box">
+  ### 21 - Survey <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  Thank you for participating in The Hack Pack's Fall 2025 Flash CTF! We would love to hear more about your experience. Answering this survey gets you a flag worth 10 points!  
+
+  Survey Form: https://forms.gle/6EBUZ1xyu38jndPA7
+
+  Flag format: `thp{}`
+
+  <PasswordForm
+    hash="2d0d17c194dc22d6dc908cc589a03f70966276d955d4a24141237d1a7f02928c3bfd9926135264df4c39eb495cff7b8b6e17fc380742d0a385c9ce49d84eeb20"
+    algorithm="sha512"
+    challengeName="Survey"
+    points={10}
+  />
+
+  <div className="challenge-author">Challenge Author: Swapnil Roy (thespcrewroy)</div>
+</div>
