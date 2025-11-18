@@ -100,7 +100,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 ## Cryptography
 
 <div className="challenge-box">
-  ### 4 - Zgyzhs <PointsLabel points={10} /><DifficultyLabel level="Easy" />
+  ### 4 - Mirror <PointsLabel points={10} /><DifficultyLabel level="Easy" />
   Oh no! There is a malicious virus on our servers that's making all of our text backwards, there is only one way to stop it and that is to enter a super secret phrase. Luckily we managed to get the phrase, unluckily it has been encoding. 
 
   Can you figure out the plaintext of the encrypted password:
