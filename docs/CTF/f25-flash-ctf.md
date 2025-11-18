@@ -409,8 +409,23 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 </div>
 
 <div className="challenge-box">
-  ### 20 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
-  <div className="challenge-author">Challenge Author: Swapnil Roy (thespcrewroy)</div>
+  ### 20 - String Mangler <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  A mysterious program is asking for a password. Can you figure out what it wants and claim your flag?
+
+  Flag format: `thp{input}`
+
+  <a href="/assets/f25-flash-ctf/string_mangler.bin" download class="download-btn-link">
+    <button type="button" class="download-btn">Download string_mangler.bin</button>
+  </a>
+
+  <PasswordForm
+    hash="0929cd3b6ddd77b24d96d3f7a1a28659f84facf6a723f2ad481a95f7fd05b7bc9d037b3cd904411571ea792d8ebc62888a16f90bde1405d84f5d0c1649cfd480"
+    algorithm="sha512"
+    challengeName="RE 2"
+    points={20}
+  />
+
+  <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
 
 ## Survey
