@@ -74,12 +74,12 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 <div className="challenge-box">
   ### 3 - Off The Grid <PointsLabel points={30} /><DifficultyLabel level="Hard" />
   We've been tasked to find the exact time Zayan went off the grid. All we have is this note found at their desk.
-  
-  Flag Format: `thp{DD-MM-YYYY_HH:MM}`
 
   :::note
   Link is case-sensitive.
   :::
+
+  Flag Format: `thp{DD-MM-YYYY_HH:MM}`
 
   <a href="/assets/f25-flash-ctf/note.jpeg" download class="download-btn-link">
     <button type="button" class="download-btn">Download note.jpeg</button>
