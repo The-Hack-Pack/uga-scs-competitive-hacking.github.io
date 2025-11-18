@@ -55,6 +55,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
   ### 2 - Discord Bot <PointsLabel points={20} /><DifficultyLabel level="Medium" />
   We've received this Discord bot repository where sensitive information may have been exposed. Can you find the flag?
 
+  Flag Format: `thp{}`
+
   <a href="/assets/f25-flash-ctf/discord-bot-project.zip" download class="download-btn-link">
     <button type="button" class="download-btn">Download discord-bot-project.zip</button>
   </a>
@@ -72,7 +74,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 <div className="challenge-box">
   ### 3 - Off The Grid <PointsLabel points={30} /><DifficultyLabel level="Hard" />
   We've been tasked to find the exact time Zayan went off the grid. All we have is this note found at their desk.
-  The flag format is `thp{DD-MM-YYYY_HH:MM}`
+  
+  Flag Format: `thp{DD-MM-YYYY_HH:MM}`
 
   :::note
   Link is case-sensitive.
@@ -108,6 +111,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
   😀󠅤󠅘󠅠󠅫󠅕󠅝󠅟󠅚󠅙󠅏󠅔󠅕󠅓󠅟󠅔󠅕󠅏󠅘󠅡󠄢󠄤󠄠󠅘󠅡󠄠󠄢󠅭
   ```
 
+  Flag Format: `thp{}`
+
   <PasswordForm
     hash="3919957e93f59b6715f586368c3dbb34b348c0e64d136fa4d58c7c838f3e372b07d8942353b3c83894961d3923580b78fc4debea222bd389467e4279be26e71d"
     algorithm="sha512"
@@ -132,6 +137,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 
   Hash: `31d8c2fe81a635bef93315aa8234c1a0`
 
+  Flag Format: `password`
+
   <PasswordForm
     hash="8cd88350cfa0e65ce5212c65761aded6fa00278f831dc7e390be490b798dec84b3441699da4c8439464cd42996de25432f9a6e2a700a58906127c332529cfeae"
     algorithm="sha512"
@@ -148,6 +155,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 
   Hash: `fbb4ba434d9d6413e4f3a3381a646cb3`
 
+  Flag Format: `password`
+
   <PasswordForm
     hash="367af734129834ef0a66fbe94b432932f7ef9a158828c6521b9456d07ff31bd2228dcc2b904228194d8b0acd174e347daf5babcfdb9692f33e0a0f6c1a01effb"
     algorithm="sha512"
@@ -163,6 +172,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
   We've received this password hash that seems to be a dog breed appended by a special character and number. Can you crack the password?
 
   Hash: `ce7f4c18a74bfa86af7c22b7222e34f3`
+
+  Flag Format: `password`
 
   <PasswordForm
     hash="16392b694c1fbea8782d58e0628c1de06508a905ee650a16dd1a38ea47bf15928dba3e79ac2a76e74ce5970e6f1bbd4efa17278503d6f4e0b57c43d02893da90"
@@ -181,6 +192,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
   ### 10 - Amogus <PointsLabel points={10} /><DifficultyLabel level="Easy" />
 
   This image is suspicious, can you find the flag?
+
+  Flag Format: `thp{}`
 
   <a href="/assets/f25-flash-ctf/sus.png" download class="download-btn-link">
     <button type="button" class="download-btn">Download sus.png</button>
@@ -201,6 +214,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 
   We've got a packet capture where someone downloaded some secret files. Can you find the flag?
 
+  Flag Format: `thp{}`
+
   <a href="/assets/f25-flash-ctf/data-download.pcap" download class="download-btn-link">
     <button type="button" class="download-btn">Download data-download.pcap</button>
   </a>
@@ -219,6 +234,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
   ### 12 - Encrypted Email <PointsLabel points={30} /><DifficultyLabel level="Hard" />
 
   We've received a raw email of someone sending suspicious data to someone. Can you find the flag?
+
+  Flag Format: `thp{}`
 
   <a href="/assets/f25-flash-ctf/email.eml" download class="download-btn-link">
     <button type="button" class="download-btn">Download email.eml</button>
@@ -259,6 +276,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
   ### 16 - Robot <PointsLabel points={10} /><DifficultyLabel level="Easy" />
   It seems like some clanker hid something on this website. Can you find the flag?
 
+  Flag Format: `thp{}`
+
   <PasswordForm
     hash="91117b4e78d28daba58d84bb705f3fd4509e25dd51b9b982af26f7e4b32c425aa1fbcd689bc0a2a1d1edf52c5c98cbb5a39d934a51ce514519e233b9ef57c872"
     algorithm="sha512"
@@ -275,6 +294,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 
   Website: https://notes.thehackpack.org
 
+  Flag Format: `thp{}`
+
   <PasswordForm
     hash="efe039aa825ccced01e94d06809bf097e933e4e2d2e68dbb518d13518a9810e2023ed5c9fb1fe2025e9f860c88d688a77ea5a8f745157bc7452ef37e3a7b43a4"
     algorithm="sha512"
@@ -290,6 +311,8 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
   Can you find the flag on this fetch service? (NOTE: Bruteforcing web challenges is out of scope and should not be done.)
 
   Website: https://fetch.thehackpack.org
+
+  Flag Format: `thp{}`
 
   <PasswordForm
     hash="a8bf0d2b4b898010105df4063dc81f7b93078e155f067b8d5564daf52f3184d6c98e745966351a5e4f9646d2611dc0eadeecea0b055f3de4f16e34b3c86254bf"
