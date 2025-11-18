@@ -428,6 +428,4 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="Survey"
     points={10}
   />
-
-  <div className="challenge-author">Challenge Author: Swapnil Roy (thespcrewroy)</div>
 </div>
