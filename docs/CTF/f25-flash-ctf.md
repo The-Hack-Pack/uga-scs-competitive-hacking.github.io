@@ -299,31 +299,31 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
   Flag Format: `thp{#}`
 
   <PasswordForm
-    hash="d46b9e8ef1c7909062d8748dd741a2307fb2786e7e50f0d68b9a1a769d2eb86690aba62b9ddc179bcb3ef1ef07676caca7d16fb479d459f07f8f4b82f75bf4f7"
+    hash="c9d23799618c276f4b911102741bf58770a97e016486f27bada90a0e12e4630621b484280f8e191abc2e868515a424a8d6806af8ccb2b4553ecc2f211fc87562"
     algorithm="sha512"
     challengeName="Log 1"
     points={10}
   />
 
   ### 14 - Microsoft Exchange Audit 2 <PointsLabel points={20} /><DifficultyLabel level="Medium" />
-  Which internal email account received the most emails from external sources?
-
-  Flag Format: `thp{email}`
-
-  <PasswordForm
-    hash="a9ea75fc04cc13e90083233b2975788c78ba0f1413c6bb66d3a0891a614116d008961dfe474ef6f23c95f6ea4eb0e1e96e96aa1c8af35fc16e4739becf2cee82"
-    algorithm="sha512"
-    challengeName="Log 2"
-    points={20}
-  />
-
-  ### 15 - Microsoft Exchange Audit 3 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
   Which IP address in the `185.220.101.0/24` subnet successfully delivered an email (not quarantined/rejected)?
 
   Flag Format: `thp{#.#.#.#}`
 
   <PasswordForm
     hash="e62f7e6dbff30e0c2867a615a4f2acf6564072904744a867743b09830369cc605bc674399c359419954d2423e0e701affbca7a405b8c1dae03a4a691f9a1e5c3"
+    algorithm="sha512"
+    challengeName="Log 2"
+    points={20}
+  />
+
+  ### 15 - Microsoft Exchange Audit 3 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
+  Which internal email account received the most emails from external sources?
+
+  Flag Format: `thp{email}`
+
+  <PasswordForm
+    hash="74935976d8830c2104c4f486fe594ce39a3d89477885c8752d07a6e6932c3becdf1e68d14d697d89822ff7c1cc07ec666d3f267efb18a0c03245fa00d04c4bf9"
     algorithm="sha512"
     challengeName="Log 3"
     points={30}
