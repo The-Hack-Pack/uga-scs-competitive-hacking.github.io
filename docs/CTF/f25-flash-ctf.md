@@ -105,7 +105,13 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 </div>
 
 <div className="challenge-box">
-  ### 5 - Emoji <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+  ### 5 - <PointsLabel points={20} /><DifficultyLabel level="Medium" />
+
+  <div className="challenge-author">Challenge Author: SriRam Surisetty (famousmagic87870)</div>
+</div>
+
+<div className="challenge-box">
+  ### 6 - Emoji <PointsLabel points={30} /><DifficultyLabel level="Hard" />
   We've received an emoji that apparently contains the flag, can you find it? Here's the emoji: 
   ```
   😀󠅤󠅘󠅠󠅫󠅕󠅝󠅟󠅚󠅙󠅏󠅔󠅕󠅓󠅟󠅔󠅕󠅏󠅘󠅡󠄢󠄤󠄠󠅘󠅡󠄠󠄢󠅭
@@ -119,13 +125,7 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
     challengeName="Crypto 2"
     points={20}
   />
-
   <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
-</div>
-
-<div className="challenge-box">
-  ### 6 <PointsLabel points={30} /><DifficultyLabel level="Hard" />
-  <div className="challenge-author">Challenge Author: SriRam Surisetty (famousmagic87870)</div>
 </div>
 
 
