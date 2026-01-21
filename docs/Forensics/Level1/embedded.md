@@ -12,7 +12,7 @@ Forensics | Level 1 - Embedded
 
 <div className="challenge-box">
   ## Challenge
-  We have recieved an image that is hiding something. See if you can find the secret.
+  We have received an image that is hiding something. See if you can find the secret.
 
   <a href="/assets/Forensics/embedded.png" download class="download-btn-link">
     <button type="button" class="download-btn">Download embedded.png</button>

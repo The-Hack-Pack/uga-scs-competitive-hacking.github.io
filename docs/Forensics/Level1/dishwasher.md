@@ -12,7 +12,7 @@ Forensics | Level 1 - Dishwasher
 
 <div className="challenge-box">
   ## Challenge
-  We have recieved an image of a robot that is hiding something. We know that there's a password involved which is name of this robot (no spaces, lowercase). See if you can find the secret.
+  We have received an image of a robot that is hiding something. We know that there's a password involved which is name of this robot (no spaces, lowercase). See if you can find the secret.
   
   <a href="/assets/Forensics/robotsteg.jpg" download class="download-btn-link">
     <button type="button" class="download-btn">Download robotsteg.jpg</button>
