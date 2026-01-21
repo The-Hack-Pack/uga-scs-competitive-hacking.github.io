@@ -416,20 +416,3 @@ Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & e
 
   <div className="challenge-author">Challenge Author: Divesh Gupta (legendile7)</div>
 </div>
-
-## Survey
-<div className="challenge-box">
-  ### 21 - Survey <PointsLabel points={10} /><DifficultyLabel level="Easy" />
-  Thank you for participating in The Hack Pack's Fall 2025 Flash CTF! We would love to hear more about your experience. Answering this survey gets you a flag worth 10 points!  
-
-  Survey Form: https://forms.gle/6EBUZ1xyu38jndPA7
-
-  Flag format: `thp{}`
-
-  <PasswordForm
-    hash="2d0d17c194dc22d6dc908cc589a03f70966276d955d4a24141237d1a7f02928c3bfd9926135264df4c39eb495cff7b8b6e17fc380742d0a385c9ce49d84eeb20"
-    algorithm="sha512"
-    challengeName="Survey"
-    points={10}
-  />
-</div>
