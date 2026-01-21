@@ -4,7 +4,7 @@ tags: [level1]
 sidebar_position: 3
 ---
 
-import PasswordForm from '@site/src/components/PasswordForm';
+import PasswordForm from '@site/src/components/PasswordForm2';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import '@site/src/components/css/challengeBox.css';
@@ -19,7 +19,7 @@ Password Cracking | Level 1 - Protected
     <button type="button" class="download-btn">Download protected.pdf</button>
   </a>
 
-  <PasswordForm hash="efca4e4f572283feda8600aefc9a7660d57e50662160eaa92fecedc8db4e3499465cbd4c0fa3305132677b6403ef833c582255d1dc9a50f17236cc12778b4954" algorithm="sha512" />
+  <PasswordForm hash="b1212522c3aafa9908fd732456d1803ac4634882a91dab2b6f05fc435e59f2dcd6e3ea791f2b4ba6ededf5d76488839acda4f8cefd94205f801d89d828783b27" algorithm="sha512" />
 </div>
 
 ## Solution
