@@ -4,7 +4,7 @@ tags: [level1]
 sidebar_position: 1
 ---
 
-import PasswordForm from '@site/src/components/PasswordForm';
+import PasswordForm from '@site/src/components/PasswordForm2';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import '@site/src/components/css/challengeBox.css';
@@ -19,7 +19,7 @@ Forensics | Level 1 - Broken
     <button type="button" class="download-btn">Download broken.png</button>
   </a>
 
-  <PasswordForm hash="b1df31cc3e723b6f6fe2b030fe6642534b1540fc2baff262cf4d1c30812f89ce2d5e5fc5ad2150a3aaa4e3bb901d11a6fdd7c43bedce5354be55748f951ff960" algorithm="sha512" />
+  <PasswordForm hash="ae893383797f877674b6cb77cc4bc803a10350f8d9db86651928f4b4e5a9cabcfb229f32b62278d48bb549ff36ab9a9e6d97f769800231d32c096a09994c95c6" algorithm="sha512" />
 </div>
 
 ## Solution

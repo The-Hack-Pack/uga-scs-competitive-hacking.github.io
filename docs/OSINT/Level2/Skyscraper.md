@@ -4,7 +4,7 @@ tags: [level2]
 sidebar_position: 0
 ---
 
-import PasswordForm from '@site/src/components/PasswordForm';
+import PasswordForm from '@site/src/components/PasswordForm2';
 import '@site/src/components/css/challengeBox.css';
 
 # Skyscraper
@@ -18,9 +18,9 @@ Open Source Intelligence | Level 2 - Skyscraper
   </a>
 
   Q1. Name of the building (one word):
-  <PasswordForm hash="16e59805e030f81a011cd8d7e2bc1afac23872e77fee22fe610017fc23d5c8ea6508b790a9015d6d41b65c49f82de67508b76d8505531cbace503fd0977d6cb9" algorithm="sha512" />
+  <PasswordForm hash="1014a0b480a02171cfe2ea39b15afe354f63b020e4f7afcb7daa54c22374651b126c8ee8c0c7f384767e8c57814f617b1938054966d11c97bc389c78faad221e" algorithm="sha512" />
 
-  Q2. Height of the building (number of feet):
+  Q2. Height of the building (in feet):
   <PasswordForm hash="489e0295450907aed85a453525f115f56fa142c4e2a549ba69faef3d684e11925699b323e41717c52c2fafaf741a1432f6596c46da1e97f353f378d001e65d0c" algorithm="sha512" />
 
   Q3. What year was this building built?

@@ -4,7 +4,7 @@ tags: [level1]
 sidebar_position: 0
 ---
 
-import PasswordForm from '@site/src/components/PasswordForm';
+import PasswordForm from '@site/src/components/PasswordForm2';
 import '@site/src/components/css/challengeBox.css';
 
 # Unknown
