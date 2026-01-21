@@ -1,6 +1,6 @@
 ---
 description: "Password Cracking Flash CTF"
-sidebar_position: 0
+sidebar_position: 3
 ---
 
 import Tabs from '@theme/Tabs';

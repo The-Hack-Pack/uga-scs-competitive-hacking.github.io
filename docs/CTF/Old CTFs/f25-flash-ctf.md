@@ -7,24 +7,13 @@ sidebar_position: 0
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import PasswordForm from '@site/src/components/PasswordFormCTF';
-import NameBanner from '@site/src/components/NameBanner';
-import SidebarAutoCollapse from '@site/src/components/SidebarAutoCollapse';
+import PasswordForm from '@site/src/components/PasswordForm2';
 import '@site/src/components/css/challengeBox.css';
 import DifficultyLabel from '@site/src/components/DifficultyLabel';
 import PointsLabel from '@site/src/components/PointsLabel';
-import Leaderboard from '@site/src/components/Leaderboard';
-
-<SidebarAutoCollapse />
 
 # Fall 2025 Flash CTF
 Welcome to the Fall 2025 Flash Capture The Flag competition! You are allowed & encouraged to use any online tool including Google and AI. Attacking the competition platform is strictly prohibited.
-
-*NOTE: Correct submissions are being saved, refreshing won’t erase them from the server.*
-<NameBanner />
-
-<Leaderboard />
-
 
 
 ## Open Source Intelligence

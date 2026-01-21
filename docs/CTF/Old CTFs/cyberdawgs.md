@@ -1,6 +1,6 @@
 ---
 description: "UGA CyberDawgs CTF"
-sidebar_position: 0
+sidebar_position: 2
 ---
 
 import Tabs from '@theme/Tabs';

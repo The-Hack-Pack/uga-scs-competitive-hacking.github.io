@@ -4,7 +4,7 @@ tags: [level1]
 sidebar_position: 0
 ---
 
-import PasswordForm from '@site/src/components/PasswordForm';
+import PasswordForm2 from '@site/src/components/PasswordForm2';
 import '@site/src/components/css/challengeBox.css';
 
 # TV
@@ -19,13 +19,13 @@ Open Source Intelligence | Level 1 - TV
   </a>
 
   Q1. Season & Episode of the show (Format: `S#E#` where `#` is the number):
-  <PasswordForm hash="1eadf00209c56f7b9625ead3b7c74550b36ebff800212d20d159bc5f3d10f4c5d8f913ea7863dc38a3eaf521522f961649693c959bd94e7464b290ae408ce5e6" algorithm="sha512" />
+  <PasswordForm2 hash="d138986980a277b8d6d77314ddb6c54da309991b5f92c761d8846b8af1242ac99fe9a4520e77fa5896b424f2f9f5cd63021a154bd68c8774b757fa45ef198838" algorithm="sha512" />
 
   Q2. Photographer Name:
-  <PasswordForm hash="0a0ee357d9d06a5bf34748c98f5549fc407f28870578c487f6a682743e472066fe23e78e2fe8eaf4693143539e5c953d3e969e5480101d900985449686da6d31" algorithm="sha512" />
+  <PasswordForm2 hash="3365d7284e633947e0c2fb9c2b3566643e28755e505e81e0002dd2dcd042bf3c9c7a836264e5e8758d6a7921d2ff4e2f3f728a8ef3d3a5fed62ff31dc543353d" algorithm="sha512" />
 
   Q3. City where picture was taken:
-  <PasswordForm hash="70f7a94a26b21b5aaec5d2103faa8fd78ed0b007605998b52039197057b5da4a9ae699af7c0cf226fa0ab525db86a54e7868934e9dc5b940adc265b043c56143" algorithm="sha512" />
+  <PasswordForm2 hash="f57924c935edb0b5ccfbcdb48751eba20400ed09d1a77d3a0f9bd67ad64aa4810f75ce3ed4b26a8e8058b655b01a8e0d36ce6a9613a92b546945823e859245da" algorithm="sha512" />
 </div>
 
 ## Solution

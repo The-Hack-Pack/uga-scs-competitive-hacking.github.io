@@ -1,6 +1,6 @@
 ---
 description: "Fall 2025 Kickoff CTF"
-sidebar_position: 0
+sidebar_position: 1
 ---
 
 import Tabs from '@theme/Tabs';
