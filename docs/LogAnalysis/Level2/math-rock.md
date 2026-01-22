@@ -29,7 +29,7 @@ Log Analsysis | Level 2 - Math Rock
         <button type="button" class="download-btn">Download ichika-nito.log</button>
     </a>
     
-    <PasswordForm hash="456e688ee12388847b3d245d8ae5d10f488dcdf1b5ad1a1aa6dddcb9ccc3e23c824e134b9f69fae368e69e18eba67fa5cc1dec6246bf5f58e1a5a2afcd9bac63" algorithm="sha512" />
+    <PasswordForm hash="456e688ee12388847b3d245d8ae5d10f488dcdf1b5ad1a1aa6dddcb9ccc3e23c824e134b9f69fae368e69e18eba67fa5cc1dec6246bf5f58e1a5a2afcd9bac63" algorithm="sha512" challengeName = "Math Rock"  />
 </div>
 
 ## Solution

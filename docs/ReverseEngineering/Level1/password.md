@@ -17,7 +17,7 @@ Reverse Engineering | Level 1 - Password
     <button type="button" class="download-btn">Download password.bin</button>
   </a>
 
-  <PasswordForm hash="da0f46990f3d9a7222911d8f674b19792623347d3e4d4a516127d610dfde0dd40001a228ffc64252ea67f70a9e7d81610f3c4f2123ba54f7c7f93a539577db93" algorithm="sha512" />
+  <PasswordForm hash="da0f46990f3d9a7222911d8f674b19792623347d3e4d4a516127d610dfde0dd40001a228ffc64252ea67f70a9e7d81610f3c4f2123ba54f7c7f93a539577db93" algorithm="sha512" challengeName = "Password" />
 </div>
 
 ## Solution

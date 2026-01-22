@@ -19,7 +19,7 @@ Forensics | Level 1 - Broken
     <button type="button" class="download-btn">Download broken.png</button>
   </a>
 
-  <PasswordForm hash="ae893383797f877674b6cb77cc4bc803a10350f8d9db86651928f4b4e5a9cabcfb229f32b62278d48bb549ff36ab9a9e6d97f769800231d32c096a09994c95c6" algorithm="sha512" />
+  <PasswordForm hash="ae893383797f877674b6cb77cc4bc803a10350f8d9db86651928f4b4e5a9cabcfb229f32b62278d48bb549ff36ab9a9e6d97f769800231d32c096a09994c95c6" algorithm="sha512" challengeName = "Broken" />
 </div>
 
 ## Solution

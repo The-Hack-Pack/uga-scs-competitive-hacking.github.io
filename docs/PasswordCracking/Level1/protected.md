@@ -19,7 +19,7 @@ Password Cracking | Level 1 - Protected
     <button type="button" class="download-btn">Download protected.pdf</button>
   </a>
 
-  <PasswordForm hash="b1212522c3aafa9908fd732456d1803ac4634882a91dab2b6f05fc435e59f2dcd6e3ea791f2b4ba6ededf5d76488839acda4f8cefd94205f801d89d828783b27" algorithm="sha512" />
+  <PasswordForm hash="b1212522c3aafa9908fd732456d1803ac4634882a91dab2b6f05fc435e59f2dcd6e3ea791f2b4ba6ededf5d76488839acda4f8cefd94205f801d89d828783b27" algorithm="sha512" challengeName = "Protected" />
 </div>
 
 ## Solution

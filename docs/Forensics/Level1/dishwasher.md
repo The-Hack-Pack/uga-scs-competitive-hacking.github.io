@@ -18,7 +18,7 @@ Forensics | Level 1 - Dishwasher
     <button type="button" class="download-btn">Download robotsteg.jpg</button>
   </a>
 
-  <PasswordForm hash="ff028e5456fef3db9f5dd231ac24970b1a06599537cc035274dd26b204869e6c441acec25ef8afcae73f49d349e9507d6d060bd2e19680b326db9b68f9cdb274" algorithm="sha512" />
+  <PasswordForm hash="ff028e5456fef3db9f5dd231ac24970b1a06599537cc035274dd26b204869e6c441acec25ef8afcae73f49d349e9507d6d060bd2e19680b326db9b68f9cdb274" algorithm="sha512" challengeName = "Dishwasher"  />
 </div>
 
 ## Solution

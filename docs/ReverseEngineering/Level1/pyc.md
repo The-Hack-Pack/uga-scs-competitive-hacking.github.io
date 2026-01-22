@@ -17,7 +17,7 @@ Reverse Engineering | Level 1 - Pyc
     <button type="button" class="download-btn">Download rev.pyc</button>
   </a>
 
-  <PasswordForm hash="b5368f3271b484d3ca35e63a102e636dc8e83e238b10b70124a2da6a51e7f8060f6bb76e748d8c0d4f9da4d2012dd5db09e2f455f4d9d95bd9ac27439d37d890" algorithm="sha512" />
+  <PasswordForm hash="b5368f3271b484d3ca35e63a102e636dc8e83e238b10b70124a2da6a51e7f8060f6bb76e748d8c0d4f9da4d2012dd5db09e2f455f4d9d95bd9ac27439d37d890" algorithm="sha512" challengeName = "Pyc" />
 </div>
 
 ## Solution

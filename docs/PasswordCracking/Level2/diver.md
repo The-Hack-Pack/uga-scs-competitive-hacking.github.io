@@ -15,7 +15,7 @@ Password Cracking | Level 2 - Diver
 
   Target Hash: `7d2eec8b9a92dd4d4dde274e09031129`
 
-  <PasswordForm hash="8ca396630157e199d0780785dd031679cc645a9df7943ce0261a8b2d78ae45b4bce7b8a5a4da7c90fb9ab8dcf7bcee2017540a8e29d613c07eab9544c1a7e2df" algorithm="sha512" />
+  <PasswordForm hash="8ca396630157e199d0780785dd031679cc645a9df7943ce0261a8b2d78ae45b4bce7b8a5a4da7c90fb9ab8dcf7bcee2017540a8e29d613c07eab9544c1a7e2df" algorithm="sha512" challengeName = "Diver" />
 </div>
 
 ## Solution

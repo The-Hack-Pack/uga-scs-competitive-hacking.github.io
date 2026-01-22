@@ -18,16 +18,16 @@ Open Source Intelligence | Level 2 - Skyscraper
   </a>
 
   Q1. Name of the building (one word):
-  <PasswordForm hash="1014a0b480a02171cfe2ea39b15afe354f63b020e4f7afcb7daa54c22374651b126c8ee8c0c7f384767e8c57814f617b1938054966d11c97bc389c78faad221e" algorithm="sha512" />
+  <PasswordForm hash="1014a0b480a02171cfe2ea39b15afe354f63b020e4f7afcb7daa54c22374651b126c8ee8c0c7f384767e8c57814f617b1938054966d11c97bc389c78faad221e" algorithm="sha512" challengeName = "Skyscraper1" />
 
   Q2. Height of the building (in feet):
-  <PasswordForm hash="489e0295450907aed85a453525f115f56fa142c4e2a549ba69faef3d684e11925699b323e41717c52c2fafaf741a1432f6596c46da1e97f353f378d001e65d0c" algorithm="sha512" />
+  <PasswordForm hash="489e0295450907aed85a453525f115f56fa142c4e2a549ba69faef3d684e11925699b323e41717c52c2fafaf741a1432f6596c46da1e97f353f378d001e65d0c" algorithm="sha512" challengeName = "Skyscraper2" />
 
   Q3. What year was this building built?
-  <PasswordForm hash="5ac8c0e24a0918f67ad4099606af4e6dd5e120f92d3902ffc17cf80a3dc258631220bb57970caeb0b9732c623c5363d711390de76354df84aec836a6f4c035f8" algorithm="sha512" />
+  <PasswordForm hash="5ac8c0e24a0918f67ad4099606af4e6dd5e120f92d3902ffc17cf80a3dc258631220bb57970caeb0b9732c623c5363d711390de76354df84aec836a6f4c035f8" algorithm="sha512" challengeName = "Skyscraper3" />
 
   Q4. What is this building's Building Identification Number (BIN)?
-  <PasswordForm hash="06172fefe8ce12eb6394ce1e2cdc1010ebf0f17738f677eed6a52d7e313a6a7f493fb1f9c1cf693e78ad484146c1bcaec9f77f51cf6922dd3a21a5b83e0adbc1" algorithm="sha512" />
+  <PasswordForm hash="06172fefe8ce12eb6394ce1e2cdc1010ebf0f17738f677eed6a52d7e313a6a7f493fb1f9c1cf693e78ad484146c1bcaec9f77f51cf6922dd3a21a5b83e0adbc1" algorithm="sha512" challengeName = "Skyscraper4" />
 </div>
 
 ## Solution

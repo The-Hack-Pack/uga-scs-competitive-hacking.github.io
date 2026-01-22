@@ -19,13 +19,13 @@ Open Source Intelligence | Level 1 - TV
   </a>
 
   Q1. Season & Episode of the show (Format: `S#E#` where `#` is the number):
-  <PasswordForm2 hash="d138986980a277b8d6d77314ddb6c54da309991b5f92c761d8846b8af1242ac99fe9a4520e77fa5896b424f2f9f5cd63021a154bd68c8774b757fa45ef198838" algorithm="sha512" />
+  <PasswordForm2 hash="d138986980a277b8d6d77314ddb6c54da309991b5f92c761d8846b8af1242ac99fe9a4520e77fa5896b424f2f9f5cd63021a154bd68c8774b757fa45ef198838" algorithm="sha512" challengeName = "TV1"  />
 
   Q2. Photographer Name:
-  <PasswordForm2 hash="3365d7284e633947e0c2fb9c2b3566643e28755e505e81e0002dd2dcd042bf3c9c7a836264e5e8758d6a7921d2ff4e2f3f728a8ef3d3a5fed62ff31dc543353d" algorithm="sha512" />
+  <PasswordForm2 hash="3365d7284e633947e0c2fb9c2b3566643e28755e505e81e0002dd2dcd042bf3c9c7a836264e5e8758d6a7921d2ff4e2f3f728a8ef3d3a5fed62ff31dc543353d" algorithm="sha512" challengeName = "TV2" />
 
   Q3. City where picture was taken:
-  <PasswordForm2 hash="f57924c935edb0b5ccfbcdb48751eba20400ed09d1a77d3a0f9bd67ad64aa4810f75ce3ed4b26a8e8058b655b01a8e0d36ce6a9613a92b546945823e859245da" algorithm="sha512" />
+  <PasswordForm2 hash="f57924c935edb0b5ccfbcdb48751eba20400ed09d1a77d3a0f9bd67ad64aa4810f75ce3ed4b26a8e8058b655b01a8e0d36ce6a9613a92b546945823e859245da" algorithm="sha512" challengeName = "TV3" />
 </div>
 
 ## Solution

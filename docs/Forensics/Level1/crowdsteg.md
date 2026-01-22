@@ -18,7 +18,7 @@ Forensics | Level 1 - CrowdSteg
     <button type="button" class="download-btn">Download crowdsteg.png</button>
   </a>
 
-  <PasswordForm hash="c935c6aa6d9a74c430d85dedebff140e46cd0527e71610f96bad887bd242535971a6528382772b59ccf79e842da42e65b58c4e5c6fa2b4e45988a54584eba8ac" algorithm="sha512" />
+  <PasswordForm hash="c935c6aa6d9a74c430d85dedebff140e46cd0527e71610f96bad887bd242535971a6528382772b59ccf79e842da42e65b58c4e5c6fa2b4e45988a54584eba8ac" algorithm="sha512" challengeName = "CrowdSteg"  />
 </div>
 
 ## Solution

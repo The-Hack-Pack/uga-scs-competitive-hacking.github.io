@@ -19,7 +19,7 @@ Password Cracking | Level 1 - Masked
 
   Target Hash: `a9fe58ebbe541f23dcb988ac47e7ee6f`
 
-  <PasswordForm hash="0b0583b4d6ee8fe50f52b780d92d4e774c371c8d42ef73beb2dbb284f6891388acf60ea4b201ad8f8704ae3e64e07bc33e0161f922d4e475bf73f61d5522141f" algorithm="sha512" />
+  <PasswordForm hash="0b0583b4d6ee8fe50f52b780d92d4e774c371c8d42ef73beb2dbb284f6891388acf60ea4b201ad8f8704ae3e64e07bc33e0161f922d4e475bf73f61d5522141f" algorithm="sha512" challengeName = "Masked" />
 </div>
 
 ## Solution

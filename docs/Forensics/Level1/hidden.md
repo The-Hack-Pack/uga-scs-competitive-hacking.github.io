@@ -19,7 +19,7 @@ Forensics | Level 1 - Hidden
     <button type="button" class="download-btn">Download car.jpeg</button>
   </a>
 
-  <PasswordForm hash="b51f39505642ecb4fb3a2600d57d3f53cdb15200140a8443ba4584c3471ce94522b395e3eb9464b5f97fd97dff16c5fbfc30b670a1be9b9286749b1bcbb706d5" algorithm="sha512" />
+  <PasswordForm hash="b51f39505642ecb4fb3a2600d57d3f53cdb15200140a8443ba4584c3471ce94522b395e3eb9464b5f97fd97dff16c5fbfc30b670a1be9b9286749b1bcbb706d5" algorithm="sha512" challengeName = "Hidden"  />
 </div>
 
 ## Solution

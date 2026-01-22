@@ -16,7 +16,7 @@ Cryptography | Level 1 - Unknown
 
   ![Message](./assets/1.png)
 
-  <PasswordForm hash="67d39006efe5c9c0bdc62389ca3fcea4421f45dcb516b1a09f54852b91f30a26976a2607702d889cf1a52d590b3e2e9ec65f19c1a9ba02044ec8a3d2bbfa876f" algorithm="sha512" />
+  <PasswordForm hash="67d39006efe5c9c0bdc62389ca3fcea4421f45dcb516b1a09f54852b91f30a26976a2607702d889cf1a52d590b3e2e9ec65f19c1a9ba02044ec8a3d2bbfa876f" algorithm="sha512" challengeName = "Unknown"  />
 </div>
 
 ## Solution
