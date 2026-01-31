@@ -1,5 +1,5 @@
 ---
-title: "CTF Template"
+title: "UGAHacks 11 Escape Room"
 description: "Template for CTF Challenges"
 sidebar_position: 0
 ---
@@ -22,7 +22,7 @@ Welcome to the [CTF Name] Capture The Flag competition! You are allowed & encour
 *NOTE: Correct submissions are being saved, refreshing won’t erase them from the server.*
 <NameBanner />
 
-<Leaderboard />
+<!--<Leaderboard />-->
 
 
 ## [Category Name]
