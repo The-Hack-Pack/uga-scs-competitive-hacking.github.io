@@ -15,14 +15,13 @@
   border-radius: 16px;
   padding: 1.5rem;
   height: 100%;
-  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  /* transition removed for static look */
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
 .featureCard:hover {
-  transform: translateY(-5px);
-  background-color: rgba(67, 0, 0, 0.3);
+  /* hover effect removed */
 }
 
 [data-theme='light'] .featureCard {
@@ -30,7 +29,7 @@
 }
 
 [data-theme='light'] .featureCard:hover {
-  background-color: rgba(173, 41, 41, 0.3);
+  /* hover effect removed */
 }
 
 .featureImg {
