@@ -95,7 +95,7 @@ const config: Config = {
       title: 'THE HACK PACK',
       style: 'dark',
       logo: {
-        alt: 'SCS Comp Hack Logo',
+        alt: 'THP Logo',
         src: 'img/logo.png',
         height: 400,
       },
@@ -109,6 +109,12 @@ const config: Config = {
         {to: 'about', label: 'About', position: 'left'},
         //{to: 'blog', label: 'Writeups', position: 'left'},
         {to: 'schedule', label: 'Schedule', position: 'left'},
+        {to: 'attendance', label: 'Attendance', position: 'left'},
+        {
+          label: 'EL Credit',
+          position: 'left',
+          href: 'https://el.thehackpack.org',
+        },
       ],
     },
     footer: {
