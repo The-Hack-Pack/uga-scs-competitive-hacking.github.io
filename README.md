@@ -39,8 +39,6 @@
 - [Contribution Guide](#contribution-guide)
   - [Creating a New Challenge](#creating-a-new-challenge)
   - [Editing an Existing Challenge](#editing-an-existing-challenge)
-  - [Creating a New Writeup](#creating-a-new-writeup)
-  - [Editing an Existing Writeup](#editing-an-existing-writeup)
 - [Have Questions?](#have-questions)
 - [FAQ](#faq)
   - [How can I get involved?](#how-can-i-get-involved)
@@ -122,14 +120,6 @@ Our officer team will review the changes and publish them!
 
 > [!CAUTION]\
 > ➤ <b><i>DO NOT TOUCH THE GH-PAGES BRANCH!</i></b>
-
-### Creating a New Writeup
-
-> [Add description for adding a writeup here Divesh]
-
-### Editing an Existing Writeup
-
-> [Add description for editing a writeup here Divesh]
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)](#feedback)
 
