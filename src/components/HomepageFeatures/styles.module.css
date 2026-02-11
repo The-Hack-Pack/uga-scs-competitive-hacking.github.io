@@ -9,3 +9,31 @@
   height: 200px;
   width: 200px;
 }
+
+.featureCard {
+  background-color: rgba(67, 0, 0, 0.4);
+  border-radius: 16px;
+  padding: 1.5rem;
+  height: 100%;
+  /* transition removed for static look */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.featureCard:hover {
+  /* hover effect removed */
+}
+
+[data-theme='light'] .featureCard {
+  background-color: rgba(173, 41, 41, 0.2);
+}
+
+[data-theme='light'] .featureCard:hover {
+  /* hover effect removed */
+}
+
+.featureImg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}

@@ -1,0 +1,62 @@
+2024-10-15T08:15:23.145Z,SMTP,RECEIVE,203.0.113.45,external@vendor.com,purchasing@company.com,Invoice #45123,success,45678
+2024-10-15T08:18:12.567Z,SMTP,RECEIVE,192.168.10.45,alice@company.com,bob@company.com,Q4 Budget Review,success,12456
+2024-10-15T08:20:34.891Z,IMAP,LOGIN,192.168.10.67,charlie@company.com,N/A,N/A,success,0
+2024-10-15T08:22:56.234Z,SMTP,RECEIVE,198.51.100.75,marketing@partner.net,sales@company.com,Partnership Opportunity,success,23456
+2024-10-15T08:25:18.456Z,SMTP,SEND,192.168.10.80,david@company.com,client@external.org,Project Update,success,15678
+2024-10-15T08:27:43.789Z,POP3,LOGIN,10.0.1.45,eve@company.com,N/A,N/A,failed,0
+2024-10-15T08:30:05.123Z,SMTP,RECEIVE,192.168.10.45,alice@company.com,team@company.com,Team Meeting,success,34567
+2024-10-15T08:35:49.789Z,IMAP,LOGIN,192.168.10.90,frank@company.com,N/A,N/A,success,0
+2024-10-15T08:38:12.012Z,SMTP,RECEIVE,203.0.113.89,noreply@socialnet.com,alice@company.com,Notifications,success,8765
+2024-10-15T08:40:34.345Z,SMTP,RECEIVE,198.51.100.123,support@cloudservice.io,admin@company.com,Maintenance Window,success,12345
+2024-10-15T08:45:18.901Z,POP3,LOGIN,10.0.1.67,grace@company.com,N/A,N/A,success,0
+2024-10-15T08:50:03.567Z,SMTP,RECEIVE,185.220.101.45,attacker@malicious.ru,ceo@company.com,Wire Transfer Required,quarantine,23456
+2024-10-15T08:52:25.890Z,SMTP,SEND,192.168.10.45,alice@company.com,conference@events.org,Speaker Confirmation,success,34567
+2024-10-15T08:57:10.456Z,SMTP,RECEIVE,203.0.113.156,newsletter@industry.com,subscriptions@company.com,Weekly Digest,success,45678
+2024-10-15T09:01:55.012Z,POP3,LOGIN,10.0.1.89,iris@company.com,N/A,N/A,failed,0
+2024-10-15T09:06:39.678Z,SMTP,RECEIVE,198.51.100.201,alerts@monitoring.net,ops@company.com,High CPU Alert,success,8765
+2024-10-15T09:11:24.234Z,IMAP,LOGIN,192.168.10.145,julia@company.com,N/A,N/A,success,0
+2024-10-15T09:13:46.567Z,SMTP,RECEIVE,185.220.101.67,phisher@evil.net,accounting@company.com,Payment Verification,quarantine,34567
+2024-10-15T09:16:08.890Z,SMTP,SEND,192.168.10.45,alice@company.com,press@media.com,Press Release,success,78901
+2024-10-15T09:20:53.456Z,POP3,LOGIN,10.0.1.123,kevin@company.com,N/A,N/A,success,0
+2024-10-15T09:25:38.012Z,SMTP,SEND,192.168.10.67,charlie@company.com,audit@regulator.gov,Compliance Report,success,89012
+2024-10-15T09:28:00.345Z,IMAP,LOGIN,192.168.10.167,laura@company.com,N/A,N/A,success,0
+2024-10-15T09:32:44.901Z,SMTP,RECEIVE,185.220.101.89,spammer@spam.ru,info@company.com,Investment Opportunity,rejected,6789
+2024-10-15T09:37:29.567Z,POP3,LOGIN,10.0.1.156,mike@company.com,N/A,N/A,failed,0
+2024-10-15T09:42:14.123Z,SMTP,SEND,192.168.10.45,alice@company.com,customer@client.com,SLA Review,success,34567
+2024-10-15T09:44:36.456Z,IMAP,LOGIN,192.168.10.189,nancy@company.com,N/A,N/A,success,0
+2024-10-15T09:50:21.012Z,SMTP,RECEIVE,185.220.101.123,hacker@darkweb.onion,cfo@company.com,Financial Data Breach,quarantine,56789
+2024-10-15T09:55:05.678Z,POP3,LOGIN,10.0.1.178,oliver@company.com,N/A,N/A,success,0
+2024-10-15T10:02:12.567Z,IMAP,LOGIN,192.168.10.201,paula@company.com,N/A,N/A,success,0
+2024-10-15T10:06:57.123Z,SMTP,RECEIVE,185.220.101.156,malware@botnet.cc,downloads@company.com,Document.exe,rejected,34567
+2024-10-15T10:11:41.789Z,POP3,LOGIN,10.0.1.201,quincy@company.com,N/A,N/A,failed,0
+2024-10-15T10:16:26.345Z,SMTP,SEND,192.168.10.50,bob@company.com,support@techvendor.com,Support Request,success,23456
+2024-10-15T10:18:48.678Z,IMAP,LOGIN,192.168.10.223,rachel@company.com,N/A,N/A,success,0
+2024-10-15T10:23:33.234Z,SMTP,RECEIVE,185.220.101.178,ransomware@criminal.net,backup@company.com,Files Encrypted,quarantine,45678
+2024-10-15T10:28:17.890Z,POP3,LOGIN,10.0.1.234,sam@company.com,N/A,N/A,success,0
+2024-10-15T10:35:24.789Z,IMAP,LOGIN,192.168.10.245,tina@company.com,N/A,N/A,success,0
+2024-10-15T10:40:09.345Z,SMTP,RECEIVE,185.220.101.201,sophisticated@apt.gov,ceo@company.com,Partnership Meeting,success,78901
+2024-10-15T10:44:53.901Z,POP3,LOGIN,10.0.1.267,uma@company.com,N/A,N/A,failed,0
+2024-10-15T10:52:00.890Z,IMAP,LOGIN,192.168.10.267,victor@company.com,N/A,N/A,success,0
+2024-10-15T10:56:45.456Z,SMTP,RECEIVE,185.220.101.234,credential@phish.net,admin@company.com,Password Reset Required,quarantine,23456
+2024-10-15T11:01:30.012Z,POP3,LOGIN,10.0.1.289,wendy@company.com,N/A,N/A,success,0
+2024-10-15T11:08:36.901Z,IMAP,LOGIN,192.168.10.289,xavier@company.com,N/A,N/A,success,0
+2024-10-15T11:13:21.567Z,SMTP,RECEIVE,185.220.101.267,stealer@malicious.ru,credentials@company.com,System Update,quarantine,12345
+2024-10-15T11:18:06.123Z,POP3,LOGIN,10.0.1.312,yolanda@company.com,N/A,N/A,failed,0
+2024-10-15T11:25:13.012Z,IMAP,LOGIN,192.168.10.312,zack@company.com,N/A,N/A,success,0
+2024-10-15T11:29:57.678Z,SMTP,RECEIVE,185.220.101.289,exfiltration@apt.cn,backup@company.com,Data Export Request,success,89012
+2024-10-15T11:34:42.234Z,POP3,LOGIN,10.0.1.334,aaron@company.com,N/A,N/A,success,0
+2024-10-15T11:41:49.123Z,IMAP,LOGIN,192.168.10.334,betty@company.com,N/A,N/A,success,0
+2024-10-15T11:46:33.789Z,SMTP,RECEIVE,185.220.101.312,trojan@backdoor.net,downloads@company.com,Invoice.pdf.exe,rejected,34567
+2024-10-15T11:51:18.345Z,POP3,LOGIN,10.0.1.356,carlos@company.com,N/A,N/A,failed,0
+2024-10-15T11:58:25.234Z,IMAP,LOGIN,192.168.10.356,diana@company.com,N/A,N/A,success,0
+2024-10-15T12:03:09.890Z,SMTP,RECEIVE,185.220.101.334,c2server@botnet.ru,admin@company.com,Beacon Test,quarantine,12345
+2024-10-15T12:07:54.456Z,POP3,LOGIN,10.0.1.378,edward@company.com,N/A,N/A,success,0
+2024-10-15T12:15:01.345Z,IMAP,LOGIN,192.168.10.378,fiona@company.com,N/A,N/A,success,0
+2024-10-15T12:19:45.901Z,SMTP,RECEIVE,185.220.101.356,payload@exploit.net,webmaster@company.com,Security Update.zip,rejected,67890
+2024-10-15T12:24:30.567Z,POP3,LOGIN,10.0.1.401,george@company.com,N/A,N/A,failed,0
+2024-10-15T12:31:37.456Z,IMAP,LOGIN,192.168.10.401,helen@company.com,N/A,N/A,success,0
+2024-10-15T12:36:22.012Z,SMTP,RECEIVE,185.220.101.378,data@exfil.ru,backup@company.com,Backup Verification,success,34567
+2024-10-15T12:41:06.678Z,POP3,LOGIN,10.0.1.423,ian@company.com,N/A,N/A,success,0
+2024-10-15T12:48:13.567Z,IMAP,LOGIN,192.168.10.423,julia@company.com,N/A,N/A,success,0
+2024-10-15T12:52:58.123Z,SMTP,RECEIVE,185.220.101.401,final@persistence.cn,admin@company.com,System Configuration,success,56789
+2024-10-15T12:55:20.456Z,SMTP,SEND,192.168.10.50,bob@company.com,contact@b2b.com,Partnership Inquiry,success,34567

@@ -1,0 +1,24 @@
+.challenge-box {
+  border: 1.5px solid #6e6e6e;
+  border-radius: 16px;
+  background: rgba(21, 21, 34, 0.7);
+  box-shadow: 0 2px 8px rgba(80, 80, 120, 0.07);
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.2s;
+}
+.challenge-box:hover {
+  box-shadow: 0 4px 16px rgba(255, 0, 0, 0.13);
+}
+[data-theme='light'] .challenge-box {
+  border: 1.5px solid #2e2e2e;
+  border-radius: 16px;
+  background: rgba(227, 227, 235, 0.7);
+  box-shadow: 0 2px 8px rgba(80, 80, 120, 0.07);
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.2s;
+}
+[data-theme='light'] .challenge-box:hover {
+  box-shadow: 0 4px 16px rgba(255, 0, 0, 0.263);
+}

@@ -8,56 +8,34 @@ Welcome to **The Hack Pack**'s official practice page!
 
 ## Getting Started
 
-On the left sidebar, there are different categories of competitive cybersecurity. Under each category, there are multiple challenges ranging from **Easy** to **Hard** difficulties. Each difficulty assumes you have knowledge on the previous difficulty challenges in the category.
+On the left sidebar, there are different categories of competitive cybersecurity. Under each category, there are multiple challenges ranging from **Level 1** to **Level 4** difficulties. Each difficulty assumes you have knowledge on the previous difficulty challenges in the category.
 
 Click on one of them to view the challenge. There will be instructions on your goal, any available file downloads, a submission field to check your answers, and a solution guide. Use these to practice and learn!
 
 View challenges by difficulty:
-- [Easy](https://thehackpack.org/practice/tags/easy) 
-- [Medium](https://thehackpack.org/practice/tags/medium)
-- [Hard](https://thehackpack.org/practice/tags/hard)
-- [Expert](https://thehackpack.org/practice/tags/expert)  
-
-## What you'll need
-
-### Hardware & Software
-- Computer
-    - Windows with a Debian Linux VM or WSL **(highly recommended)**
-    - Debian Linux (Kali recommended)
-    - MacOS **(not recommended)**
-    - ChromeOS **(not recommended)**
-- Browser
-- Internet
-    - **\>25 MBPS** Download Speed recommended
-    - **\>5 MBPS** Upload Speed recommended
-- Code Editor
-    - Visual Studio Code **(highly recommended)**
-    - JetBrains Intellij Idea
-    - Notepad++
-    - Terminal based (Vi/Vim, Emacs, Mousepad, etc.)
-    - Notepad **(not recommended)**
-- Optional (for better performance and convenience)
-    - A GPU (Nvidia recommended if using WSL for CUDA passthrough)
-    - 16+ GB RAM (8 GB also works with GPU)
-
+- [Level 1](https://thehackpack.org/practice/tags/level1) 
+- [Level 2](https://thehackpack.org/practice/tags/level2)
+- Level 3 (Coming Soon)
+- Level 4 (Coming Soon)
 
 ### Resources
 
-Tools: 
+Tools & Guides: 
 - https://cybersources.glide.page/
 - https://book.hacktricks.xyz/welcome/readme
+- https://ctf101.org/
 
 Learning:
 - This Website
 - https://pwn.college/
-- https://ctf101.org/
 - https://nationalcyberleague.org/resources
 - https://tryhackme.com/r/hacktivities
 - https://academy.hackthebox.com/
 
 Practice:
 - This Website
-- [PicoCTF Gym](https://play.picoctf.org/practice)
+- [PicoCTF Practice](https://play.picoctf.org/practice)
 - [NCL Gym](https://cyberskyline.com/events/ncl)
 - https://tryhackme.com/r/hacktivities/practice
-- https://academy.hackthebox.com/
+- https://pwn.college/
+- https://www.hackthebox.com/hacker/hacking-labs

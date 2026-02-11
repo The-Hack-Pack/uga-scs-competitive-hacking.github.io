@@ -1,0 +1,69 @@
+.attendanceContainer {
+  padding: 20px;
+  text-align: center;
+  min-height: calc(100vh - 60px);
+}
+
+.pageTitle {
+  font-size: 3em;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, #5697d7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.introSection {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.introSection p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.iframeCard {
+  margin: 20px 0 40px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: none;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .iframeCard {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.attendanceFrame {
+  width: 100%;
+  height: 900px;
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+}
+
+
+[data-theme='dark'] .attendanceFrame {
+  background: var(--ifm-background-color);
+}
+
+.fallbackText {
+  margin-top: 1rem;
+  font-size: 0.95em;
+  color: #888;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .pageTitle {
+    font-size: 2.5em;
+  }
+  .attendanceFrame {
+    height: 500px;
+  }
+}

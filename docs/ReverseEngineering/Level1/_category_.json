@@ -1,0 +1,8 @@
+{
+  "label": "Level 1 - RE",
+  "position": 0,
+  "link": {
+    "type": "generated-index",
+    "description": "Level 1 Reverse Engineering Challenges."
+  }
+}

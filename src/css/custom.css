@@ -1,4 +1,53 @@
+/* Prevent DocSearch result text from turning white on hover in light mode */
+[data-theme='light'] .DocSearch {
+  --docsearch-hit-active-color: #222;
+}
+/* Make DocSearch input placeholder text black in light mode */
+[data-theme='light'] .DocSearch-Button-Placeholder {
+  color: #000 !important;
+}
+/* Custom download button styles for CTF page */
+.download-btn-link {
+  text-decoration: none;
+}
+
+.download-btn {
+  background: var(--ifm-color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.32em 0.9em;
+  font-family: var(--ifm-font-family-base);
+  font-size: 0.95em;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+  margin: 0.25em 0 0.7em 0;
+  margin-right: 16px;
+  display: inline-block;
+}
+.download-btn-link:last-child {
+  margin-right: 0;
+}
+
+.download-btn:hover, .download-btn:focus {
+  background: var(--ifm-color-primary-dark);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transform: translateY(-2px) scale(1.04);
+}
+
+[data-theme='dark'] .download-btn {
+  background: var(--ifm-color-primary);
+  color: #fff;
+}
+[data-theme='dark'] .download-btn:hover, [data-theme='dark'] .download-btn:focus {
+  background: var(--ifm-color-primary-darkest);
+  color: #fff;
+}
 @import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+@import '@docsearch/css';
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -30,12 +79,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.hero__title, .hero__subtitle {
-  color: #FFFFFF !important; /* Ensures the text color is white */
+[data-theme='dark'] .hero__title, 
+[data-theme='dark'] .hero__subtitle {
+  color: #FFFFFF !important;
+}
+
+[data-theme='light'] .hero__title, 
+[data-theme='light'] .hero__subtitle {
+  color: #000000 !important;
+}
+
+[data-theme='light'] .hero .button--secondary {
+  background-color: #782929 !important;
+  color: #FFFFFF !important;
+  border-color: #782929 !important;
+}
+
+[data-theme='light'] .hero .button--secondary:hover {
+  background-color: #5d2020 !important;
+  border-color: #5d2020 !important;
 }
 
 .hero {
-  background-color: #490000 !important;
+  background-color: transparent !important;
 }
 
 .navbar {

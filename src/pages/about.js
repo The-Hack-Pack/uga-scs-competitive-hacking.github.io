@@ -1,55 +1,111 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import styles from './about.module.css';
+
+const officers = [
+  {
+    name: 'Divesh Gupta',
+    img: require('@site/static/img/divesh.webp').default,
+    role: 'President',
+    link: 'https://www.linkedin.com/in/divesh2027/',
+  },
+  {
+    name: 'Ethan Mund',
+    img: require('@site/static/img/ethan.webp').default,
+    role: 'Vice President',
+    link: 'https://www.linkedin.com/in/ethan-mund227/',
+  },
+  {
+    name: 'Swapnil Roy',
+    img: require('@site/static/img/swapnil.webp').default,
+    role: 'Treasurer, Trainer',
+    link: 'https://www.linkedin.com/in/swapnil-roy/',
+  },
+  {
+    name: 'Pragnya Nallagonda',
+    img: require('@site/static/img/pragnya.webp').default,
+    role: 'Secretary',
+    link: 'https://www.linkedin.com/in/pragnya-nallagonda-45a92a236/',
+  },
+  {
+    name: 'Garrett Moore',
+    img: require('@site/static/img/garrett.webp').default,
+    role: 'Training Coordinator',
+    link: 'https://www.linkedin.com/in/garrett-moore-/',
+  },
+  {
+    name: 'Zayan Hoodani',
+    img: require('@site/static/img/zayan.webp').default,
+    role: 'Training Coordinator',
+    link: 'https://www.linkedin.com/in/zayanh1/',
+  },
+  {
+    name: 'Soumay Mali',
+    img: require('@site/static/img/soumay.webp').default,
+    role: 'Marketing Officer',
+    link: 'https://www.linkedin.com/in/soumay-mali-41482a294/',
+  },
+  {
+    name: 'SriRam Surisetty',
+    img: require('@site/static/img/sriram.webp').default,
+    role: 'Event Coordinator',
+    link: 'https://www.linkedin.com/in/sriram-surisetty-389483290/',
+  },
+  {
+    name: 'Hung Nguyen',
+    img: require('@site/static/img/hung.webp').default,
+    role: 'Graphic Designer, Trainer',
+    link: 'https://www.linkedin.com/in/hung-nguyen-123456789/',
+  },
+  {
+    name: 'Caleb Floyd',
+    img: require('@site/static/img/caleb.webp').default,
+    role: 'Website Admin',
+    link: 'https://www.linkedin.com/in/caleb-floyd-622253367',
+  },
+];
 
 export default function About() {
   return (
     <Layout title="About" description="Learn more about The Hack Pack">
-      <div style={{ padding: '20px', textAlign: 'center' }}>
-        <h1>About</h1>
-        <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
+      <div className={styles.aboutContainer}>
+        <h1 className={styles.pageTitle}>About The Hack Pack</h1>
+        <div className={styles.introSection}>
           <p>
-            The Hack Pack is the <strong>practical & competitive cybersecurity</strong> club at the University of Georgia. Learn hands-on cybersecurity and then apply your knowledge in competitions!
+            The Hack Pack is the University of Georgia's official <strong>competitive and practical cybersecurity club</strong>. We are a vibrant community of students passionate about all aspects of security, from network defense to penetration testing and everything in between.
           </p>
           <p>
-            Open to <strong>all UGA students</strong> regardless of any experience! We will teach and prepare you for everything with our weekly training sessions, practice challenges, team-based & solo competitions, and writeups.
+            Whether you're a seasoned professional or someone new to cybersecurity, you've found your home. We welcome <strong>all UGA students</strong> regardless of experience level and provide hands-on training, competitive opportunities, and career-readiness resources.
+          </p>
+          <p>
+            Our philosophy is centered around <strong>hands-on learning</strong> through weekly training sessions, practice challenges, team-based competitions, and detailed writeups. We create a supportive environment where you can learn, grow, and challenge yourself alongside fellow cybersecurity enthusiasts.
           </p>
         </div>
-        <h1>Meet The Officers</h1>
-        <div style={{ maxWidth: '1000px', margin: '20px auto', textAlign: 'center' }}>
-          <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
-            {/* First Row */}
-            <div style={{ flex: '0 0 30%', margin: '10px' }}>
-              <img src={require('@site/static/img/divesh.webp').default} alt="Divesh Gupta" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
-              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/divesh2027/" target="_blank"><strong>Divesh Gupta</strong></a></p>
-              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>President</p>
+        <h1 className={styles.sectionTitle}>Meet The Officers</h1>
+        <div className={styles.officersGrid}>
+          {officers.map((officer, idx) => (
+            <div
+              className={styles.officerCard}
+              key={officer.name}
+              onClick={() => officer.link && window.open(officer.link, '_blank')}
+              tabIndex={0}
+              role="button"
+              onKeyPress={e => {
+                if ((e.key === 'Enter' || e.key === ' ') && officer.link) {
+                  window.open(officer.link, '_blank');
+                }
+              }}
+              aria-label={officer.name + (officer.role ? ' - ' + officer.role : '')}
+            >
+              <img src={officer.img} alt={officer.name} className={styles.officerImage} />
+              <p className={styles.officerName}>
+                <a href={officer.link} target="_blank" rel="noopener noreferrer">
+                  <strong>{officer.name}</strong>
+                </a>
+              </p>
+              <p className={styles.officerRole}>{officer.role}</p>
             </div>
-            <div style={{ flex: '0 0 30%', margin: '10px' }}>
-              <img src={require('@site/static/img/ethan.webp').default} alt="Ethan Mund" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
-              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/ethan-mund227/" target="_blank"><strong>Ethan Mund</strong></a></p>
-              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Vice President</p>
-            </div>
-            <div style={{ flex: '0 0 30%', margin: '10px' }}>
-              <img src={require('@site/static/img/cole.webp').default} alt="Cole Nangle" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
-              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/cole-nangle/" target="_blank"><strong>Cole Nangle</strong></a></p>
-              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Lead Training Coordinator</p>
-            </div>
-            {/* Second Row */}
-            <div style={{ flex: '0 0 30%', margin: '10px' }}>
-              <img src={require('@site/static/img/swapnil.webp').default} alt="Swapnil Roy" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
-              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/swapnil-roy/" target="_blank"><strong>Swapnil Roy</strong></a></p>
-              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Treasurer</p>
-            </div>
-            <div style={{ flex: '0 0 30%', margin: '10px' }}>
-              <img src={require('@site/static/img/aparna.webp').default} alt="Aparna Sajith" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
-              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/aparna-sajith-a90716206/" target="_blank"><strong>Aparna Sajith</strong></a></p>
-              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Marketing Officer</p>
-            </div>
-            <div style={{ flex: '0 0 30%', margin: '10px' }}>
-              <img src={require('@site/static/img/sriram.webp').default} alt="SriRam Surisetty" style={{ width: '70%', height: 'auto', borderRadius: '20%' }} />
-              <p style={{ margin: '5px 0', fontSize: '1.3em' }}><a href="https://www.linkedin.com/in/sriram-surisetty-389483290/" target="_blank"><strong>SriRam Surisetty</strong></a></p>
-              <p style={{ margin: '5px 0', fontSize: '0.9em' }}>Competition Coordinator</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </Layout>

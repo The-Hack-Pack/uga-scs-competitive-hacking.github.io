@@ -1,0 +1,126 @@
+.scheduleContainer {
+  padding: 20px;
+  text-align: center;
+  min-height: calc(100vh - 60px);
+}
+
+.pageTitle {
+  font-size: 3em;
+  margin-bottom: 30px;
+  /* animation removed for professional look */
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, #5697d7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contentSection {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  /* animation removed for professional look */
+}
+
+.contentSection p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.sectionTitle {
+  font-size: 2.5em;
+  margin: 60px 0 20px;
+  /* animation removed for professional look */
+}
+
+.iframeCard {
+  margin: 20px 0 40px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #f7fafd;
+  border: 1px solid #e0e6ed;
+  box-shadow: none;
+  /* removed transition for a cleaner, more professional look */
+  padding: 10px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .iframeCard {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.iframeCard:hover {
+  /* hover effect removed */
+}
+
+[data-theme='dark'] .iframeCard:hover {
+  /* hover effect removed */
+}
+
+.scheduleFrame {
+  width: 100%;
+  height: 600px;
+  border: none;
+  border-radius: 12px;
+}
+
+[data-theme='dark'] .scheduleFrame {
+  filter: invert(0.9) hue-rotate(180deg);
+}
+
+[data-theme='dark'] .scheduleFrame img {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.mapFrame {
+  width: 100%;
+  height: 450px;
+  border: none;
+  border-radius: 12px;
+}
+
+[data-theme='dark'] .mapFrame {
+  filter: brightness(0.8) contrast(1.1);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pageTitle {
+    font-size: 2.5em;
+  }
+  
+  .sectionTitle {
+    font-size: 2em;
+  }
+  
+  .scheduleFrame {
+    height: 500px;
+  }
+  
+  .mapFrame {
+    height: 350px;
+  }
+}

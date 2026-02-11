@@ -1,15 +1,20 @@
+require('dotenv').config();
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import lunrSearch from 'docusaurus-lunr-search';
 
 const config: Config = {
   title: 'THE HACK PACK',
   tagline: 'UGA Practical & Competitive Cybersecurity Club',
   favicon: 'img/favicon.ico',
 
+
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Set the production url of your site here
   url: 'https://thehackpack.org',
@@ -32,6 +37,7 @@ const config: Config = {
 
   future: {
     experimental_faster: true,
+    v4: true,
   },
 
   presets: [
@@ -72,7 +78,6 @@ const config: Config = {
     zoom: {
       selector: '.markdown :not(em) > img',
       config: {
-        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
         background: {
           light: 'rgb(255, 255, 255)',
           dark: 'rgb(50, 50, 50)'
@@ -85,13 +90,12 @@ const config: Config = {
         autoCollapseCategories: true,
       },
     },
-    // Replace with your project's social card
     image: 'img/social.png',
     navbar: {
       title: 'THE HACK PACK',
       style: 'dark',
       logo: {
-        alt: 'SCS Comp Hack Logo',
+        alt: 'THP Logo',
         src: 'img/logo.png',
         height: 400,
       },
@@ -103,8 +107,14 @@ const config: Config = {
           label: 'Practice',
         },
         {to: 'about', label: 'About', position: 'left'},
-        {to: 'blog', label: 'Writeups', position: 'left'},
+        //{to: 'blog', label: 'Writeups', position: 'left'},
         {to: 'schedule', label: 'Schedule', position: 'left'},
+        {to: 'attendance', label: 'Attendance', position: 'left'},
+        {
+          label: 'EL Credit',
+          position: 'left',
+          href: 'https://el.thehackpack.org',
+        },
       ],
     },
     footer: {
@@ -115,15 +125,19 @@ const config: Config = {
             href: 'http://discord.thehackpack.org',
           },
           {
-            label: 'Linktree',
-            href: 'https://linktr.ee/thehackpackuga',
+            label: 'LinkedIn',
+            href: 'https://www.linkedin.com/company/the-hack-pack',
           },
           {
-            label: 'Involvement Network',
-            href: 'https://uga.campuslabs.com/engage/organization/thehackpack',
+            label: 'Instagram',
+            href: 'https://www.instagram.com/thehackpackuga/',
+          },
+          {
+            label: 'YouTube',
+            href: 'https://www.youtube.com/@TheHackPackUGA',
           },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} The Hack Pack @ University of Georgia.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The Hack Pack at University of Georgia`,
     },
     prism: {
       theme: prismThemes.github,
@@ -133,6 +147,12 @@ const config: Config = {
       defaultMode: 'dark',
       disableSwitch: false,
       respectPrefersColorScheme: false,
+    },
+    algolia: {
+      appId: '5GXQMMJFJQ',
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: 'The Hack Pack Website',
+      contextualSearch: true
     },
     /*
     announcementBar: {
@@ -145,7 +165,11 @@ const config: Config = {
     },
     */
   } satisfies Preset.ThemeConfig,
-  plugins: [lunrSearch, require.resolve("docusaurus-plugin-image-zoom")],
+  plugins: [
+    require.resolve("docusaurus-plugin-image-zoom"),
+  ],
+
+  // DocSearch v4 config added to main themeConfig above
 };
 
 export default config;
