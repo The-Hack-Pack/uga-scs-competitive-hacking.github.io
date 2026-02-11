@@ -13,23 +13,25 @@ import '@site/src/components/css/challengeBox.css';
 # Math Rock
 
 Log Analsysis | Level 2 - Math Rock
+
 <div className="challenge-box">
     ## Challenge
 
     We recorded a beautiful session with Ichika Nito the other day. Unfortunately, a group of mischievous teens broke into our studio and messed with the frequency log data. We need the piece for our marketing, so it is crucial that you find the frequency that was manipulated so that we don’t make our customers’ ears bleed!
+
+    <a href="/assets/LogAnalysis/ichika-nito.log" download class="download-btn-link">
+        <button type="button" class="download-btn">Download ichika-nito.log</button>
+    </a>
 
     :::tip hint
     Here is a Python script to help you extract the column data from the log file:
     [**extract.py**](./assets/extract.py)
     :::
 
-    Which ticker contains the abnormal frequency data point?  
+    Which ticker contains the abnormal frequency data point?
 
-    <a href="/assets/LogAnalysis/ichika-nito.log" download class="download-btn-link">
-        <button type="button" class="download-btn">Download ichika-nito.log</button>
-    </a>
-    
     <PasswordForm hash="456e688ee12388847b3d245d8ae5d10f488dcdf1b5ad1a1aa6dddcb9ccc3e23c824e134b9f69fae368e69e18eba67fa5cc1dec6246bf5f58e1a5a2afcd9bac63" algorithm="sha512" challengeName = "Math Rock"  />
+
 </div>
 
 ## Solution
